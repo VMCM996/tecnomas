@@ -1,41 +1,40 @@
 import logoImg from '../assets/logo.png'
-function Navbar({ cartCount }) {
+
+function NavBar() {
   return (
     <nav style={{ 
       padding: '0.8rem 1.5rem', 
-      backgroundColor: '#ffffff', 
+      backgroundColor: 'rgb(255, 255, 255)', 
       color: 'white', 
       display: 'flex', 
       justifyContent: 'space-between', 
-      alignItems: 'center' 
+      alignItems: 'center',
+      position: 'relative'
     }}>
-      <a href="/" style={{ display: 'flex', alignItems: 'center' }}>
-        <img 
-          src={logoImg} 
-          alt="TecnoMas Logo" 
-          style={{ 
-            height: '90px',  /* Controla la altura del logo para que no deforme el Navbar */
-            width: '100px',    /* Mantiene la proporción original de la imagen */
-            objectFit: 'contain'
-          }} 
-        />
-      </a>
-      <ul style={{ display: 'flex', gap: '15px', listStyle: 'none', alignItems: 'center', margin: 0 }}>
-        <li><a href="#" style={{ color: 'white', textDecoration: 'none' }}>Productos</a></li>
-        <li>
-          <span style={{ 
-            backgroundColor: '#4caf50', 
-            padding: '0.3rem 0.8rem', 
-            borderRadius: '20px', 
-            fontWeight: 'bold',
-            fontSize: '0.9rem'
-          }}>
-            Total 🛒 {cartCount}
-          </span>
-        </li>
-      </ul>
+      {/* 1. Bloque izquierdo vacío para equilibrar el espacio */}
+      <div style={{ flex: 1 }}></div>
+
+      {/* 2. El Logo centrado perfectamente */}
+      <div style={{ 
+        flex: 1, 
+        display: 'flex', 
+        justifyContent: 'center' 
+      }}>
+        <a href="/" style={{ display: 'flex', alignItems: 'center' }}>
+          <img 
+            src={logoImg} 
+            alt="TecnoMas Logo" 
+            style={{ 
+              height: '80px',       
+              width: 'auto',        
+              objectFit: 'contain'
+            }} 
+          />
+        </a>
+      </div>
+      <div style={{ flex: 1 }}></div>
     </nav>
   )
 }
 
-export default Navbar
+export default NavBar

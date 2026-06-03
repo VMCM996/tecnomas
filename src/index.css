@@ -1,0 +1,14 @@
+/* Importamos Poppins (pesos 400, 500 y 700) y Variant/Syne para títulos */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Syne:wght@700;800&display=swap');
+
+/* Aplicamos Poppins como la fuente por defecto para TODO el sitio */
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #141414;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
