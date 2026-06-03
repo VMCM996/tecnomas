@@ -1,10 +1,10 @@
 import styles from './ProductCard.module.css'
 
-// 1. Revisa que ya NO esté la palabra "onAddToCart" si la cambiaste,
-// o déjala así si la vas a seguir usando como puente:
-function ProductCard({ name, specs, price, img, onAddToCart }) {
+function ProductCard({ name, specs, price, img, onAddToCart, onOpenModal }) {
   return (
-    <div className={styles.card}>
+    /* Al hacer clic en la tarjeta se abre el modal */
+    <div className={styles.card} onClick={onOpenModal} style={{ cursor: 'pointer' }}>
+      
       <img src={img} alt={name} className={styles.productImage} />
       
       <h3 className={styles.title}>{name}</h3>
@@ -15,8 +15,14 @@ function ProductCard({ name, specs, price, img, onAddToCart }) {
       <div className={styles.footer}>
         <span className={styles.price}>${price}</span>
         
-        {/* 2. REVISA ESTA LÍNEA CON LUPA */}
-        <button className={styles.button} onClick={onAddToCart}>
+        {/* El e.stopPropagation() evita que al dar clic al botón se abra el modal por error */}
+        <button 
+          className={styles.button} 
+          onClick={(e) => {
+            e.stopPropagation(); 
+            onAddToCart();
+          }}
+        >
           Pedir
         </button>
       </div>
