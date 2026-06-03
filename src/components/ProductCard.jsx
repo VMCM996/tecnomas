@@ -1,18 +1,25 @@
 import styles from './ProductCard.module.css'
-function ProductCard({ name, specs, price, onAddToCart }) {
+
+// 1. Asegúrate de recibir la propiedad "img" aquí adentro de las llaves
+function ProductCard({ name, specs, price, img, onAddToCart }) {
   return (
     <div className={styles.card}>
-      <h3 className={styles.title}></h3>
+      
+      {/* 2. REVISA ESTA LÍNEA: Debe tener src={img} sin comillas externas */}
+      <img src={img} alt={name} className={styles.productImage} />
+      
+      <h3 className={styles.title}>{name}</h3>
       <p className={styles.specs}>
-        <strong>Especificaciones:</strong> {specs}
-        </p>
+        {specs}
+      </p>
+      
       <div className={styles.footer}>
         <span className={styles.price}>${price}</span>
         <button className={styles.button} onClick={onAddToCart}>
-            Agregar
+          Pedir
         </button>
-        </div>
-        </div>
+      </div>
+    </div>
   )
 }
 
