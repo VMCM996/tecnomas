@@ -31,7 +31,17 @@ function App() {
   });
 
   return (
-    <div style={{ backgroundColor: '#141414', minHeight: '100vh', color: 'white' }}>
+    <div style={{ 
+      // 👇 CAMBIO: Añadimos la imagen de fondo con todas sus propiedades de cobertura
+      backgroundImage: "url('/src/assets/background.png')", /* Asegúrate de que coincida con el nombre y extensión de tu imagen en public/images/ */
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed', /* Bloquea el fondo para un efecto premium al hacer scroll */
+      backgroundColor: '#141414',     /* Fondo de respaldo si la imagen tarda en cargar */
+      minHeight: '100vh', 
+      color: 'white' 
+    }}>
       <NavBar /> 
       
       <main style={{ padding: '2rem' }}>
@@ -93,18 +103,18 @@ function App() {
             <button className={styles.closeButton} onClick={() => setProductoSeleccionado(null)}>&times;</button>
             <h2 style={{ margin: '0 0 1rem 0', fontFamily: "'Poppins', sans-serif", fontWeight: '700' }}>{productoSeleccionado.name}</h2>
             <img 
-  src={productoSeleccionado.img} 
-  alt={productoSeleccionado.name} 
-  style={{ 
-    width: '100%', 
-    height: '150px', 
-    objectFit: 'contain', 
-    marginBottom: '1rem',
-    borderRadius: '12px',                  /* 👈 Redondea las esquinas en el modal */
-    backgroundColor: 'rgba(0, 0, 0, 0.03)', /* 👈 Le da el mismo fondo sutil de la tarjeta */
-    padding: '0.5rem' 
-  }} 
-/>
+              src={productoSeleccionado.img} 
+              alt={productoSeleccionado.name} 
+              style={{ 
+                width: '100%', 
+                height: '150px', 
+                objectFit: 'contain', 
+                marginBottom: '1rem',
+                borderRadius: '12px',                  
+                backgroundColor: 'rgba(0, 0, 0, 0.03)', 
+                padding: '0.5rem' 
+              }} 
+            />
             <p style={{ fontWeight: '600', margin: '0' }}>Características técnicas:</p>
             <p className={styles.modalSpecs}>{productoSeleccionado.specs}</p>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1.5rem' }}>
