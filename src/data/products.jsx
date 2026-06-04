@@ -27,12 +27,12 @@ export const listaEquipos = [
     name: 'DELL LATITUDE 5400 (REFURBISHED)', 
     specs: 'INTEL CORE i5-8365U | 8GB DDR4 14" FHD | WIFI 5 BLUETOOTH 5.0', 
     price: 250, 
-    img: 'https://via.placeholder.com/150' 
+    img: "/images/I5-5400.png" 
   },{ 
     id: 5, 
     name: 'DELL LATITUDE 5400 (REFURBISHED)', 
     specs: 'INTEL CORE i7-8665U | 8GB DDR4 14" FHD | WIFI 5 BLUETOOTH 5.0', 
-    price: 250, 
-    img: 'https://via.placeholder.com/150' 
+    price: 300, 
+    img: "/images/I5-5400.png"
   }
 ];

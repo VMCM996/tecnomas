@@ -26,10 +26,11 @@
 .productImage {
   width: 100%;
   height: 180px;
-  object-fit: contain; /* Mantiene la proporción de la computadora sin deformarla */
-  border-radius: 8px;
+  object-fit: contain; 
+  border-radius: 12px; /* 👈 Subimos a 12px para que se note más */
+  overflow: hidden;    /* 👈 Corta cualquier esquina de la foto que quiera salirse */
   margin-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.03); /* Un fondo sutil para la imagen */
+  background-color: rgba(0, 0, 0, 0.03); 
   padding: 0.5rem;
 }
 
