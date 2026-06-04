@@ -30,8 +30,6 @@
   border-radius: 12px; /* 👈 Subimos a 12px para que se note más */
   overflow: hidden;    /* 👈 Corta cualquier esquina de la foto que quiera salirse */
   margin-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.03); 
-  padding: 0.5rem;
 }
 
 .title {
