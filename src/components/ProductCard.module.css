@@ -70,9 +70,9 @@
 /* 📝 ESPECIFICACIONES TÉCNICAS (CORREGIDO) */
 .specs {
   /* 🎯 CAMBIOS CLAVE AQUÍ: */
-  font-size: 0.92rem; /* Letra considerablemente más grande y legible */
+  font-size: 1rem; /* Letra considerablemente más grande y legible */
   color: #2d2d2d; /* Un tono un poco más oscuro para mejorar el contraste */
-  line-height: 1.5; /* Más separación entre líneas para rellenar el vacío de forma elegante */
+  line-height: 1.8; /* Más separación entre líneas para rellenar el vacío de forma elegante */
   margin: 0 0 1rem 0; 
   
   /* Reservamos y limitamos dinámicamente el bloque de texto */
@@ -101,25 +101,38 @@
   color: #2563eb; 
 }
 
-/* 🔵 BOTÓN PEDIR / ADQUIRIR */
+/* 🟢 BOTÓN PEDIR / ADQUIRIR (Estilo WhatsApp Premium) */
 .button {
-  background-color: #2563eb; 
+  background-color: #25d366; /* Verde oficial de WhatsApp */
   color: white;
   border: none;
-  padding: 0.65rem 1.3rem;
-  border-radius: 8px;
+  
+  /* 🎯 CAMBIO 1: Aumentamos el padding para hacer el botón más grande y cómodo */
+  padding: 0.75rem 1.5rem; 
+  border-radius: 10px; /* Bordes un toque más curvos para el nuevo tamaño */
   cursor: pointer;
-  font-weight: 600;
+  
+  /* 🎯 CAMBIO 2: Subimos el grosor y tamaño de la letra para máxima legibilidad */
+  font-size: 0.95rem; 
+  font-weight: 700; 
   font-family: 'Poppins', sans-serif;
-  transition: background-color 0.2s, transform 0.1s;
+  
+  /* Alinea de forma perfecta el SVG y el texto de manera interna */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2); /* Sombra verde sutil */
+  transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
 }
 
 .button:hover {
-  background-color: #1d4ed8; 
+  background-color: #20ba56; /* Un verde un toque más oscuro al pasar el mouse */
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.35);
 }
 
 .button:active {
-  transform: scale(0.95);
+  transform: scale(0.96); /* Efecto de pulsación física */
 }
 
 /* 🏁 --- ESTILOS DEL MODAL INTERNO --- */
@@ -189,5 +202,21 @@
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
     padding: 0 15px;
+  }
+}
+
+/* ✨ ANIMACIÓN FADE-IN PARA FILTRADO SUAVE */
+.fadeIn {
+  animation: smoothFade 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes smoothFade {
+  from {
+    opacity: 0;
+    transform: translateY(8px); /* Sube sutilmente mientras aparece */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
