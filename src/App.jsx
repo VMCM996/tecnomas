@@ -39,17 +39,21 @@ function App() {
   });
 
   return (
-    <div style={{ 
-      // 🎯 CORRECCIÓN: Ruta optimizada desde la raíz pública y soporte 'scroll' para teléfonos
-      backgroundImage: "url('/background.png')", 
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundAttachment: 'scroll', 
-      backgroundColor: '#141414',     
-      minHeight: '100vh', 
-      color: 'white' 
-    }}>
+  <div style={{ 
+    backgroundImage: "url('/background.png')", 
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    
+    // 🎯 CLAVE 1: Dejamos el fondo fijo para que el contenido se desplace por encima
+    backgroundAttachment: 'fixed', 
+    
+    // 🎯 CLAVE 2: Forzamos a que el contenedor ocupe siempre, como mínimo, el 100% de la pantalla visible
+    minHeight: '100vh', 
+    width: '100%',
+    backgroundColor: '#141414',     
+    color: 'white' 
+  }}>
       <NavBar /> 
       
       <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem' }}>
@@ -77,31 +81,29 @@ function App() {
               transition: 'border-color 0.3s ease',
               fontFamily: "'Poppins', sans-serif"
             }}
-            // 🔵 Cambiado a azul (#2563eb) al hacer foco
             onFocus={(e) => e.target.style.borderColor = '#2563eb'}
             onBlur={(e) => e.target.style.borderColor = '#333'}
           />
         </div>
 
-        {/* 🔘 BOTONES DE CATEGORÍAS */}
+        {/* 🔘 BOTONES DE CATEGORÍAS ACTUALIZADOS */}
         <div 
           style={{ 
             display: 'flex', 
             justifyContent: 'center', 
             gap: '12px', 
             marginBottom: '2.5rem',
-            flexWrap: 'wrap'
+            flexWrap: 'wrap' // Permite que en celulares se acomoden en filas si no caben
           }}
         >
-          {['todos', 'laptops', 'combos'].map((cat) => (
+          {/* 🎯 Agregamos las dos nuevas categorías separadas aquí: */}
+          {['todos', 'laptops', 'combos pc', 'combos laptops'].map((cat) => (
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
               style={{
-                // 🔘 Gris (#b1b1b1) por defecto, Azul (#2563eb) si está seleccionado
                 backgroundColor: selectedCategory === cat ? '#2563eb' : '#b1b1b1', 
                 color: 'white',
-                // Borde azul claro si está activo, gris oscuro si no
                 border: selectedCategory === cat ? '1px solid #60a5fa' : '1px solid #444',
                 padding: '10px 24px',
                 fontSize: '14px',
@@ -155,14 +157,13 @@ function App() {
                 objectFit: 'contain', 
                 marginBottom: '1rem',
                 borderRadius: '12px',                  
-                backgroundColor: 'transparent', /* 🎯 CORRECCIÓN: Fondo gris eliminado */
+                backgroundColor: 'transparent',
                 padding: '0.5rem' 
               }} 
             />
             <p style={{ fontWeight: '600', margin: '0' }}>Características técnicas:</p>
             <p className={styles.modalSpecs}>{productoSeleccionado.specs}</p>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1.5rem' }}>
-              {/* 🔵 Precio cambiado a Azul Eléctrico */}
               <span style={{ fontSize: '1.4rem', fontWeight: '700', color: '#2563eb' }}>${productoSeleccionado.price}</span>
               <button className={styles.button} onClick={() => { handlePedirPorWhatsApp(productoSeleccionado); setProductoSeleccionado(null); }}>
                 Pedir por WhatsApp
