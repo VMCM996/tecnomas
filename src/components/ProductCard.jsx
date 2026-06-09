@@ -4,31 +4,66 @@ import styles from './ProductCard.module.css'
 
 function ProductCard({ name, specs, price, img, onAddToCart, onOpenModal }) {
   
-  // 🧠 LÓGICA INTELIGENTE: Extraemos componentes clave del texto de specs
+  // 🧠 LÓGICA DE DETECCIÓN Y CONFIGURACIÓN DE BADGES
   const obtenerEtiquetas = () => {
     const specsLower = specs.toLowerCase();
     let procesador = null;
     let ram = null;
 
-    // 🖥️ Detección de Procesadores comunes
-    if (specsLower.includes('core i3') || specsLower.includes('i3')) procesador = 'Intel i3';
+    // Evaluamos de mayor a menor para evitar falsos positivos con los modelos (ej. 7520U)
+    if (specsLower.includes('core i7') || specsLower.includes('i7')) procesador = 'Intel i7';
     else if (specsLower.includes('core i5') || specsLower.includes('i5')) procesador = 'Intel i5';
-    else if (specsLower.includes('core i7') || specsLower.includes('i7')) procesador = 'Intel i7';
-    else if (specsLower.includes('ryzen 3') || specsLower.includes('r3')) procesador = 'Ryzen 3';
-    else if (specsLower.includes('ryzen 5') || specsLower.includes('r5')) procesador = 'Ryzen 5';
+    else if (specsLower.includes('core i3') || specsLower.includes('i3')) procesador = 'Intel i3';
     else if (specsLower.includes('ryzen 7') || specsLower.includes('r7')) procesador = 'Ryzen 7';
+    else if (specsLower.includes('ryzen 5') || specsLower.includes('r5')) procesador = 'Ryzen 5';
+    else if (specsLower.includes('ryzen 3') || specsLower.includes('r3')) procesador = 'Ryzen 3';
     else if (specsLower.includes('celeron')) procesador = 'Celeron';
 
-    // 💾 Detección de Memoria RAM
-    if (specsLower.includes('4gb') || specsLower.includes('4 gb')) ram = '4GB RAM';
-    else if (specsLower.includes('8gb') || specsLower.includes('8 gb')) ram = '8GB RAM';
-    else if (specsLower.includes('16gb') || specsLower.includes('16 gb')) ram = '16GB RAM';
-    else if (specsLower.includes('32gb') || specsLower.includes('32 gb')) ram = '32GB RAM';
+    if (specsLower.includes('4gb') || specsLower.includes('4 gb') || specsLower.includes('4dr')) ram = '4GB RAM';
+    else if (specsLower.includes('8gb') || specsLower.includes('8 gb') || specsLower.includes('8dr')) ram = '8GB RAM';
+    else if (specsLower.includes('16gb') || specsLower.includes('16 gb') || specsLower.includes('16dr')) ram = '16GB RAM';
+    else if (specsLower.includes('32gb') || specsLower.includes('32 gb') || specsLower.includes('32dr')) ram = '32GB RAM';
 
     return { procesador, ram };
   };
 
   const { procesador, ram } = obtenerEtiquetas();
+
+  // 🧹 LIMPIEZA TOTAL Y FORMATEO UNIFORME (SIN EMOJIS)
+  const formatearSpecs = () => {
+    const fragmentos = specs.split('|').map(item => item.trim());
+
+    const fragmentosLimpios = fragmentos.filter(frag => {
+      const fragLower = frag.toLowerCase();
+      
+      if (fragLower.includes('case') || fragLower.includes('monitor') || fragLower.includes('pantalla') || fragLower.includes('fhd')) return true;
+
+      const esProcesador = fragLower.includes('intel') || fragLower.includes('ryzen') || fragLower.includes('core i') || fragLower.includes('celeron');
+      const esRam = fragLower.includes('ram') || fragLower.includes('ddr') || fragLower.includes('dr5') || fragLower.includes('dr4');
+      
+      return !esProcesador && !esRam;
+    });
+
+    return fragmentosLimpios.map((item, index) => {
+      if (!item) return null;
+
+      return (
+        <span 
+          key={index} 
+          style={{ 
+            display: 'block',
+            marginBottom: '5px',
+            color: '#2d3748',          /* Gris Oscuro Premium */
+            fontWeight: '600',         /* Grosor semi-bold nítido */
+            fontSize: '13px',
+            fontFamily: "'Poppins', sans-serif"
+          }}
+        >
+          {`• ${item}`}
+        </span>
+      );
+    });
+  };
 
   return (
     <div className={styles.card}>
@@ -46,7 +81,7 @@ function ProductCard({ name, specs, price, img, onAddToCart, onOpenModal }) {
         {name}
       </h3>
       
-      {/* 🏷️ MÓDULO DE BADGES CORREGIDO (Colores sólidos de alto contraste) */}
+      {/* 🏷️ MÓDULO DE BADGES */}
       {(procesador || ram) && (
         <div style={{ 
           display: 'flex', 
@@ -56,8 +91,8 @@ function ProductCard({ name, specs, price, img, onAddToCart, onOpenModal }) {
         }}>
           {procesador && (
             <span style={{
-              backgroundColor: '#3b3db6', /* Azul oscuro/morado sólido para el CPU */
-              color: '#ffffff',           /* Texto blanco puro para legibilidad total */
+              backgroundColor: '#3b3db6',
+              color: '#ffffff',
               padding: '6px 14px',
               borderRadius: '8px',
               fontSize: '12px',
@@ -72,8 +107,8 @@ function ProductCard({ name, specs, price, img, onAddToCart, onOpenModal }) {
           )}
           {ram && (
             <span style={{
-              backgroundColor: '#1b6363', /* Verde azulado/esmeralda oscuro sólido para la RAM */
-              color: '#ffffff',           /* Texto blanco puro */
+              backgroundColor: '#1b6363',
+              color: '#ffffff',
               padding: '6px 14px',
               borderRadius: '8px',
               fontSize: '12px',
@@ -89,10 +124,15 @@ function ProductCard({ name, specs, price, img, onAddToCart, onOpenModal }) {
         </div>
       )}
       
-      {/* RESTO DE LAS ESPECIFICACIONES (Limpias) */}
-      <p className={styles.specs}>
-        {specs}
-      </p>
+      {/* 📋 LISTA DE ESPECIFICACIONES CON FORMATO PREMIUM */}
+      <div style={{ 
+        textAlign: 'left', 
+        marginBottom: '1.5rem',
+        fontFamily: "'Poppins', sans-serif",
+        lineHeight: '1.5'
+      }}>
+        {formatearSpecs()}
+      </div>
       
       {/* FOOTER (Precio + Botón Consultar) */}
       <div className={styles.footer}>
