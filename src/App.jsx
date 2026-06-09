@@ -13,6 +13,9 @@ function App() {
   // Estado para guardar lo que escribe el usuario en la barra
   const [searchTerm, setSearchTerm] = useState('')
 
+  // 🔘 Estado para rastrear la categoría seleccionada (por defecto "todos")
+  const [selectedCategory, setSelectedCategory] = useState('todos')
+
   const handlePedirPorWhatsApp = (producto) => {
     const telefono = "584126502901"; 
     const mensaje = `¡Hola Tecnomas! 👋\n\nMe interesa el siguiente equipo de tu catálogo:\n\n *${producto.name}*\n _${producto.specs}_\n *Precio:* $${producto.price}\n\n¿Tienen disponibilidad?`;
@@ -21,36 +24,40 @@ function App() {
     window.open(urlWhatsApp, '_blank');
   };
 
-  // Método 2: Filtramos dinámicamente antes del return usando 'specs' o 'name'
+  // 🔍 Filtramos combinando la Categoría Y el Texto de búsqueda al mismo tiempo
   const filteredProducts = listaEquipos.filter((prod) => {
     const term = searchTerm.toLowerCase();
-    return (
-      prod.name.toLowerCase().includes(term) ||
-      prod.specs.toLowerCase().includes(term)
-    );
+    
+    // 1. Validamos si coincide con la categoría seleccionada
+    const matchesCategory = selectedCategory === 'todos' || prod.category === selectedCategory;
+
+    // 2. Validamos si coincide con el texto escrito
+    const matchesSearch = prod.name.toLowerCase().includes(term) || prod.specs.toLowerCase().includes(term);
+
+    // El producto solo pasa si cumple ambas condiciones
+    return matchesCategory && matchesSearch;
   });
 
   return (
     <div style={{ 
-      // 👇 CAMBIO: Añadimos la imagen de fondo con todas sus propiedades de cobertura
-      backgroundImage: "url('/src/assets/background.png')", /* Asegúrate de que coincida con el nombre y extensión de tu imagen en public/images/ */
+      backgroundImage: "url('/src/assets/background.png')", 
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
-      backgroundAttachment: 'fixed', /* Bloquea el fondo para un efecto premium al hacer scroll */
-      backgroundColor: '#141414',     /* Fondo de respaldo si la imagen tarda en cargar */
+      backgroundAttachment: 'fixed', 
+      backgroundColor: '#141414',     
       minHeight: '100vh', 
       color: 'white' 
     }}>
       <NavBar /> 
       
-      <main style={{ padding: '2rem' }}>
+      <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem' }}>
         <h1 style={{ textAlign: 'center', marginBottom: '1.5rem', fontFamily: "'Syne', sans-serif", fontWeight: '800' }}>
           Catálogo de Equipos
         </h1>
 
         {/* INPUT DE BÚSQUEDA */}
-        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2.5rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
           <input
             type="text"
             placeholder="Buscar por procesador, RAM, nombre..."
@@ -69,13 +76,49 @@ function App() {
               transition: 'border-color 0.3s ease',
               fontFamily: "'Poppins', sans-serif"
             }}
-            onFocus={(e) => e.target.style.borderColor = '#2e7d32'}
+            // 🔵 Cambiado a azul (#2563eb) al hacer foco
+            onFocus={(e) => e.target.style.borderColor = '#2563eb'}
             onBlur={(e) => e.target.style.borderColor = '#333'}
           />
         </div>
+
+        {/* 🔘 BOTONES DE CATEGORÍAS */}
+        <div 
+          style={{ 
+            display: 'flex', 
+            justifyContent: 'center', 
+            gap: '12px', 
+            marginBottom: '2.5rem',
+            flexWrap: 'wrap'
+          }}
+        >
+          {['todos', 'laptops', 'combos'].map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setSelectedCategory(cat)}
+              style={{
+                // 🔘 Gris (#333) por defecto, Azul (#2563eb) si está seleccionado
+                backgroundColor: selectedCategory === cat ? '#2563eb' : '#b1b1b1', 
+                color: 'white',
+                // Borde azul claro si está activo, gris oscuro si no
+                border: selectedCategory === cat ? '1px solid #60a5fa' : '1px solid #444',
+                padding: '10px 24px',
+                fontSize: '14px',
+                fontWeight: '600',
+                borderRadius: '20px',
+                cursor: 'pointer',
+                textTransform: 'uppercase',
+                fontFamily: "'Poppins', sans-serif",
+                transition: 'all 0.2s ease'
+              }}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
         
         {/* GRILLA DE PRODUCTOS */}
-        <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
+        <div className={styles.gridContainer}>
           {filteredProducts.length > 0 ? (
             filteredProducts.map((prod) => (
               <ProductCard 
@@ -89,8 +132,8 @@ function App() {
               />
             ))
           ) : (
-            <p style={{ color: '#888', fontStyle: 'italic', marginTop: '2rem' }}>
-              No se encontraron equipos que coincidan con "{searchTerm}"
+            <p style={{ color: '#888', fontStyle: 'italic', marginTop: '2rem', gridColumn: '1 / -1', textAlign: 'center' }}>
+              No se encontraron equipos en esta sección.
             </p>
           )}
         </div>
@@ -107,18 +150,19 @@ function App() {
               alt={productoSeleccionado.name} 
               style={{ 
                 width: '100%', 
-                height: '150px', 
+                height: '180px', 
                 objectFit: 'contain', 
                 marginBottom: '1rem',
                 borderRadius: '12px',                  
-                backgroundColor: 'rgba(0, 0, 0, 0.03)', 
+                backgroundColor: 'rgba(0, 0, 0, 0.04)', 
                 padding: '0.5rem' 
               }} 
             />
             <p style={{ fontWeight: '600', margin: '0' }}>Características técnicas:</p>
             <p className={styles.modalSpecs}>{productoSeleccionado.specs}</p>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1.5rem' }}>
-              <span style={{ fontSize: '1.4rem', fontWeight: '700', color: '#2e7d32' }}>${productoSeleccionado.price}</span>
+              {/* 🔵 Precio cambiado a Azul Eléctrico */}
+              <span style={{ fontSize: '1.4rem', fontWeight: '700', color: '#2563eb' }}>${productoSeleccionado.price}</span>
               <button className={styles.button} onClick={() => { handlePedirPorWhatsApp(productoSeleccionado); setProductoSeleccionado(null); }}>
                 Pedir por WhatsApp
               </button>

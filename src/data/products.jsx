@@ -1,13 +1,13 @@
 // src/data/products.jsx
 
 export const listaEquipos = [
-
   // LAPTOPS DISPONIBLES
   { 
     id: 1, 
     name: 'LAPTOP ASUS VIVO BOOK 15', 
     specs: 'AMD RYZEN 7 7520U | 8GB DDR5 S-DIMM 15.6" FHD (1920X1080) | WIFI 6 BLUETOOTH 5.3', 
     price: 520, 
+    category: 'laptops',
     img: '/images/ASUS-RYZEN5.png' 
   },
   { 
@@ -15,6 +15,7 @@ export const listaEquipos = [
     name: 'LAPTOP COMPAQ Q-BOOK', 
     specs: 'INTEL CORE i5-1235U | 8GB DDR4 15.6" FHD (1920X1080) | WIFI 5 BLUETOOTH 5.0', 
     price: 530, 
+    category: 'laptops',
     img: '/images/I5-1235U.png' 
   },
   { 
@@ -22,6 +23,7 @@ export const listaEquipos = [
     name: 'LAPTOP COMPAQ Q-BOOK', 
     specs: 'INTEL CORE i3-1215U | 8GB DDR4 15.6" FHD (1920X1080) | WIFI 5 BLUETOOTH 5.0', 
     price: 480, 
+    category: 'laptops',
     img: '/images/I3-1235U.png' 
   },
   { 
@@ -29,6 +31,7 @@ export const listaEquipos = [
     name: 'LAPTOP DELL LATITUDE 5400 (REFURBISHED)', 
     specs: 'INTEL CORE i5-8365U | 8GB DDR4 14" FHD TACTIL | WIFI 5 BLUETOOTH 5.0', 
     price: 250, 
+    category: 'laptops',
     img: "/images/I5-5400.png" 
   },
   { 
@@ -36,6 +39,7 @@ export const listaEquipos = [
     name: 'LAPTOP DELL LATITUDE 5400 (REFURBISHED)', 
     specs: 'INTEL CORE i7-8665U | 16GB DDR4 14" FHD | WIFI 5 BLUETOOTH 5.0', 
     price: 300, 
+    category: 'laptops',
     img: "/images/I5-5400.png"
   },
   { 
@@ -43,6 +47,7 @@ export const listaEquipos = [
     name: 'COMBO LAPTOP i5 + BOLSO', 
     specs: 'INTEL CORE i5-8365U | 8GB DDR4 14" FHD TACTIL | WIFI 5 BLUETOOTH 5.0 Bolso HP Original 15.6"', 
     price: 280, 
+    category: 'laptops',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -50,15 +55,17 @@ export const listaEquipos = [
     name: 'COMBO LAPTOP i7 + BOLSO', 
     specs: 'INTEL CORE i7-8665U | 16GB DDR4 14" FHD | WIFI 5 BLUETOOTH 5.0 Bolso HP Original 15.6"', 
     price: 330, 
+    category: 'laptops',
     img: "/images/COMBOI7.png"
   },
 
-  //COMBOS DE EQUIPOS COMPLETOS DISPONIBLES MONITOR 20 PULGADAS
+  // COMBOS DE EQUIPOS COMPLETOS DISPONIBLES MONITOR 20 PULGADAS
   { 
     id: 8, 
     name: 'COMBO DELL 3020 PENTIUM G3250 + MONITOR 20"', 
     specs: 'INTEL PETIUM G3250 | 4GB DDR3 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE SLIM', 
     price: 140, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -66,6 +73,7 @@ export const listaEquipos = [
     name: 'COMBO HP 8300 i3-2120 + MONITOR 20"', 
     specs: 'INTEL CORE i3-2120 | 4GB DDR3 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM', 
     price: 140, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -73,6 +81,7 @@ export const listaEquipos = [
     name: 'COMBO HP 8300 i3-3220 + MONITOR 20"', 
     specs: 'INTEL CORE i3-3220 | 4GB DDR3 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM', 
     price: 155, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -80,6 +89,7 @@ export const listaEquipos = [
     name: 'COMBO HP i3-4130 + MONITOR 20"', 
     specs: 'INTEL CORE i3-4130 | 8GB DDR3 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM', 
     price: 170, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -87,6 +97,7 @@ export const listaEquipos = [
     name: 'COMBO HP i3-6100T + MONITOR 20"', 
     specs: 'INTEL CORE i3-6100 | 4GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 185, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -94,6 +105,7 @@ export const listaEquipos = [
     name: 'COMBO HP i3-6100 + MONITOR 20"', 
     specs: 'INTEL CORE i3-6100 | 4GB DDR3 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 190, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -101,6 +113,7 @@ export const listaEquipos = [
     name: 'COMBO LENOVO i3-7100 + MONITOR 20"', 
     specs: 'INTEL CORE i3-7100 | 8GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 215, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -108,6 +121,7 @@ export const listaEquipos = [
     name: 'COMBO DELL i3-8100 + MONITOR 20"', 
     specs: 'INTEL CORE i3-8100 | 8GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 225, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -115,6 +129,7 @@ export const listaEquipos = [
     name: 'COMBO DELL i3-8100 + MONITOR 20"', 
     specs: 'INTEL CORE i3-8100 | 8GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE SLIM', 
     price: 235, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -122,6 +137,7 @@ export const listaEquipos = [
     name: 'COMBO DELL i3-9100 + MONITOR 20"', 
     specs: 'INTEL CORE i3-9100 | 8GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 255, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -129,6 +145,7 @@ export const listaEquipos = [
     name: 'COMBO DELL i5-4590T + MONITOR 20"', 
     specs: 'INTEL CORE i5-4590T | 8GB DDR3 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 170, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -136,6 +153,7 @@ export const listaEquipos = [
     name: 'COMBO DELL i5-4590 + MONITOR 20"', 
     specs: 'INTEL CORE i5-4590 | 8GB DDR3 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE SLIMS', 
     price: 205, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -143,6 +161,7 @@ export const listaEquipos = [
     name: 'COMBO HP i5-4570/4590 + MONITOR 20"', 
     specs: 'INTEL CORE i5-4570/4590 | 8GB DDR3 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 185, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -150,6 +169,7 @@ export const listaEquipos = [
     name: 'COMBO HP i5-4570/4590 + MONITOR 20"', 
     specs: 'INTEL CORE i5-4570/4590 | 8GB DDR3 - 240GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 200, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -157,6 +177,7 @@ export const listaEquipos = [
     name: 'COMBO HP RYZEN 5 PRO 2400G + MONITOR 20"', 
     specs: 'AMD RYZEN 5 PRO 2400G | 8GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 255, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -164,6 +185,7 @@ export const listaEquipos = [
     name: 'COMBO HP RYZEN 5 PRO 3400G + MONITOR 20"', 
     specs: 'AMD RYZEN 5 PRO 3400G | 8GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 275, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -171,6 +193,7 @@ export const listaEquipos = [
     name: 'COMBO HP i5-9500 + MONITOR 20"', 
     specs: 'INTEL CORE i5-9500 | 8GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 325, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -178,6 +201,7 @@ export const listaEquipos = [
     name: 'COMBO HP i5-10500 + MONITOR 20"', 
     specs: 'INTEL CORE i5-10500 | 8GB DDR4 - 240GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE SLIM', 
     price: 400, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -185,6 +209,7 @@ export const listaEquipos = [
     name: 'COMBO HP i7-4790 + MONITOR 20"', 
     specs: 'INTEL CORE i7-4790 | 8GB DDR3 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 155, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
   },
   { 
@@ -192,13 +217,7 @@ export const listaEquipos = [
     name: 'COMBO HP i7-6700 + MONITOR 20"', 
     specs: 'INTEL CORE i7-6700 | 8GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 255, 
+    category: 'combos',
     img: "/images/COMBOI7.png"
-  },
-  { 
-    id: 28, 
-    name: 'COMBO HP i7-6700 + MONITOR 20"', 
-    specs: 'INTEL CORE i7-6700 | 16GB DDR4 - 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
-    price: 265, 
-    img: "/images/COMBOI7.png"
-  },
+  }
 ];

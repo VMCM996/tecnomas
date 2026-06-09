@@ -1,117 +1,145 @@
-.card {
-  /* Fondo blanco con 80% de transparencia (el 0.8 final maneja la opacidad) */
-  background: rgba(255, 255, 255, 0.8);
-  /* Un ligero efecto de desenfoque detrás para que resalte sobre el fondo de la web */
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+/* src/components/ProductCard.module.css */
+
+/* 🌍 CONTENEDOR PRINCIPAL DE LA REJILLA (Filas de 3) */
+.gridContainer {
+  display: grid;
+  /* 3 columnas equilibradas basadas en el ancho máximo de la grilla */
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
   
+  /* Margen y espacio real garantizado entre tarjetas */
+  gap: 30px; 
+  
+  /* Centrado perfecto en el medio de la web */
+  justify-content: center; 
+  margin: 0 auto;
+  max-width: 1000px; 
+  width: 100%;
+}
+
+/* 🎴 TARJETA INDIVIDUAL (Efecto Glassmorphism Blanco Claro con Transparencia) */
+.card {
+  /* Fondo blanco con 75% de opacidad para que se transluzca tu fondo oscuro */
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  
+  /* Borde suave blanco sutil */
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 16px;
   padding: 1.2rem;
-  color: #1a1a1a; /* Texto oscuro para que contraste perfectamente sobre el fondo blanco */
-  width: 290px;
+  
+  /* Texto oscuro para que contraste perfectamente sobre el fondo blanco */
+  color: #1a1a1a; 
+  
+  width: 100%; 
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  box-sizing: border-box; 
 }
 
 .card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-  background: rgba(255, 255, 255, 0.85); /* Se vuelve un toque más sólida al pasar el mouse */
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  border-color: rgba(37, 99, 235, 0.4); /* Destello azul sutil al pasar el mouse */
+  background: rgba(255, 255, 255, 0.85); /* Se vuelve un toque más sólida al hacer hover */
 }
 
-/* Estilo para la foto del producto */
+/* 🖼️ IMAGEN DEL PRODUCTO */
 .productImage {
   width: 100%;
   height: 180px;
   object-fit: contain; 
-  border-radius: 12px; /* 👈 Subimos a 12px para que se note más */
-  overflow: hidden;    /* 👈 Corta cualquier esquina de la foto que quiera salirse */
+  border-radius: 12px;
+  overflow: hidden;    
   margin-bottom: 1rem;
+  background-color: transparent;
 }
 
+/* 🏷️ TÍTULO DEL HARDWARE */
 .title {
-  color: #111111;
+  color: #111111; /* Título bien oscuro */
   margin: 0 0 0.5rem 0;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
+/* 📝 ESPECIFICACIONES TÉCNICAS */
 .specs {
-  font-size: 0.9rem;
-  color: #444444;
+  font-size: 0.85rem;
+  color: #444444; /* Gris oscuro para una lectura cómoda */
   margin: 0;
   min-height: 55px;
   line-height: 1.4;
 }
 
-/* El contenedor del pie de la tarjeta */
+/* 💵 PIE DE LA TARJETA (Precio + Botón) */
 .footer {
   display: flex;
-  justify-content: space-between; /* Empuja el precio a la izq y el botón a la der */
+  justify-content: space-between; 
   align-items: center;
   margin-top: 1.5rem;
 }
 
-/* Precio a la izquierda */
+/* 🔵 TEXTO INTEGRADO DEL PRECIO (Cambiado a Azul Eléctrico) */
 .price {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  color: #2e7d32; /* Un verde oscuro elegante para el fondo claro */
+  color: #2563eb; /* Azul moderno de alta intensidad */
 }
 
-/* Botón a la derecha */
+/* 🔵 BOTÓN PEDIR / ADQUIRIR (Cambiado a Azul) */
 .button {
-  background-color: #2563eb; /* Un azul moderno */
+  background-color: #2563eb; /* Azul principal */
   color: white;
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
+  font-family: 'Poppins', sans-serif;
   transition: background-color 0.2s, transform 0.1s;
 }
 
 .button:hover {
-  background-color: #1d4ed8;
+  background-color: #1d4ed8; /* Azul un toque más oscuro al pasar el mouse */
 }
 
 .button:active {
   transform: scale(0.95);
 }
 
-/* El fondo oscuro que cubre toda la pantalla detrás del modal */
+/* 🏁 --- ESTILOS DEL MODAL INTERNO (Mantenidos en armonía oscura/clara) --- */
 .modalOverlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
-  backdrop-filter: blur(5px); /* Desenfoque sutil al fondo de la web */
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Asegura que esté por encima de todo */
+  z-index: 1000;
 }
 
-/* La ventana pequeña blanca */
 .modalContent {
-  background: white;
+  background: #ffffff; /* Modal blanco a juego con las tarjetas */
   color: #1a1a1a;
   padding: 2rem;
   border-radius: 16px;
   width: 90%;
   max-width: 450px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
   position: relative;
-  animation: popUp 0.3s ease-out; /* Animación de entrada */
+  border: 1px solid rgba(0,0,0,0.1);
+  animation: popUp 0.3s ease-out;
 }
 
-/* Botón para cerrar (X) arriba a la derecha */
 .closeButton {
   position: absolute;
   top: 15px;
@@ -131,22 +159,25 @@
 
 .modalSpecs {
   margin-top: 1rem;
-  font-size: 1rem;
-  color: #555;
+  font-size: 0.95rem;
+  color: #444444;
   line-height: 1.6;
   background: #f5f5f5;
   padding: 1rem;
   border-radius: 8px;
+  border: 1px solid #e5e5e5;
 }
 
-/* Animación para que el modal aparezca suavemente */
 @keyframes popUp {
-  from {
-    transform: scale(0.8);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* 📱 RESPONSIVO */
+@media (max-width: 960px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0 15px;
   }
 }
