@@ -40,11 +40,12 @@ function App() {
 
   return (
     <div style={{ 
-      backgroundImage: "url('/src/assets/background.png')", 
+      // 🎯 CORRECCIÓN: Ruta optimizada desde la raíz pública y soporte 'scroll' para teléfonos
+      backgroundImage: "url('/background.png')", 
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
-      backgroundAttachment: 'fixed', 
+      backgroundAttachment: 'scroll', 
       backgroundColor: '#141414',     
       minHeight: '100vh', 
       color: 'white' 
@@ -97,7 +98,7 @@ function App() {
               key={cat}
               onClick={() => setSelectedCategory(cat)}
               style={{
-                // 🔘 Gris (#333) por defecto, Azul (#2563eb) si está seleccionado
+                // 🔘 Gris (#b1b1b1) por defecto, Azul (#2563eb) si está seleccionado
                 backgroundColor: selectedCategory === cat ? '#2563eb' : '#b1b1b1', 
                 color: 'white',
                 // Borde azul claro si está activo, gris oscuro si no
@@ -154,7 +155,7 @@ function App() {
                 objectFit: 'contain', 
                 marginBottom: '1rem',
                 borderRadius: '12px',                  
-                backgroundColor: 'rgba(0, 0, 0, 0.04)', 
+                backgroundColor: 'transparent', /* 🎯 CORRECCIÓN: Fondo gris eliminado */
                 padding: '0.5rem' 
               }} 
             />
