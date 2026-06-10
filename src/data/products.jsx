@@ -8,7 +8,7 @@ export const listaEquipos = [
     specs: 'AMD RYZEN 7-7520U | 8GB DDR5 S-DIMM | 15.6" FHD (1920X1080) | WIFI 6 | BLUETOOTH 5.3 | TECLADO NUMERICO', 
     price: 520, 
     category: 'laptops',
-    img: '/images/ASUS-RYZEN5.png' 
+    img: '/images/ASUS-RYZEN7.png' 
   },
   { 
     id: 2, 
@@ -16,7 +16,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i5-1235U | 8GB DDR4 | 15.6" FHD (1920X1080) | WIFI 5 | BLUETOOTH 5.0 | TECLADO NUMERICO', 
     price: 530, 
     category: 'laptops',
-    img: '/images/I5-1235U.png' 
+    img: '/images/COMPA.png' 
   },
   { 
     id: 3, 
