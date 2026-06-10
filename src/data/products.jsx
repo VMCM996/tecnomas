@@ -66,7 +66,7 @@ export const listaEquipos = [
     specs: 'INTEL PETIUM G3250 | 4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE SLIM', 
     price: 140, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/3020-PENTIUM.png"
   },
   { 
     id: 9, 
