@@ -7,18 +7,18 @@ import styles from './components/ProductCard.module.css'
 // Importamos los datos puros
 import { listaEquipos } from './data/products'
 
-// 💳 Componente de Notificación Flotante
-function FloatingNotification() {
+// 💳 Componente de Aviso Flotante Superior
+function TopNotificationBar() {
   return (
     <div 
       style={{
         position: 'fixed',
-        bottom: '20px',
-        right: '20px',
+        top: '0',
+        left: '0',
+        width: '100%',
         backgroundColor: '#2d3748', 
         color: '#ffffff',
-        padding: '12px 20px',
-        borderRadius: '25px',
+        padding: '10px 20px',
         fontSize: '13px',
         fontWeight: '600',
         fontFamily: "'Poppins', sans-serif",
@@ -26,9 +26,10 @@ function FloatingNotification() {
         zIndex: '9999',
         display: 'flex',
         alignItems: 'center',
+        justifyContent: 'center',
         gap: '8px',
-        animation: 'fadeIn 0.5s ease-in-out',
-        border: '1px solid rgba(255, 255, 255, 0.1)'
+        borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+        textAlign: 'center'
       }}
     >
       <span>💳</span> Todos los precios reflejados son para pago en divisas
@@ -66,8 +67,13 @@ function App() {
       minHeight: '100vh', 
       width: '100%',
       backgroundColor: '#141414',     
-      color: 'white' 
+      color: 'white',
+      // 💡 Agregamos un pequeño margen superior o padding para que la barra fija no tape el NavBar
+      paddingTop: '40px' 
     }}>
+      {/* 💳 AVISO ARRIBA EN LA WEB */}
+      <TopNotificationBar />
+
       <NavBar /> 
       
       <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem' }}>
@@ -297,9 +303,6 @@ function App() {
           </div>
         </div>
       )}
-
-      {/* 💳 AVISO FLOTANTE AÑ */}
-      <FloatingNotification />
     </div>
   )
 }
