@@ -19,7 +19,7 @@ function TopNotificationBar() {
         backgroundColor: '#2d3748', 
         color: '#ffffff',
         padding: '10px 20px',
-        fontSize: '13px',
+        fontSize: '25px',
         fontWeight: '600',
         fontFamily: "'Poppins', sans-serif",
         boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)',
@@ -186,7 +186,7 @@ function App() {
                 specs={prod.specs}
                 price={prod.price}
                 img={prod.img}
-                onAddToCart={() => handlePedirPorWhatsApp(prod)}
+                onAddToCart={() => handlePerdirPorWhatsApp(prod)}
                 onOpenModal={() => setProductoSeleccionado(prod)} 
               />
             ))
