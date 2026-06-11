@@ -4,16 +4,41 @@ import NavBar from './components/NavBar'
 import ProductCard from './components/ProductCard'
 import styles from './components/ProductCard.module.css'
 
-// Aquí importamos los datos puros que acabamos de acomodar en el Paso 1
+// Importamos los datos puros
 import { listaEquipos } from './data/products'
+
+// 💳 Componente de Notificación Flotante
+function FloatingNotification() {
+  return (
+    <div 
+      style={{
+        position: 'fixed',
+        bottom: '20px',
+        right: '20px',
+        backgroundColor: '#2d3748', 
+        color: '#ffffff',
+        padding: '12px 20px',
+        borderRadius: '25px',
+        fontSize: '13px',
+        fontWeight: '600',
+        fontFamily: "'Poppins', sans-serif",
+        boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)',
+        zIndex: '9999',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '8px',
+        animation: 'fadeIn 0.5s ease-in-out',
+        border: '1px solid rgba(255, 255, 255, 0.1)'
+      }}
+    >
+      <span>💳</span> Todos los precios reflejados son para pago en divisas
+    </div>
+  )
+}
 
 function App() {
   const [productoSeleccionado, setProductoSeleccionado] = useState(null)
-  
-  // Estado para guardar lo que escribe el usuario en la barra
   const [searchTerm, setSearchTerm] = useState('')
-
-  // 🔘 Estado para rastrear la categoría seleccionada (por defecto "todos")
   const [selectedCategory, setSelectedCategory] = useState('todos')
 
   const handlePedirPorWhatsApp = (producto) => {
@@ -24,17 +49,10 @@ function App() {
     window.open(urlWhatsApp, '_blank');
   };
 
-  // 🔍 Filtramos combinando la Categoría Y el Texto de búsqueda al mismo tiempo
   const filteredProducts = listaEquipos.filter((prod) => {
     const term = searchTerm.toLowerCase();
-    
-    // 1. Validamos si coincide con la categoría seleccionada
     const matchesCategory = selectedCategory === 'todos' || prod.category === selectedCategory;
-
-    // 2. Validamos si coincide con el texto escrito
     const matchesSearch = prod.name.toLowerCase().includes(term) || prod.specs.toLowerCase().includes(term);
-
-    // El producto solo pasa si cumple ambas condiciones
     return matchesCategory && matchesSearch;
   });
 
@@ -44,11 +62,7 @@ function App() {
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
-      
-      // 🎯 CLAVE 1: Dejamos el fondo fijo para que el contenido se desplace por encima
       backgroundAttachment: 'fixed', 
-      
-      // 🎯 CLAVE 2: Forzamos a que el contenedor ocupe siempre, como mínimo, el 100% de la pantalla visible
       minHeight: '100vh', 
       width: '100%',
       backgroundColor: '#141414',     
@@ -58,7 +72,6 @@ function App() {
       
       <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem' }}>
         
-        {/* 🎯 CAMBIO 1: TÍTULO PRINCIPAL CON DEGRADADO TECNOLÓGICO */}
         <h1 style={{ 
           textAlign: 'center', 
           marginBottom: '2rem', 
@@ -73,7 +86,6 @@ function App() {
           Catálogo de Equipos
         </h1>
 
-        {/* 🎯 CAMBIO 2: INPUT DE BÚSQUEDA TRANSLÚCIDO PREMIUM */}
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
           <input
             type="text"
@@ -106,7 +118,6 @@ function App() {
           />
         </div>
 
-        {/* 🎯 CAMBIO 3: BOTONES DE CATEGORÍAS ESTILO GLASSMORPHISM */}
         <div 
           style={{ 
             display: 'flex', 
@@ -157,90 +168,86 @@ function App() {
           })}
         </div>
         
-        {/* GRILLA DE PRODUCTOS */}
-<div 
-  key={`${selectedCategory}-${searchTerm}`} 
-  className={`${styles.gridContainer} ${styles.fadeIn}`}
->
-  {filteredProducts.length > 0 ? (
-    filteredProducts.map((prod) => (
-      <ProductCard 
-        key={prod.id}
-        name={prod.name}
-        specs={prod.specs}
-        price={prod.price}
-        img={prod.img}
-        onAddToCart={() => handlePedirPorWhatsApp(prod)}
-        onOpenModal={() => setProductoSeleccionado(prod)} 
-      />
-    ))
-  ) : (
-    /* ✨ INTERFAZ PREMIUM CUANDO NO HAY RESULTADOS */
-    <div style={{
-      gridColumn: '1 / -1',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: '4rem 2rem',
-      backgroundColor: 'rgba(255, 255, 255, 0.03)',
-      backdropFilter: 'blur(8px)',
-      borderRadius: '16px',
-      border: '1px solid rgba(255, 255, 255, 0.08)',
-      marginTop: '1rem',
-      textAlign: 'center'
-    }}>
-      {/* 🔍 Ícono de Lupa Desvanecido */}
-      <svg 
-        xmlns="http://www.w3.org/2000/svg" 
-        viewBox="0 0 512 512" 
-        style={{ width: '50px', height: '50px', fill: 'rgba(255, 255, 255, 0.3)', marginBottom: '1.5rem' }}
-      >
-        <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
-      </svg>
-      
-      <h3 style={{ fontFamily: "'Poppins', sans-serif", fontSize: '1.25rem', fontWeight: '600', marginBottom: '0.5rem', color: '#ffffff' }}>
-        No encontramos lo que buscas
-      </h3>
-      
-      <p style={{ color: '#aaa', fontSize: '0.95rem', maxWidth: '360px', margin: '0 0 1.5rem 0', fontFamily: "'Poppins', sans-serif', lineHard: '1.4" }}>
-        Prueba verificando la ortografía o cambia los términos para encontrar laptops o combos disponibles.
-      </p>
+        <div 
+          key={`${selectedCategory}-${searchTerm}`} 
+          className={`${styles.gridContainer} ${styles.fadeIn}`}
+        >
+          {filteredProducts.length > 0 ? (
+            filteredProducts.map((prod) => (
+              <ProductCard 
+                key={prod.id}
+                name={prod.name}
+                specs={prod.specs}
+                price={prod.price}
+                img={prod.img}
+                onAddToCart={() => handlePedirPorWhatsApp(prod)}
+                onOpenModal={() => setProductoSeleccionado(prod)} 
+              />
+            ))
+          ) : (
+            <div style={{
+              gridColumn: '1 / -1',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '4rem 2rem',
+              backgroundColor: 'rgba(255, 255, 255, 0.03)',
+              backdropFilter: 'blur(8px)',
+              borderRadius: '16px',
+              border: '1px solid rgba(255, 255, 255, 0.08)',
+              marginTop: '1rem',
+              textAlign: 'center'
+            }}>
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 512 512" 
+                style={{ width: '50px', height: '50px', fill: 'rgba(255, 255, 255, 0.3)', marginBottom: '1.5rem' }}
+              >
+                <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+              </svg>
+              
+              <h3 style={{ fontFamily: "'Poppins', sans-serif", fontSize: '1.25rem', fontWeight: '600', marginBottom: '0.5rem', color: '#ffffff' }}>
+                No encontramos lo que buscas
+              </h3>
+              
+              <p style={{ color: '#aaa', fontSize: '0.95rem', maxWidth: '360px', margin: '0 0 1.5rem 0', fontFamily: "'Poppins', sans-serif", lineHeight: '1.4' }}>
+                Prueba verificando la ortografía o cambia los términos para encontrar laptops o combos disponibles.
+              </p>
 
-      {/* 🔄 Botón interactivo para limpiar filtros */}
-      <button
-        onClick={() => {
-          setSearchTerm('');
-          setSelectedCategory('todos');
-        }}
-        style={{
-          backgroundColor: 'transparent',
-          color: '#60a5fa',
-          border: '1px solid rgba(96, 165, 250, 0.3)',
-          padding: '10px 20px',
-          fontSize: '0.85rem',
-          fontWeight: '600',
-          borderRadius: '30px',
-          cursor: 'pointer',
-          textTransform: 'uppercase',
-          letterSpacing: '0.5px',
-          fontFamily: "'Poppins', sans-serif",
-          transition: 'all 0.2s ease'
-        }}
-        onMouseEnter={(e) => {
-          e.target.style.backgroundColor = 'rgba(96, 165, 250, 0.1)';
-          e.target.style.borderColor = '#60a5fa';
-        }}
-        onMouseLeave={(e) => {
-          e.target.style.backgroundColor = 'transparent';
-          e.target.style.borderColor = 'rgba(96, 165, 250, 0.3)';
-        }}
-      >
-        Limpiar Filtros
-      </button>
-    </div>
-  )}
-</div>
+              <button
+                onClick={() => {
+                  setSearchTerm('');
+                  setSelectedCategory('todos');
+                }}
+                style={{
+                  backgroundColor: 'transparent',
+                  color: '#60a5fa',
+                  border: '1px solid rgba(96, 165, 250, 0.3)',
+                  padding: '10px 20px',
+                  fontSize: '0.85rem',
+                  fontWeight: '600',
+                  borderRadius: '30px',
+                  cursor: 'pointer',
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.5px',
+                  fontFamily: "'Poppins', sans-serif",
+                  transition: 'all 0.2s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.backgroundColor = 'rgba(96, 165, 250, 0.1)';
+                  e.target.style.borderColor = '#60a5fa';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.backgroundColor = 'transparent';
+                  e.target.style.borderColor = 'rgba(96, 165, 250, 0.3)';
+                }}
+              >
+                Limpiar Filtros
+              </button>
+            </div>
+          )}
+        </div>
       </main>
 
       {/* MODAL */}
@@ -267,7 +274,6 @@ function App() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1.5rem' }}>
               <span style={{ fontSize: '1.4rem', fontWeight: '700', color: '#2563eb' }}>${productoSeleccionado.price}</span>
               
-              {/* 🎯 CAMBIO: BOTÓN DEL MODAL CON ICONO MÁS GRANDE (19px) Y TEXTO OPTIMIZADO */}
               <button 
                 className={styles.button} 
                 onClick={() => { handlePedirPorWhatsApp(productoSeleccionado); setProductoSeleccionado(null); }}
@@ -291,6 +297,9 @@ function App() {
           </div>
         </div>
       )}
+
+      {/* 💳 AVISO FLOTANTE AÑ */}
+      <FloatingNotification />
     </div>
   )
 }
