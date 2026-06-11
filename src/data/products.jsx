@@ -66,7 +66,7 @@ export const listaEquipos = [
     specs: 'INTEL PETIUM G3250 | 4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE SLIM', 
     price: 140, 
     category: 'combos pc',
-    img: "/images/3020-PENTIUM.png"
+    img: "/images/COMBO-PENTIUM.png"
   },
   { 
     id: 9, 
@@ -74,7 +74,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i3-2120 | 4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM', 
     price: 140, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-2120.png"
   },
   { 
     id: 10, 
@@ -82,7 +82,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i3-3220 | 4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM', 
     price: 155, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-3220.png"
   },
   { 
     id: 11, 
@@ -90,7 +90,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i3-4130 | 8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM', 
     price: 170, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-4130.png"
   },
   { 
     id: 12, 
@@ -98,7 +98,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i3-6100 | 4GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 185, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-6100T.png"
   },
   { 
     id: 13, 
@@ -106,7 +106,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i3-6100 | 8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 195, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-6100.png"
   },
   { 
     id: 14, 
@@ -114,7 +114,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i3-7100 | 8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 215, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-7100.png"
   },
   { 
     id: 15, 
@@ -122,7 +122,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i3-8100 | 8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 235, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-8100.png"
   },
   { 
     id: 16, 
@@ -130,7 +130,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i3-8100 | 8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE SLIM', 
     price: 225, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-8100-SFF.png"
   },
   { 
     id: 17, 
@@ -138,7 +138,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i3-9100 | 8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 255, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-9100.png"
   },
   { 
     id: 18, 
@@ -146,7 +146,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i5-4590T | 8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 170, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I5-4590T.png"
   },
   { 
     id: 19, 
@@ -154,7 +154,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i5-4590 | 8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE SLIMS', 
     price: 205, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I5-4590.png"
   },
   { 
     id: 20, 
@@ -162,7 +162,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i5-4570/4590 | 8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 185, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I5-4570-4590.png"
   },
   { 
     id: 21, 
@@ -170,7 +170,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i5-4570/4590 | 8GB DDR3 | 240GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 200, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I5-4570-4590.png"
   },
   { 
     id: 22, 
@@ -178,7 +178,7 @@ export const listaEquipos = [
     specs: 'AMD RYZEN 5 PRO 2400G | 8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 255, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-RYZEN-2400.png"
   },
   { 
     id: 23, 
@@ -186,7 +186,7 @@ export const listaEquipos = [
     specs: 'AMD RYZEN 5 PRO 3400G | 8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 275, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-RYZEN-3400.png"
   },
   { 
     id: 24, 
@@ -194,7 +194,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i5-9500 | 8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE MINI PC', 
     price: 325, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I3-6100.png"
   },
   { 
     id: 25, 
@@ -202,7 +202,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i5-10500 | 8GB DDR4 | 240GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE SLIM', 
     price: 400, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I5-10500.png"
   },
   { 
     id: 26, 
@@ -210,7 +210,7 @@ export const listaEquipos = [
     specs: 'INTEL CORE i7-4790 | 8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 200, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I7-4790.png"
   },
   { 
     id: 27, 
@@ -218,6 +218,6 @@ export const listaEquipos = [
     specs: 'INTEL CORE i7-6700 | 8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER', 
     price: 255, 
     category: 'combos pc',
-    img: "/images/COMBOI7.png"
+    img: "/images/COMBO-I7-6700.png"
   }
 ];
