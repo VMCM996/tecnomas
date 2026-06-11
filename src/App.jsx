@@ -19,7 +19,7 @@ function TopNotificationBar() {
         backgroundColor: '#2d3748', 
         color: '#ffffff',
         padding: '10px 20px',
-        fontSize: '15px',
+        fontSize: '13px',
         fontWeight: '600',
         fontFamily: "'Poppins', sans-serif",
         boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)',
