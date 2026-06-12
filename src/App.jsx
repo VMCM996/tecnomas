@@ -173,7 +173,8 @@ function App() {
             flexWrap: 'wrap' 
           }}
         >
-          {['todos', 'laptops', 'combos pc', 'combos laptops'].map((cat) => {
+          {/* Agregamos 'equipos' dentro de este arreglo */}
+          {['todos', 'equipos', 'laptops', 'combos pc', 'combos laptops'].map((cat) => {
             const isActive = selectedCategory === cat;
             return (
               <button
