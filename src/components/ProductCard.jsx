@@ -10,8 +10,11 @@ function ProductCard({ name, specs, price, img, onAddToCart, onOpenModal }) {
     let procesador = null;
     let ram = null;
 
+    // Evaluamos procesadores antiguos primero para evitar falsos positivos
+    if (specsLower.includes('core 2 duo') || specsLower.includes('core2duo')) procesador = 'Core 2 Duo';
+    else if (specsLower.includes('pentium')) procesador = 'Pentium';
     // Evaluamos de mayor a menor para evitar falsos positivos con los modelos (ej. 7520U)
-    if (specsLower.includes('core i7') || specsLower.includes('i7')) procesador = 'Intel i7';
+    else if (specsLower.includes('core i7') || specsLower.includes('i7')) procesador = 'Intel i7';
     else if (specsLower.includes('core i5') || specsLower.includes('i5')) procesador = 'Intel i5';
     else if (specsLower.includes('core i3') || specsLower.includes('i3')) procesador = 'Intel i3';
     else if (specsLower.includes('ryzen 7') || specsLower.includes('r7')) procesador = 'Ryzen 7';
