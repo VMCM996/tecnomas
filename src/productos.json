@@ -217,10 +217,130 @@
   },
   { 
     "id": 28, 
-    "name": "DELL OPTIPLEX 380 CORE 2 DUO", 
-    "specs": "INTEL CORE 2 DUO | 4GB DDR3 | 120GB SSD | USB 2.0 (6) PUERTO COM (1) RED 10/10/100 VGA (1) SERIAL (1)| CASE M-TOWER", 
+    "name": "DELL OPTIPLEX 380", 
+    "specs": "INTEL CORE 2 DUO | 4GB DDR3 | 120GB SSD | USB 2.0 (6) | PUERTO COM (1) | RED GIGABIT | VGA (1) SERIAL (1)| CASE M-TOWER", 
     "price": 65, 
     "category": "equipos",
     "img": "/images/DELL-CORE.png"
+  },
+  { 
+    "id": 29, 
+    "name": "DELL OPTIPLEX 3020", 
+    "specs": "INTEL PENTIUM G3250 | 4GB DDR3 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | PUERTO COM (1) | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM", 
+    "price": 75, 
+    "category": "equipos",
+    "img": "/images/DELL-SFF.png"
+  },
+  { 
+    "id": 30, 
+    "name": "HP ELITE COMPAQ 8300", 
+    "specs": "INTEL i3-2100/2120 | 4GB DDR3 | 120GB SSD | USB 3.0 (4) USB 2.0 (6) | PUERTO COM (1) | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM", 
+    "price": 75, 
+    "category": "equipos",
+    "img": "/images/HP-USFF.png"
+  },
+  { 
+    "id": 31, 
+    "name": "HP ELITE COMPAQ 8300", 
+    "specs": "INTEL i3-3220 | 4GB DDR3 | 120GB SSD | USB 3.0 (4) USB 2.0 (6) | PUERTO COM (1) | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM", 
+    "price": 90, 
+    "category": "equipos",
+    "img": "/images/HP-USFF.png"
+  },
+  { 
+    "id": 32, 
+    "name": "HP ELITE DESK 800 G1", 
+    "specs": "INTEL i3-4130 | 8GB DDR3 | 120GB SSD | USB 3.0 (4) USB 2.0 (6) | PUERTO COM (1) | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM", 
+    "price": 105, 
+    "category": "equipos",
+    "img": "/images/HP-US.png"
+  },
+  { 
+    "id": 33, 
+    "name": "HP PRO DESK 600 G1", 
+    "specs": "INTEL i3-4130 | 8GB DDR3 | 120GB SSD | USB 3.0 (4) USB 2.0 (6) | PUERTO COM (1) | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE M-TOWER", 
+    "price": 95, 
+    "category": "equipos",
+    "img": "/images/HP-MT.png"
+  },
+  { 
+    "id": 34, 
+    "name": "HP PRO DESK 600 G2", 
+    "specs": "INTEL i3-6100T | 4GB DDR4 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC", 
+    "price": 120, 
+    "category": "equipos",
+    "img": "/images/HP-MINI.png"
+  },
+  { 
+    "id": 35, 
+    "name": "HP PRO DESK 600 G2", 
+    "specs": "INTEL i3-6100 | 8GB DDR3 | 120GB SSD | USB 3.0 (4) USB 2.0 (6) | PUERTO COM (1) | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE M-TOWER", 
+    "price": 125, 
+    "category": "equipos",
+    "img": "/images/HP-MT.png"
+  },
+  { 
+    "id": 36, 
+    "name": "LENOVO THINKCENTRE M710", 
+    "specs": "INTEL i3-7100 | 8GB DDR4 | 240GB SSD M.2 | USB 3.0 (4) USB 2.0 (4)| RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC", 
+    "price": 150, 
+    "category": "equipos",
+    "img": "/images/LENOVO-MINI.png"
+  },
+  { 
+    "id": 37, 
+    "name": "DELL OPTIPLEX 3060", 
+    "specs": "INTEL i3-8100 | 8GB DDR4 | 120GB SSD | USB 3.0 (6) USB 2.0 (4)| RED GIGABIT | DISPLAYPORT (2)| CASE MINI PC", 
+    "price": 170, 
+    "category": "equipos",
+    "img": "/images/DELL-MINI.png"
+  },
+  { 
+    "id": 38, 
+    "name": "DELL OPTIPLEX 3060", 
+    "specs": "INTEL i3-8100 | 8GB DDR4 | 120GB SSD | USB 3.0 (6) USB 2.0 (4)| RED GIGABIT | DISPLAYPORT (2)| CASE SLIM", 
+    "price": 160, 
+    "category": "equipos",
+    "img": "/images/DELL-SFF-N.png"
+  },
+  { 
+    "id": 39, 
+    "name": "DELL OPTIPLEX 3070", 
+    "specs": "INTEL i3-9100 | 8GB DDR4 | 120GB SSD | USB 3.0 (6) USB 2.0 (4)| RED GIGABIT | DISPLAYPORT (2)| CASE MINI PC", 
+    "price": 190, 
+    "category": "equipos",
+    "img": "/images/DELL-SFF-N.png"
+  },
+  { 
+    "id": 40, 
+    "name": "DELL OPTIPLEX 3020", 
+    "specs": "INTEL i5-4590T | 8GB DDR3 | 120GB SSD | USB 3.0 (6) USB 2.0 (4)| RED GIGABIT |  VGA (1) DISPLAYPORT (2)| CASE MINI PC", 
+    "price": 105, 
+    "category": "equipos",
+    "img": "/images/DELL-MINI.png"
+  },
+  { 
+    "id": 41, 
+    "name": "DELL OPTIPLEX 3020", 
+    "specs": "INTEL i5-4590 | 8GB DDR3 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | PUERTO COM (1) | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM", 
+    "price": 135, 
+    "category": "equipos",
+    "img": "/images/DELL-SFF.png"
+  },
+  { 
+    "id": 42, 
+    "name": "HP ELITE DESK 800 G1", 
+    "specs": "INTEL i5-4570/4590 | 8GB DDR3 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE M-TOWER", 
+    "price": 120, 
+    "category": "equipos",
+    "img": "/images/HP-MT.png"
+  },
+  { 
+    "id": 43, 
+    "name": "HP ELITE DESK 705 G4", 
+    "specs": "RYZEN 5 PRO 2400G | 8GB DDR4 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC", 
+    "price": 190, 
+    "category": "equipos",
+    "img": "/images/HP-MINI.png"
   }
 ]
