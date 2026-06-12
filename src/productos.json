@@ -386,7 +386,7 @@
   { 
     "id": 49, 
     "name": "DELL OPTIPLEX 7450 AIO", 
-    "specs": "INTEL CORE i7-7700 | 8GB DDR4 | 240GB SSD | USB 3.0 (6) USB 2.0 (42) | PANTALLA 23.8' (1920X1080) | RED GIGABIT | HDMI (1) DISPLAYPORT (1)| CASE M-TOWER", 
+    "specs": "INTEL CORE i7-7700 | 8GB DDR4 | 240GB SSD | USB 3.0 (6) USB 2.0 (42) | PANTALLA 23.8' (1920X1080) | RED GIGABIT | COMBO MOUSE Y TECLADO| CASE M-TOWER", 
     "price": 360, 
     "category": "equipos",
     "img": "/images/AIO.png"
@@ -394,7 +394,7 @@
   { 
     "id": 50, 
     "name": "DELL OPTIPLEX 7450 AIO", 
-    "specs": "INTEL CORE i7-7700 | 8GB DDR4 | 240GB SSD | USB 3.0 (6) USB 2.0 (42) | PANTALLA 23.8' (1920X1080) | RED GIGABIT | HDMI (1) DISPLAYPORT (1)| CASE M-TOWER", 
+    "specs": "INTEL CORE i7-7700 | 8GB DDR4 | 240GB SSD | USB 3.0 (6) USB 2.0 (42) | PANTALLA 23.8' (1920X1080) | RED GIGABIT | COMBO MOUSE Y TECLADO| CASE M-TOWER", 
     "price": 405, 
     "category": "equipos",
     "img": "/images/AIO.png"
