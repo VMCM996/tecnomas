@@ -342,5 +342,61 @@
     "price": 190, 
     "category": "equipos",
     "img": "/images/HP-MINI.png"
+  },
+  { 
+    "id": 44, 
+    "name": "HP ELITE DESK 800 G4", 
+    "specs": "I5-8500 | 8GB DDR4 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC", 
+    "price": 210, 
+    "category": "equipos",
+    "img": "/images/HP-MINI.png"
+  },
+  { 
+    "id": 45, 
+    "name": "HP ELITE DESK 705 G5", 
+    "specs": "RYZEN 5 PRO 3400G | 8GB DDR4 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC", 
+    "price": 210, 
+    "category": "equipos",
+    "img": "/images/HP-MINI.png"
+  },
+  { 
+    "id": 46, 
+    "name": "HP ELITE DESK 800 G4", 
+    "specs": "I5-9500 | 8GB DDR4 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC", 
+    "price": 260, 
+    "category": "equipos",
+    "img": "/images/HP-MINI.png"
+  },
+  { 
+    "id": 47, 
+    "name": "HP PRO DESK 600 G6", 
+    "specs": "I5-10500 | 8GB DDR4 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | RED GIGABIT | USB TIPO C (1) DISPLAYPORT (2)| CASE SLIM", 
+    "price": 260, 
+    "category": "equipos",
+    "img": "/images/HP-MINI.png"
+  },
+  { 
+    "id": 48, 
+    "name": "HP ELITE DESK 800 G1", 
+    "specs": "I7-4790 | 8GB DDR3 | 120GB SSD | USB 3.0 (4) USB 2.0 (4) | PUERTO COM (1) | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE M-TOWER", 
+    "price": 135, 
+    "category": "equipos",
+    "img": "/images/HP-MT.png"
+  },
+  { 
+    "id": 49, 
+    "name": "DELL OPTIPLEX 7450 AIO", 
+    "specs": "I7-7700 | 8GB DDR4 | 240GB SSD | USB 3.0 (6) USB 2.0 (42) | PANTALLA 23.8' (1920X1080) | RED GIGABIT | HDMI (1) DISPLAYPORT (1)| CASE M-TOWER", 
+    "price": 360, 
+    "category": "equipos",
+    "img": "/images/AIO.png"
+  },
+  { 
+    "id": 50, 
+    "name": "DELL OPTIPLEX 7450 AIO", 
+    "specs": "I7-7700 | 8GB DDR4 | 240GB SSD | USB 3.0 (6) USB 2.0 (42) | PANTALLA 23.8' (1920X1080) | RED GIGABIT | HDMI (1) DISPLAYPORT (1)| CASE M-TOWER", 
+    "price": 405, 
+    "category": "equipos",
+    "img": "/images/AIO.png"
   }
 ]
