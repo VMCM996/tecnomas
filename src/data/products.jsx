@@ -5,7 +5,7 @@ export const listaEquipos = [
   { 
     id: 1, 
     name: 'LAPTOP ASUS VIVO BOOK 15 RYZEN 7 7520U', 
-    specs: 'AMD RYZEN 7-7520U | 8GB DDR5 S-DIMM | 15.6" FHD (1920X1080) | WIFI 6 | BLUETOOTH 5.3 | TECLADO NUMERICO', 
+    specs: 'M.2 500GB SSD | 8GB DDR5 S-DIMM | 15.6" FHD (1920X1080) | WIFI 6 | BLUETOOTH 53 | TECLADO NUMERICO', 
     price: 520, 
     category: 'laptops',
     img: '/images/ASUS-RYZEN7.png' 
