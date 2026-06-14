@@ -218,7 +218,7 @@
   { 
     "id": 28, 
     "name": "DELL OPTIPLEX 380 CORE 2 DUO", 
-    "specs": "4GB DDR3 | 120GB SSD | USB 2.0 (6) | RED GIGABIT | VGA (1) SERIAL (1)| CASE M-TOWER", 
+    "specs": "| 4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) | CASE M-TOWER", 
     "price": 65, 
     "category": "equipos",
     "img": "/images/DELL-CORE.png"
