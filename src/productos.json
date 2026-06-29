@@ -531,15 +531,6 @@
     "img": "/images/HIKVISION.webp"
   },
   {
-    "id": 63,
-    "name": "UPS ENERGIZER 1000VA/600W",
-    "specs": "120V 60/50HZ 4 TOMAS",
-    "price": 75,
-    "priceCashea": "",
-    "category": "ups",
-    "img": "/images/1000VA.webp"
-  },
-  {
     "id": 64,
     "name": "UPS APC EASY 1KVA",
     "specs": "600W 120V AVR 6 TOMAS",
@@ -549,15 +540,6 @@
     "img": "/images/APC1000.webp"
   },
   {
-    "id": 65,
-    "name": "UPS ENERGIZER 1500VA/900W",
-    "specs": "120V 60/50HZ 4 TOMAS",
-    "price": 100,
-    "priceCashea": "",
-    "category": "ups",
-    "img": "/images/15000VA.webp"
-  },
-  {
     "id": 66,
     "name": "UPS FORZA 1500VA/840W",
     "specs": "8 TOMAS 120V",
@@ -565,15 +547,6 @@
     "priceCashea": "",
     "category": "ups",
     "img": "/images/FX-1500.webp"
-  },
-  {
-    "id": 67,
-    "name": "UPS ENERGIZER 2000VA/1200W",
-    "specs": "120V 60/50HZ 4 TOMAS",
-    "price": 120,
-    "priceCashea": "",
-    "category": "ups",
-    "img": "/images/2000VA.webp"
   },
   {
     "id": 68,
