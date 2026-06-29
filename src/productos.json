@@ -1,0 +1,884 @@
+[
+  {
+    "id": 1,
+    "name": "LAPTOP ASUS VIVO BOOK 15 RYZEN 7 7520U",
+    "specs": "500 GB M.2 SSD | 8GB DDR5 S-DIMM | 15.6\" FHD| WIFI 6 | TECLADO NUMERICO",
+    "price": 520,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/ASUS-RYZEN7.png"
+  },
+  {
+    "id": 2,
+    "name": "LAPTOP COMPAQ Q-BOOK INTEL CORE i5-1235U",
+    "specs": "250 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
+    "price": 530,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/COMPA.png"
+  },
+  {
+    "id": 3,
+    "name": "LAPTOP COMPAQ Q-BOOK INTEL CORE i3-1215U",
+    "specs": "250 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
+    "price": 480,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/I3-1235U.png"
+  },
+  {
+    "id": 4,
+    "name": "LAPTOP DELL LATITUDE 5400 i5-8365U (REFURBISHED)",
+    "specs": "250 GB M.2 SSD | 8GB DDR4 | 14\" FHD TACTIL | WIFI 5 | BLUETOOTH 5.0 ",
+    "price": 250,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/I5-5400.png"
+  },
+  {
+    "id": 5,
+    "name": "LAPTOP DELL LATITUDE 5400 i7-8665U (REFURBISHED)",
+    "specs": "250 GB M.2 SSD | 16GB DDR4 | 14\" FHD | WIFI 5 | BLUETOOTH 5.0",
+    "price": 300,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/I5-5400.png"
+  },
+  {
+    "id": 6,
+    "name": "COMBO LAPTOP i5-8365U + BOLSO",
+    "specs": "250 GB M.2 SSD | 8GB DDR4 | 14\" FHD TACTIL  WIFI 5 | BLUETOOTH 5.0 | BOLSO ORIGINAL HP 15.6\"",
+    "price": 280,
+    "priceCashea": "",
+    "category": "combos laptops",
+    "img": "/images/COMBOI7.png"
+  },
+  {
+    "id": 7,
+    "name": "COMBO LAPTOP i7-8665U + BOLSO",
+    "specs": "250 GB M.2 SSD | 16GB DDR4 | 14\" FHD WIFI 5 | BLUETOOTH 5.0 | BOLSO ORIGINAL HP 15.6\"",
+    "price": 330,
+    "priceCashea": "",
+    "category": "combos laptops",
+    "img": "/images/COMBOI7.png"
+  },
+  {
+    "id": 8,
+    "name": "COMBO DELL 3020 PENTIUM G3250 + MONITOR 20\"",
+    "specs": "4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE SLIM",
+    "price": 140,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-PENTIUM.png"
+  },
+  {
+    "id": 9,
+    "name": "COMBO HP 8300 i3-2120 + MONITOR 20\"",
+    "specs": "4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM",
+    "price": 140,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I3-2120.png"
+  },
+  {
+    "id": 10,
+    "name": "COMBO HP 8300 i3-3220 + MONITOR 20\"",
+    "specs": "4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM",
+    "price": 155,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I3-3220.png"
+  },
+  {
+    "id": 11,
+    "name": "COMBO HP i3-4130 + MONITOR 20\"",
+    "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM",
+    "price": 170,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I3-4130.png"
+  },
+  {
+    "id": 12,
+    "name": "COMBO HP i3-6100T + MONITOR 20\"",
+    "specs": "4GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
+    "price": 185,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I3-6100T.png"
+  },
+  {
+    "id": 13,
+    "name": "COMBO HP i3-6100 + MONITOR 20\"",
+    "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
+    "price": 195,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I3-6100.png"
+  },
+  {
+    "id": 14,
+    "name": "COMBO LENOVO i3-7100 + MONITOR 20\"",
+    "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
+    "price": 215,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I3-7100.png"
+  },
+  {
+    "id": 16,
+    "name": "COMBO DELL i3-8100 + MONITOR 20\"",
+    "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE SLIM",
+    "price": 225,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I3-8100-SFF.png"
+  },
+  {
+    "id": 17,
+    "name": "COMBO DELL i3-9100 + MONITOR 20\"",
+    "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
+    "price": 255,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I3-9100.png"
+  },
+  {
+    "id": 18,
+    "name": "COMBO DELL i5-4590T + MONITOR 20\"",
+    "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
+    "price": 170,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I5-4590T.png"
+  },
+  {
+    "id": 19,
+    "name": "COMBO DELL i5-4590 + MONITOR 20\"",
+    "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE SLIMS",
+    "price": 205,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I5-4590.png"
+  },
+  {
+    "id": 20,
+    "name": "COMBO HP i5-4570/4590 + MONITOR 20\"",
+    "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
+    "price": 185,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I5-4570-4590.png"
+  },
+  {
+    "id": 21,
+    "name": "COMBO HP i5-4570/4590 + MONITOR 20\"",
+    "specs": "8GB DDR3 | 240GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
+    "price": 200,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I5-4570-4590.png"
+  },
+  {
+    "id": 22,
+    "name": "COMBO HP RYZEN 5 PRO 2400G + MONITOR 20\"",
+    "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
+    "price": 255,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-RYZEN-2400.png"
+  },
+  {
+    "id": 23,
+    "name": "COMBO HP RYZEN 5 PRO 3400G + MONITOR 20\"",
+    "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
+    "price": 275,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-RYZEN-3400.png"
+  },
+  {
+    "id": 24,
+    "name": "COMBO HP i5-9500 + MONITOR 20\"",
+    "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
+    "price": 325,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I3-6100.png"
+  },
+  {
+    "id": 25,
+    "name": "COMBO HP i5-10500 + MONITOR 20\"",
+    "specs": "8GB DDR4 | 240GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE SLIM",
+    "price": 400,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I5-10500.png"
+  },
+  {
+    "id": 26,
+    "name": "COMBO HP i7-4790 + MONITOR 20\"",
+    "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
+    "price": 200,
+    "priceCashea": "",
+    "category": "combos pc",
+    "img": "/images/COMBO-I7-4790.png"
+  },
+  {
+    "id": 28,
+    "name": "DELL OPTIPLEX 380 CORE 2 DUO",
+    "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) | CASE M-TOWER",
+    "price": 65,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-CORE.webp"
+  },
+  {
+    "id": 29,
+    "name": "DELL OPTIPLEX 3020 PENTIUM G3250",
+    "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
+    "price": 75,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-SFF.webp"
+  },
+  {
+    "id": 30,
+    "name": "HP ELITE COMPAQ 8300 i3-2100/2120",
+    "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM",
+    "price": 75,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-USFF.webp"
+  },
+  {
+    "id": 31,
+    "name": "HP ELITE COMPAQ 8300 i3-3220",
+    "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM",
+    "price": 90,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-USFF.webp"
+  },
+  {
+    "id": 32,
+    "name": "HP ELITE DESK 800 G1 i3-4130",
+    "specs": "GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM",
+    "price": 105,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-US.webp"
+  },
+  {
+    "id": 33,
+    "name": "HP PRO DESK 600 G1 i3-4130",
+    "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE M-TOWER",
+    "price": 95,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-MT.webp"
+  },
+  {
+    "id": 34,
+    "name": "HP PRO DESK 600 G2 i3-6100T",
+    "specs": "4GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
+    "price": 120,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-MINI.webp"
+  },
+  {
+    "id": 35,
+    "name": "HP PRO DESK 600 G2 i3-6100",
+    "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE M-TOWER",
+    "price": 130,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-MT.webp"
+  },
+  {
+    "id": 37,
+    "name": "DELL OPTIPLEX 3060 i3-8100",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | DISPLAYPORT (2)| CASE SLIM",
+    "price": 160,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-SFFN.webp"
+  },
+  {
+    "id": 38,
+    "name": "DELL OPTIPLEX 3070 i3-9100",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | DISPLAYPORT (2)| CASE MINI PC",
+    "price": 190,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-MINI.webp"
+  },
+  {
+    "id": 39,
+    "name": "DELL OPTIPLEX 3020 i5-4590T",
+    "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE MINI PC",
+    "price": 105,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-MINI.webp"
+  },
+  {
+    "id": 40,
+    "name": "DELL OPTIPLEX 3020 i5-4590",
+    "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
+    "price": 135,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-SFF.webp"
+  },
+  {
+    "id": 41,
+    "name": "HP ELITE DESK 800 G1 i5-4570/4590",
+    "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE M-TOWER",
+    "price": 120,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-MT.webp"
+  },
+  {
+    "id": 42,
+    "name": "HP ELITE DESK 705 G4 RYZEN 5 PRO 2400G",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
+    "price": 190,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-MINI.webp"
+  },
+  {
+    "id": 43,
+    "name": "HP ELITE DESK 800 G4 i5-8500       ",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
+    "price": 210,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-MINI.webp"
+  },
+  {
+    "id": 44,
+    "name": "HP ELITE DESK 705 G5 RYZEN 5 PRO 3400G",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
+    "price": 210,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-MINI.webp"
+  },
+  {
+    "id": 45,
+    "name": "HP ELITE DESK 800 G4 i5-9500       ",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
+    "price": 260,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-MINI.webp"
+  },
+  {
+    "id": 46,
+    "name": "HP PRO DESK 600 G6 i5-10500",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | DISPLAYPORT (2)| CASE SLIM",
+    "price": 320,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-MINI.webp"
+  },
+  {
+    "id": 47,
+    "name": "HP ELITE DESK 800 G1 i7-4790",
+    "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE M-TOWER",
+    "price": 145,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/HP-MT.webp"
+  },
+  {
+    "id": 48,
+    "name": "DELL PRECISION 3620 i7-6700",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE TOWER",
+    "price": 190,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-PRE.webp"
+  },
+  {
+    "id": 49,
+    "name": "DELL OPTIPLEX 7040 i7-6700",
+    "specs": "16GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
+    "price": 245,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-SFFN1.webp"
+  },
+  {
+    "id": 50,
+    "name": "DELL OPTIPLEX 5050 i7-7700",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
+    "price": 225,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/DELL-SFFN1.webp"
+  },
+  {
+    "id": 51,
+    "name": "DELL OPTIPLEX 7450 AIO i7-7700",
+    "specs": "8GB DDR4 | 240GB SSD | PANTALLA 23.8'| RED GIGABIT | COMBO MOUSE Y TECLADO",
+    "price": 360,
+    "priceCashea": "",
+    "category": "equipos",
+    "img": "/images/AIO.webp"
+  },
+  {
+    "id": 52,
+    "name": "MONITOR PARA LAPTOP 15.6 PULGADAS IPS FHD 1920X1080 TIPO C",
+    "specs": "FHD 1920X1080 TIPO C",
+    "price": 90,
+    "priceCashea": "",
+    "category": "monitores",
+    "img": "/images/MONITOR1.webp"
+  },
+  {
+    "id": 53,
+    "name": "MONITOR AUCE LED 20 PULGADAS",
+    "specs": "1600X900 60HZ VGA-HDMI NUEVO",
+    "price": 55,
+    "priceCashea": "",
+    "category": "monitores",
+    "img": "/images/AUCE20.webp"
+  },
+  {
+    "id": 54,
+    "name": "MONITOR SPIDERTEC FULL HD 21.5 PULGADAS",
+    "specs": "1920X1080 VGA-HDMI NUEVO",
+    "price": 75,
+    "priceCashea": "",
+    "category": "monitores",
+    "img": "/images/SPIDER21.webp"
+  },
+  {
+    "id": 55,
+    "name": "MONITOR COMPAQ 22 PULGADA",
+    "specs": "100HZ FHD 19020X1080",
+    "price": 120,
+    "priceCashea": "",
+    "category": "monitores",
+    "img": "/images/COMPAQ22.webp"
+  },
+  {
+    "id": 56,
+    "name": "MONITOR COMPAQ 24 PULGADAS",
+    "specs": "100HZ IPS FHD 19020X1080",
+    "price": 145,
+    "priceCashea": "",
+    "category": "monitores",
+    "img": "/images/COMPAQ24.webp"
+  },
+  {
+    "id": 57,
+    "name": "MONITOR CURVO ULTRAWIDE INNOCN",
+    "specs": "49 PULGADAS LCD ",
+    "price": 1075,
+    "priceCashea": "",
+    "category": "monitores",
+    "img": "/images/49INC.webp"
+  },
+  {
+    "id": 58,
+    "name": "FUENTE DE PODER AGILER 600W",
+    "specs": "20+4+2 SATA NUEVA",
+    "price": 22,
+    "priceCashea": "",
+    "category": "fuentes",
+    "img": "/images/600W.webp"
+  },
+  {
+    "id": 59,
+    "name": "FUENTE DE PODER AGILER 700W",
+    "specs": "20+4 +4IDE 1FDD+2SATA+6P (PCI)+P8",
+    "price": 45,
+    "priceCashea": "",
+    "category": "fuentes",
+    "img": "/images/700W.webp"
+  },
+  {
+    "id": 60,
+    "name": "FUENTE DE PODER AGILER 1000W",
+    "specs": "20+4 +4IDE 1FDD+2SATA+6P (PCI)+P8",
+    "price": 57,
+    "priceCashea": "",
+    "category": "fuentes",
+    "img": "/images/1000W.webp"
+  },
+  {
+    "id": 61,
+    "name": "UPS CDP 500VA 250W",
+    "specs": "8 TOMAS SALIDAS AVR 4 120V",
+    "price": 50,
+    "priceCashea": "",
+    "category": "ups",
+    "img": "/images/CDP.webp"
+  },
+  {
+    "id": 62,
+    "name": "UPS HIKVISION 600VA 360W",
+    "specs": "PROTECCION 120VCA 4 RESPALDO 2 AVR",
+    "price": 45,
+    "priceCashea": "",
+    "category": "ups",
+    "img": "/images/HIKVISION.webp"
+  },
+  {
+    "id": 63,
+    "name": "UPS ENERGIZER 1000VA/600W",
+    "specs": "120V 60/50HZ 4 TOMAS",
+    "price": 75,
+    "priceCashea": "",
+    "category": "ups",
+    "img": "/images/1000VA.webp"
+  },
+  {
+    "id": 64,
+    "name": "UPS APC EASY 1KVA",
+    "specs": "600W 120V AVR 6 TOMAS",
+    "price": 225,
+    "priceCashea": "",
+    "category": "ups",
+    "img": "/images/APC1000.webp"
+  },
+  {
+    "id": 65,
+    "name": "UPS ENERGIZER 1500VA/900W",
+    "specs": "120V 60/50HZ 4 TOMAS",
+    "price": 100,
+    "priceCashea": "",
+    "category": "ups",
+    "img": "/images/15000VA.webp"
+  },
+  {
+    "id": 66,
+    "name": "UPS FORZA 1500VA/840W",
+    "specs": "8 TOMAS 120V",
+    "price": 295,
+    "priceCashea": "",
+    "category": "ups",
+    "img": "/images/FX-1500.webp"
+  },
+  {
+    "id": 67,
+    "name": "UPS ENERGIZER 2000VA/1200W",
+    "specs": "120V 60/50HZ 4 TOMAS",
+    "price": 120,
+    "priceCashea": "",
+    "category": "ups",
+    "img": "/images/2000VA.webp"
+  },
+  {
+    "id": 68,
+    "name": "TECLADO ULTRA DELGADO USB IMEXX / MOUSE IMEX",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 10,
+    "priceCashea": "",
+    "category": "ups",
+    "img": "/images/COMBO1.webp"
+  },
+  {
+    "id": 69,
+    "name": "COMBO DELL TECLADO Y MOUSE USB ESPAÑOL",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 35,
+    "priceCashea": "",
+    "category": "teclados",
+    "img": "/images/COMBO-DELL1.webp"
+  },
+  {
+    "id": 70,
+    "name": "COMBO TECLADO Y MOUSE LOGITECH MK120 USB NEGRO ESPAÑOL",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 30,
+    "priceCashea": "",
+    "category": "teclados",
+    "img": "/images/COMBO-LOGI.webp"
+  },
+  {
+    "id": 71,
+    "name": "COMBO DELL TECLADO Y MOUSE INALAMBRICO ESPAÑOL",
+    "specs": "INALAMBRICO - 5M DE ALCANCE",
+    "price": 50,
+    "priceCashea": "",
+    "category": "teclados",
+    "img": "/images/COMBO-DELL2.webp"
+  },
+  {
+    "id": 72,
+    "name": "COMBO TECLADO Y MOUSE MARVO INALAMBRICO NEGRO ESPAÑOL",
+    "specs": "INALAMBRICO - 5M DE ALCANCE",
+    "price": 25,
+    "priceCashea": "",
+    "category": "teclados",
+    "img": "/images/MARVO1.webp"
+  },
+  {
+    "id": 73,
+    "name": "COMBO TECLADO Y MOUSE XTECH MIRANA GAMING USB",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 25,
+    "priceCashea": "",
+    "category": "teclados",
+    "img": "/images/COMBOROSA.webp"
+  },
+  {
+    "id": 74,
+    "name": "COMBO TECLADO Y MOUSE REDRAGON S101 GAMING USB ",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 50,
+    "priceCashea": "",
+    "category": "teclados",
+    "img": "/images/COMBODRAGON.webp"
+  },
+  {
+    "id": 75,
+    "name": "MOUSE LOGITECH M196 BLUETOOTH GRAFITO",
+    "specs": "INALAMBRICO - 5M DE ALCANCE",
+    "price": 15,
+    "priceCashea": "",
+    "category": "mouse",
+    "img": "/images/M196.webp"
+  },
+  {
+    "id": 76,
+    "name": "MOUSE LOGITECH M185 INALAMBRICO 2.4GHZ PLATA OSCURO",
+    "specs": "INALAMBRICO - 5M DE ALCANCE",
+    "price": 20,
+    "priceCashea": "",
+    "category": "mouse",
+    "img": "/images/M180.webp"
+  },
+  {
+    "id": 77,
+    "name": "MOUSE KLIPEXTREME INALÁMBRICO ARROW BLANCO 2XBATERIA AAA",
+    "specs": "INALAMBRICO - 5M DE ALCANCE",
+    "price": 13,
+    "priceCashea": "",
+    "category": "mouse",
+    "img": "/images/KRIP.webp"
+  },
+  {
+    "id": 78,
+    "name": "MOUSE GAMING RGB PREDATOR REDRAGON USB 8000DPI",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 25,
+    "priceCashea": "",
+    "category": "mouse",
+    "img": "/images/DRAGON.webp"
+  },
+  {
+    "id": 79,
+    "name": "MOUSE INALAMBRICO LOGITECH G305 LIGHTSPEED",
+    "specs": "INALAMBRICO - 5M DE ALCANCE",
+    "price": 55,
+    "priceCashea": "",
+    "category": "mouse",
+    "img": "/images/G502.webp"
+  },
+  {
+    "id": 80,
+    "name": "MAGEGEE TECLADO MECÁNICO 60% SWITCH AZUL NEGRO/GRIS",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 35,
+    "priceCashea": "",
+    "category": "teclados",
+    "img": "/images/MECANICO1.webp"
+  },
+  {
+    "id": 81,
+    "name": "MAGEGEE TECLADO MECÁNICO 60% SWITCH ROJO NEGRO/BLANCO",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 35,
+    "priceCashea": "",
+    "category": "teclados",
+    "img": "/images/MECANICO2.webp"
+  },
+  {
+    "id": 82,
+    "name": "MAGEGEE TECLADO MECÁNICO 60% SWITCH ROJO NEGRO/BLANCO",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 35,
+    "priceCashea": "",
+    "category": "teclados",
+    "img": "/images/MECANICO2.webp"
+  },
+  {
+    "id": 83,
+    "name": "AUDIFONO PRIMUS GAMINIG 3.5MM CON MICROFONO",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 20,
+    "priceCashea": "",
+    "category": "audifonos",
+    "img": "/images/PRIMUS.webp"
+  },
+  {
+    "id": 84,
+    "name": "AUDIFONOS LOGITECH H390 USB CANCELACION RUIDO NEGRO",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 30,
+    "priceCashea": "",
+    "category": "audifonos",
+    "img": "/images/LOGI-NEGRO.webp"
+  },
+  {
+    "id": 85,
+    "name": "AUDIFONOS LOGITECH H390 USB CANCELACION RUIDO ROSADOO",
+    "specs": "ALAMBRICO - 1.5M DE CABLE",
+    "price": 30,
+    "priceCashea": "",
+    "category": "audifonos",
+    "img": "/images/LOGI-ROSADO.webp"
+  },
+  {
+    "id": 86,
+    "name": "AUDIFONOS GAMING CORSAIR VOID NEGRO RGB ELITE WIRELESS",
+    "specs": "INALAMBRICO - 5M DE ALCANCE",
+    "price": 30,
+    "priceCashea": "",
+    "category": "audifonos",
+    "img": "/images/CORSAIR.webp"
+  },
+  {
+    "id": 87,
+    "name": "IMPRESORA CANON IMAGECLASS LBP6030W LÁSER MONOCROMÁTICA",
+    "specs": "TONER - WIFI",
+    "price": 175,
+    "priceCashea": "",
+    "category": "impresoras",
+    "img": "/images/6030.webp"
+  },
+  {
+    "id": 88,
+    "name": "IMPRESORA HP LASERJET PRO 3003DW WLS 33PPM 256MB 110V",
+    "specs": "TONER - WIFI",
+    "price": 235,
+    "priceCashea": "",
+    "category": "impresoras",
+    "img": "/images/3003.webp"
+  },
+  {
+    "id": 89,
+    "name": "IMPRESORA EPSON L1250 ECOTANK USB-WIFI T544",
+    "specs": "TINTA CONTINUA - WIFI",
+    "price": 220,
+    "priceCashea": "",
+    "category": "impresoras",
+    "img": "/images/L1250.webp"
+  },
+  {
+    "id": 90,
+    "name": "IMPRESORA EPSON L3250 USB-WIFI TINTA CONTINUA ORIGINAL",
+    "specs": "TINTA CONTINUA - WIFI",
+    "price": 255,
+    "priceCashea": "",
+    "category": "impresoras",
+    "img": "/images/L3250.webp"
+  },
+  {
+    "id": 91,
+    "name": "MOUSE PAD XTECH MARVEL AVENGERS 22X18CM",
+    "specs": "",
+    "price": 3,
+    "priceCashea": "",
+    "category": "mouse",
+    "img": "/images/PAD1.webp"
+  },
+  {
+    "id": 92,
+    "name": "MOUSE PAD RAZER GOLIATHUS SPEED COSMIC",
+    "specs": "",
+    "price": 3,
+    "priceCashea": "",
+    "category": "mouse",
+    "img": "/images/PAD2.webp"
+  },
+  {
+    "id": 93,
+    "name": "LENOVO E440 I3-4000N",
+    "specs": "256 GB M.2 SSD | 4GB DDR3 | 14\" FHD| WIFI | VGA-HDMI-BLUETOOTH",
+    "price": 110,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/LENOVOI3.webp"
+  },
+  {
+    "id": 94,
+    "name": "LENOVO E450 I3-5005U",
+    "specs": "256 GB M.2 SSD | 4GB DDR3 | 14\" FHD| WIFI | VGA-HDMI-BLUETOOTH",
+    "price": 130,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/LENOVOI3.webp"
+  },
+  {
+    "id": 95,
+    "name": "LENOVO E570 I3-6006U",
+    "specs": "256 GB M.2 SSD | 4GB DDR3 | 15.6\" FHD| WIFI | VGA-HDMI-BLUETOOTH",
+    "price": 150,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/LENOVOI3-156.webp"
+  },
+  {
+    "id": 96,
+    "name": "LENOVO E580 I3-7020U",
+    "specs": "256 GB M.2 SSD | 4GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH",
+    "price": 160,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/LENOVOI3-156.webp"
+  },
+  {
+    "id": 97,
+    "name": "LENOVO E590 I3-8145U",
+    "specs": "256 GB M.2 SSD | 4GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH",
+    "price": 170,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/LENOVOI3-156.webp"
+  },
+  {
+    "id": 98,
+    "name": "LENOVO E590 I3-8145U",
+    "specs": "256 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH",
+    "price": 180,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/LENOVOI3-156.webp"
+  },
+  {
+    "id": 99,
+    "name": "LENOVO E595 RYZEN 5 3500U",
+    "specs": "256 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH",
+    "price": 260,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/LENOVOI3-156.webp"
+  },
+  {
+    "id": 100,
+    "name": "LENOVO E15 I5-10210U",
+    "specs": "256 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH",
+    "price": 320,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/LENOVO156.webp"
+  },
+  {
+    "id": 101,
+    "name": "LENOVO E15 I7-10510U",
+    "specs": "256 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH",
+    "price": 360,
+    "priceCashea": "",
+    "category": "laptops",
+    "img": "/images/LENOVO156.webp"
+  }
+]

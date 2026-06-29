@@ -1,0 +1,12 @@
+/* src/App.css */
+
+/* Esto asegura que la notificación se vea sobre cualquier otro elemento */
+.Toastify__toast-container {
+  z-index: 999999 !important;
+}
+
+/* Esto fuerza el color verde para tu mensaje de divisas */
+.Toastify__toast--success {
+  background: #059669 !important; /* Verde elegante */
+  color: white !important;
+}
