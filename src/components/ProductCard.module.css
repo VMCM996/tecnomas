@@ -142,18 +142,20 @@
 /* 💻📱 Configuración de la grilla (3 en PC, 1 en teléfono) */
 .gridContainer {
   display: grid;
-  grid-template-columns: 1fr; /* 1 producto por fila en teléfonos */
+  grid-template-columns: 100%; /* 1 sola columna para teléfonos ocupando todo el ancho */
+  justify-content: center;   /* Centra la columna horizontalmente */
+  align-items: center;       /* Centra verticalmente si es necesario */
+  justify-items: center;     /* Obliga a que cada tarjeta individual esté centrada en su celda */
   gap: 20px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
-  margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
   .gridContainer {
-    grid-template-columns: repeat(3, 1fr); /* 3 productos por fila en PC */
+    grid-template-columns: repeat(3, 1fr); /* 3 productos por fila en PC (como acordamos en tus configuraciones) */
   }
 }
 
