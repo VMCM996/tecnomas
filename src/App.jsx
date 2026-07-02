@@ -22,7 +22,7 @@ function App() {
   const [isCasheaMode, setIsCasheaMode] = useState(false);
 
   // 💱 Tasas de cambio diarias editables
-  const TASA_BOLIVARES = 750;
+  const TASA_BOLIVARES = 740;
   const TASA_CASHEA = 639;
 
   // 🔄 Efecto para cargar los productos y disparar la notificación verde
