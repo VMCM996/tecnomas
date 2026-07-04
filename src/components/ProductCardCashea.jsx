@@ -21,7 +21,7 @@ function ProductCardCashea({
   const precio1 = resultadoCon8Porciento * tasaBs;
   const precioCasheaTotal = precio1 / tasaRetorno;
 
-  const inicialDeCashea = Math.ceil(precioCasheaTotal * 0.20);
+  const inicialDeCashea = Math.ceil(precioCasheaTotal * 0.2);
   const cuotasDeCashea = Math.ceil((precioCasheaTotal - inicialDeCashea) / 3);
 
   // Separamos las especificaciones por coma para colocarlas como viñetas limpias
@@ -48,9 +48,7 @@ function ProductCardCashea({
         </ul>
 
         {/* Aviso de precio sujeto a cambios (Discreto y elegante) */}
-        <div className={styles.priceWarning}>
-          Precio sujeto a cambios
-        </div>
+        <div className={styles.priceWarning}>Precio sujeto a cambios</div>
 
         {/* 3. Módulo de Financiamiento Cashea */}
         <div className={styles.casheaBanner}>

@@ -6,7 +6,8 @@
     "price": 520,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/ASUS-RYZEN7.png"
+    "img": "/images/ASUS-RYZEN7.png",
+    "brandLogo": "/images/LogoAsus.png"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "price": 530,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/COMPA.png"
+    "img": "/images/COMPA.png",
+    "brandLogo": "/images/LogoCompaq.png"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "price": 480,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/I3-1235U.png"
+    "img": "/images/I3-1235U.png",
+    "brandLogo": "/images/LogoCompaq.png"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "price": 250,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/I5-5400.png"
+    "img": "/images/I5-5400.png",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "price": 300,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/I5-5400.png"
+    "img": "/images/I5-5400.png",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "price": 280,
     "priceCashea": "",
     "category": "combos laptops",
-    "img": "/images/COMBOI7.png"
+    "img": "/images/COMBOI7.png",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "price": 330,
     "priceCashea": "",
     "category": "combos laptops",
-    "img": "/images/COMBOI7.png"
+    "img": "/images/COMBOI7.png",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "price": 140,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-PENTIUM.png"
+    "img": "/images/COMBO-PENTIUM.png",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "price": 140,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I3-2120.png"
+    "img": "/images/COMBO-I3-2120.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "price": 155,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I3-3220.png"
+    "img": "/images/COMBO-I3-3220.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "price": 170,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I3-4130.png"
+    "img": "/images/COMBO-I3-4130.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "price": 185,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I3-6100T.png"
+    "img": "/images/COMBO-I3-6100T.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "price": 195,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I3-6100.png"
+    "img": "/images/COMBO-I3-6100.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "price": 215,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I3-7100.png"
+    "img": "/images/COMBO-I3-7100.png",
+    "brandLogo": "/images/LogoLenovo.png"
   },
   {
     "id": 16,
@@ -132,7 +146,8 @@
     "price": 225,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I3-8100-SFF.png"
+    "img": "/images/COMBO-I3-8100-SFF.png",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 17,
@@ -141,7 +156,8 @@
     "price": 255,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I3-9100.png"
+    "img": "/images/COMBO-I3-9100.png",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 18,
@@ -150,7 +166,8 @@
     "price": 170,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I5-4590T.png"
+    "img": "/images/COMBO-I5-4590T.png",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 19,
@@ -159,7 +176,8 @@
     "price": 205,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I5-4590.png"
+    "img": "/images/COMBO-I5-4590.png",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 20,
@@ -168,7 +186,8 @@
     "price": 185,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I5-4570-4590.png"
+    "img": "/images/COMBO-I5-4570-4590.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 21,
@@ -177,7 +196,8 @@
     "price": 200,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I5-4570-4590.png"
+    "img": "/images/COMBO-I5-4570-4590.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 22,
@@ -186,7 +206,8 @@
     "price": 255,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-RYZEN-2400.png"
+    "img": "/images/COMBO-RYZEN-2400.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 23,
@@ -195,7 +216,8 @@
     "price": 275,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-RYZEN-3400.png"
+    "img": "/images/COMBO-RYZEN-3400.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 24,
@@ -204,7 +226,8 @@
     "price": 325,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I3-6100.png"
+    "img": "/images/COMBO-I3-6100.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 25,
@@ -213,7 +236,8 @@
     "price": 400,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I5-10500.png"
+    "img": "/images/COMBO-I5-10500.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 26,
@@ -222,7 +246,8 @@
     "price": 200,
     "priceCashea": "",
     "category": "combos pc",
-    "img": "/images/COMBO-I7-4790.png"
+    "img": "/images/COMBO-I7-4790.png",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 28,
@@ -231,7 +256,8 @@
     "price": 65,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-CORE.webp"
+    "img": "/images/DELL-CORE.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 29,
@@ -240,7 +266,8 @@
     "price": 75,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-SFF.webp"
+    "img": "/images/DELL-SFF.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 30,
@@ -249,7 +276,8 @@
     "price": 75,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-USFF.webp"
+    "img": "/images/HP-USFF.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 31,
@@ -258,7 +286,8 @@
     "price": 90,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-USFF.webp"
+    "img": "/images/HP-USFF.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 32,
@@ -267,7 +296,8 @@
     "price": 105,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-US.webp"
+    "img": "/images/HP-US.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 33,
@@ -276,7 +306,8 @@
     "price": 95,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MT.webp"
+    "img": "/images/HP-MT.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 34,
@@ -285,7 +316,8 @@
     "price": 120,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-MINI.webp"
+    "img": "/images/DELL-MINI.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 35,
@@ -294,7 +326,8 @@
     "price": 130,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MT.webp"
+    "img": "/images/HP-MT.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 37,
@@ -303,7 +336,8 @@
     "price": 160,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-SFFN.webp"
+    "img": "/images/DELL-SFFN.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 38,
@@ -312,7 +346,8 @@
     "price": 190,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-MINI.webp"
+    "img": "/images/DELL-MINI.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 39,
@@ -321,7 +356,8 @@
     "price": 105,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-MINI.webp"
+    "img": "/images/DELL-MINI.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 40,
@@ -330,7 +366,8 @@
     "price": 135,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-SFF.webp"
+    "img": "/images/DELL-SFF.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 41,
@@ -339,7 +376,8 @@
     "price": 120,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MT.webp"
+    "img": "/images/HP-MT.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 42,
@@ -348,7 +386,8 @@
     "price": 190,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MINI.webp"
+    "img": "/images/HP-MINI.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 43,
@@ -357,7 +396,8 @@
     "price": 210,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MINI.webp"
+    "img": "/images/HP-MINI.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 44,
@@ -366,7 +406,8 @@
     "price": 210,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MINI.webp"
+    "img": "/images/HP-MINI.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 45,
@@ -375,7 +416,8 @@
     "price": 260,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MINI.webp"
+    "img": "/images/HP-MINI.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 46,
@@ -384,7 +426,8 @@
     "price": 320,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MINI.webp"
+    "img": "/images/HP-MINI.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 47,
@@ -393,7 +436,8 @@
     "price": 145,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MT.webp"
+    "img": "/images/HP-MT.webp",
+    "brandLogo": "/images/LogoHP.png"
   },
   {
     "id": 48,
@@ -402,7 +446,8 @@
     "price": 190,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-PRE.webp"
+    "img": "/images/DELL-PRE.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 49,
@@ -411,7 +456,8 @@
     "price": 245,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-SFFN1.webp"
+    "img": "/images/DELL-SFFN1.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 50,
@@ -420,7 +466,8 @@
     "price": 225,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/DELL-SFFN1.webp"
+    "img": "/images/DELL-SFFN1.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 51,
@@ -429,7 +476,8 @@
     "price": 360,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/AIO.webp"
+    "img": "/images/AIO.webp",
+    "brandLogo": "/images/LogoDell.png"
   },
   {
     "id": 52,
@@ -771,7 +819,8 @@
     "price": 110,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/LENOVOI3.webp"
+    "img": "/images/LENOVOI3.webp",
+    "brandLogo": "/images/LogoLenovo.png"
   },
   {
     "id": 94,
@@ -780,7 +829,8 @@
     "price": 130,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/LENOVOI3.webp"
+    "img": "/images/LENOVOI3.webp",
+    "brandLogo": "/images/LogoLenovo.png"
   },
   {
     "id": 95,
@@ -789,7 +839,8 @@
     "price": 140,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp"
+    "img": "/images/LENOVOI3-156.webp",
+    "brandLogo": "/images/LogoLenovo.png"
   },
   {
     "id": 96,
@@ -798,7 +849,8 @@
     "price": 160,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp"
+    "img": "/images/LENOVOI3-156.webp",
+    "brandLogo": "/images/LogoLenovo.png"
   },
   {
     "id": 97,
@@ -807,7 +859,8 @@
     "price": 170,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp"
+    "img": "/images/LENOVOI3-156.webp",
+    "brandLogo": "/images/LogoLenovo.png"
   },
   {
     "id": 98,
@@ -816,7 +869,8 @@
     "price": 180,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp"
+    "img": "/images/LENOVOI3-156.webp",
+    "brandLogo": "/images/LogoLenovo.png"
   },
   {
     "id": 99,
@@ -825,7 +879,8 @@
     "price": 260,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp"
+    "img": "/images/LENOVOI3-156.webp",
+    "brandLogo": "/images/LogoLenovo.png"
   },
   {
     "id": 100,
@@ -834,7 +889,8 @@
     "price": 320,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/LENOVO156.webp"
+    "img": "/images/LENOVO156.webp",
+    "brandLogo": "/images/LogoLenovo.png"
   },
   {
     "id": 101,
@@ -843,6 +899,7 @@
     "price": 360,
     "priceCashea": "",
     "category": "laptops",
-    "img": "/images/LENOVO156.webp"
+    "img": "/images/LENOVO156.webp",
+    "brandLogo": "/images/LogoLenovo.png"
   }
 ]

@@ -1,37 +1,43 @@
 import styles from "./ProductCard.module.css";
-import logoWhatsapp from "../assets/wps.svg";
 
-function ProductCard({ name, price, specs, img, onAddToCart }) {
-  const precioEnDivisas = Number(price) || 0;
-  const specsArray = specs ? specs.split(",").map((s) => s.trim()) : [];
-
+function ProductCard({ name, specs, price, img, brandLogo, onAddToCart }) {
   return (
     <div className={styles.card}>
-      <div className={styles.imageWrapper}>
-        <img src={img} alt={name} className={styles.productImage} />
+      {/* Logo */}
+      <div className={styles.logoPlaceholder}>
+        {brandLogo && (
+          <img src={brandLogo} alt="Logo" className={styles.logoImage} />
+        )}
       </div>
 
-      <div className={styles.content}>
-        <h3 className={styles.title}>{name}</h3>
-        
-        <ul className={styles.specsList}>
-          {specsArray.slice(0, 4).map((spec, index) => (
-            <li key={index} className={styles.specItem}>
-              <span className={styles.bulletPoint}>•</span> {spec}
-            </li>
-          ))}
-        </ul>
+      {/* Título */}
+      <h2 className={styles.title}>{name}</h2>
 
-        <div className={styles.priceBox}>
-          <div className={styles.priceAmount}>${precioEnDivisas} USD</div>
-          <div className={styles.priceDisclaimer}>Precio valido para pago en divisas</div>
-        </div>
+      {/* Specs */}
+      <div className={styles.specsContainer}>
+        <span className={styles.specs}>{specs}</span> -
+        <span className={styles.price}> ${Number(price).toFixed(2)}</span>
+      </div>
 
-        <button className={styles.whatsappButton} onClick={onAddToCart}>
-          <img src={logoWhatsapp} alt="WPS" className={styles.whatsappIcon} />
-          PEDIR POR WHATSAPP
+      {/* Imagen */}
+      <img src={img} alt={name} className={styles.image} />
+
+      {/* Botón de WhatsApp (CORREGIDO: Centrado y con ícono) */}
+      <div className={styles.whatsappButtonWrapper}>
+        <button onClick={onAddToCart} className={styles.whatsappButton}>
+          <img
+            src="/images/LogoWs.png"
+            alt="WhatsApp"
+            className={styles.whatsappIcon}
+          />
+          Consultar por WhatsApp
         </button>
       </div>
+
+      {/* Footer */}
+      <footer className={styles.footer}>
+        * Precios válido solo para cancelar en divisas.
+      </footer>
     </div>
   );
 }

@@ -22,8 +22,8 @@ function App() {
   const [isCasheaMode, setIsCasheaMode] = useState(false);
 
   // 💱 Tasas de cambio diarias editables
-  const TASA_BOLIVARES = 740;
-  const TASA_CASHEA = 639;
+  const TASA_BOLIVARES = 770;
+  const TASA_CASHEA = 667;
 
   // 🔄 Efecto para cargar los productos y disparar la notificación verde
   useEffect(() => {
@@ -57,7 +57,7 @@ function App() {
 
     // 🟢 Declaramos el mensaje dependiendo de la condición directamente con const
     const mensaje = isCasheaMode
-      ? `¡Hola Tecnomas! 👋\n\nMe interesa el siguiente equipo con financiamiento Cashea:\n\n*${producto.name}*\n_${producto.specs}_\n\n🔹 *Inicial (20%):* $${Math.ceil(((Number(producto.price) * 1.07 * 815) / 612) * 0.20)}\n🔹 *3 Cuotas de:* $${Math.ceil((((Number(producto.price) * 1.07 * 815) / 612) - Math.ceil(((Number(producto.price) * 1.07 * 815) / 612) * 0.20)) / 3)}\n\n¿Tienen disponibilidad?`
+      ? `¡Hola Tecnomas! 👋\n\nMe interesa el siguiente equipo con financiamiento Cashea:\n\n*${producto.name}*\n_${producto.specs}_\n\n🔹 *Inicial (20%):* $${Math.ceil(((Number(producto.price) * 1.07 * 815) / 612) * 0.2)}\n🔹 *3 Cuotas de:* $${Math.ceil(((Number(producto.price) * 1.07 * 815) / 612 - Math.ceil(((Number(producto.price) * 1.07 * 815) / 612) * 0.2)) / 3)}\n\n¿Tienen disponibilidad?`
       : `¡Hola Tecnomas! 👋\n\nMe interesa el siguiente equipo de tu catálogo:\n\n*${producto.name}*\n_${producto.specs}_\n*Precio:* $${producto.price}\n\n¿Tienen disponibilidad?`;
 
     const mensajeEncriptado = encodeURIComponent(mensaje);
@@ -337,10 +337,11 @@ function App() {
                   specs={prod.specs}
                   price={prod.price}
                   img={prod.img}
+                  brandLogo={prod.brandLogo}
                   tasaDolar={TASA_BOLIVARES} // Se envía la tasa para mostrar el equivalente en Bs si aplica
                   onAddToCart={() => handlePedirPorWhatsApp(prod)}
                 />
-              )
+              ),
             )
           ) : (
             <div

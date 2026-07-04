@@ -7,7 +7,7 @@
   flex-direction: column;
   width: 100%;
   max-width: 320px;
-  height: 580px; 
+  height: 580px;
   font-family: "Inter", sans-serif;
   border: 1px solid #f1f5f9;
   margin: 0 auto; /* Centra la tarjeta cuando esté sola en móvil */
@@ -91,7 +91,7 @@
 }
 
 .casheaBanner {
-  background-color: #FDFA3D;
+  background-color: #fdfa3d;
   border-radius: 12px; /* Bordes un poco menos redondeados */
   padding: 8px; /* Padding reducido de 12px a 8px */
   display: flex;
@@ -210,6 +210,6 @@
 /* A partir de tablets/PC, forzamos exactamente 2 columnas */
 @media (min-width: 769px) {
   .gridContainer {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
   }
 }
