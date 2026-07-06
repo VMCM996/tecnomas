@@ -15,8 +15,8 @@ function ProductCardCashea({
   const precioEnDivisas = Number(price) || 0;
   const precioCasheaTotal =
     (precioEnDivisas * 1.08 * Number(tasaDolar)) / Number(tasaCashea);
-  const inicialDeCashea = precioCasheaTotal * 0.2;
-  const cuotasDeCashea = (precioCasheaTotal - inicialDeCashea) / 3;
+  const inicialDeCashea = Math.ceil(precioCasheaTotal * 0.2);
+  const cuotasDeCashea = Math.ceil((precioCasheaTotal - inicialDeCashea) / 3);
 
   return (
     <div className={styles.card}>
