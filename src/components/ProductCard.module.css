@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   overflow: hidden; /* Esto es vital: corta cualquier contenido que intente salirse */
   padding: 20px 20px 0 20px; /* Quitamos el padding inferior aquí */
 }
@@ -62,7 +62,7 @@
   text-transform: uppercase;
   padding: 15px; /* Padding interno para que el texto se vea bien */
   margin-top: auto; /* Empuja el footer siempre hacia abajo */
-  width: 100%; 
+  width: 100%;
   text-align: center;
   margin-left: -20px; /* Compensamos el padding del card */
   margin-right: -20px;

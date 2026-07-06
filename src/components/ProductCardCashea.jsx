@@ -1,88 +1,87 @@
 import styles from "./ProductCardCashea.module.css";
 import logoCashea from "../assets/Cashea-negro.svg";
-import logoWhatsapp from "../assets/wps.svg";
 
 function ProductCardCashea({
   name,
-  price,
   specs,
+  price,
   img,
   tasaDolar,
   tasaCashea,
+  brandLogo,
   onAddToCart,
 }) {
-  // Conversión a número seguro
-  const precioEnDivisas = Number(price) || 0;
-  const tasaBs = Number(tasaDolar) || 0;
-  const tasaRetorno = Number(tasaCashea) || 0;
-
   // Cálculos financieros
-  const resultadoCon8Porciento = precioEnDivisas * 1.08;
-  const precio1 = resultadoCon8Porciento * tasaBs;
-  const precioCasheaTotal = precio1 / tasaRetorno;
-
+  const precioEnDivisas = Number(price) || 0;
+  const precioCasheaTotal =
+    (precioEnDivisas * 1.08 * Number(tasaDolar)) / Number(tasaCashea);
   const inicialDeCashea = Math.ceil(precioCasheaTotal * 0.2);
   const cuotasDeCashea = Math.ceil((precioCasheaTotal - inicialDeCashea) / 3);
 
-  // Separamos las especificaciones por coma para colocarlas como viñetas limpias
-  const specsArray = specs ? specs.split(",").map((s) => s.trim()) : [];
-
   return (
     <div className={styles.card}>
-      {/* 1. Imagen del producto */}
+      {/* Logo */}
+      <div className={styles.logoPlaceholder}>
+        {brandLogo && (
+          <img src={brandLogo} alt="Logo" className={styles.logoImage} />
+        )}
+      </div>
+      <h3 className={styles.title}>{name}</h3>
+
+      {/* Specs */}
+      <div className={styles.specsContainer}>
+        <span className={styles.specs}>{specs}</span> -
+        <span className={styles.price}> ${Number( Math.ceil(precioCasheaTotal).toFixed(2))}</span>
+      </div>
+
       <div className={styles.imageWrapper}>
         <img src={img} alt={name} className={styles.productImage} />
       </div>
 
-      {/* 2. Contenido principal */}
-      <div className={styles.content}>
-        <h3 className={styles.title}>{name}</h3>
-
-        {/* Viñetas / Especificaciones (Alto contraste) */}
-        <ul className={styles.specsList}>
-          {specsArray.map((spec, index) => (
-            <li key={index} className={styles.specItem}>
-              <span className={styles.bulletPoint}>•</span> {spec}
-            </li>
-          ))}
-        </ul>
-
-        {/* Aviso de precio sujeto a cambios (Discreto y elegante) */}
-        <div className={styles.priceWarning}>Precio sujeto a cambios</div>
-
-        {/* 3. Módulo de Financiamiento Cashea */}
-        <div className={styles.casheaBanner}>
-          <div className={styles.casheaLogoBox}>
-            <img src={logoCashea} alt="Cashea" className={styles.casheaLogo} />
-          </div>
-
-          <div className={styles.casheaBoxBlack}>
-            <div className={styles.casheaBoxTitle}>20% inicial</div>
-            <div className={styles.casheaAmount}>${inicialDeCashea}</div>
-            <div className={styles.casheaSubtext}>quincenal</div>
-          </div>
-
-          <div className={styles.casheaBoxWhite}>
-            <div className={styles.casheaBoxTitle}>+ 3 cuotas</div>
-            <div className={styles.casheaAmount}>${cuotasDeCashea}</div>
-            <div className={styles.casheaSubtext}>quincenales</div>
-          </div>
+      <div className={styles.casheaContainer}>
+        {/* Sección Amarilla */}
+        <div className={styles.casheaYellowBox}>
+          <img src={logoCashea} alt="Cashea" className={styles.casheaLogo} />
+          <span className={styles.casheaText}>¡Cashéalo!</span>
         </div>
 
-        {/* 4. Botón de WhatsApp (Área de toque amplia y cómoda) */}
-        <button className={styles.whatsappButton} onClick={onAddToCart}>
+        {/* Sección de información */}
+        <div className={styles.casheaInfo}>
+          <div className={styles.casheaBox}>
+            <span className={styles.casheaTitle}>Desde el 20% de inicial*</span>
+            <span className={styles.casheaAmount}>
+              ${inicialDeCashea.toFixed(2)}
+            </span>
+          </div>
+
+          <div className={styles.verticalDivider}></div>
+
+          <div className={styles.casheaBox}>
+            <span className={styles.casheaTitle}>
+              + 3 cuotas sin interés de*
+            </span>
+            <span className={styles.casheaAmount}>
+              ${cuotasDeCashea.toFixed(2)}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Botón de WhatsApp (CORREGIDO: Centrado y con ícono) */}
+      <div className={styles.whatsappButtonWrapper}>
+        <button onClick={onAddToCart} className={styles.whatsappButton}>
           <img
-            src={logoWhatsapp}
+            src="/images/LogoWs.png"
             alt="WhatsApp"
             className={styles.whatsappIcon}
           />
-          <span>Pedir por WhatsApp</span>
+          Consultar por WhatsApp
         </button>
-
-        <p className={styles.legal}>
-          *Aprobación sujeta a evaluación de Cashea al momento de pagar.
-        </p>
       </div>
+
+      <footer className={styles.footer}>
+        * Aprobación sujeta a evaluación por Cashea.
+      </footer>
     </div>
   );
 }
