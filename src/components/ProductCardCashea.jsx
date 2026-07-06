@@ -15,12 +15,12 @@ function ProductCardCashea({
   const precioEnDivisas = Number(price) || 0;
   const precioConAumento = precioEnDivisas * 1.08;
   const precioConAumentoBs = precioConAumento * Number(tasaDolar);
-  
+
   // 2. Precio total Cashea: Redondeado hacia arriba (Math.ceil)
   const precioTotalCashea = Math.ceil(precioConAumentoBs / Number(tasaCashea));
-  
+
   // 3. Inicial y Cuotas: Cálculo exacto sin redondeos adicionales
-  const inicialDeCashea = precioTotalCashea * 0.20;
+  const inicialDeCashea = precioTotalCashea * 0.2;
   const totalCuotas = precioTotalCashea - inicialDeCashea;
   const cuotasQuincenales = totalCuotas / 3;
 
@@ -36,12 +36,14 @@ function ProductCardCashea({
 
       {/* Specs y Precio */}
       <div className={styles.specsContainer}>
-  <span className={styles.specs}>{specs}</span>
-  <div className={styles.priceRow}>
-
-    <span> - <strong>${precioTotalCashea.toFixed(2)}</strong></span>
-  </div>
-</div>
+        <span className={styles.specs}>{specs}</span>
+        <div className={styles.priceRow}>
+          <span>
+            {" "}
+            -<strong>${precioTotalCashea.toFixed(2)}</strong>
+          </span>
+        </div>
+      </div>
       <div className={styles.imageWrapper}>
         <img src={img} alt={name} className={styles.productImage} />
       </div>
