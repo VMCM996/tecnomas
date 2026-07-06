@@ -39,7 +39,7 @@ function ProductCardCashea({
   <span className={styles.specs}>{specs}</span>
   <div className={styles.priceRow}>
 
-    <span> | Total Cashea: <strong>${precioTotalCashea.toFixed(2)}</strong></span>
+    <span> - <strong>${precioTotalCashea.toFixed(2)}</strong></span>
   </div>
 </div>
       <div className={styles.imageWrapper}>
