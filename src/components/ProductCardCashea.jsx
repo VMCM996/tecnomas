@@ -37,7 +37,7 @@ function ProductCardCashea({
       {/* Specs y Precio */}
       <div className={styles.specsContainer}>
         <span className={styles.specs}>{specs}</span> -
-        <span className={styles.price}> ${precioEnDivisas.toFixed(2)}</span>
+        <span className={styles.price}> ${precioTotalCashea.toFixed(2)}</span>
       </div>
 
       <div className={styles.imageWrapper}>
