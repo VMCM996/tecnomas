@@ -1,15 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "LAPTOP ASUS VIVO BOOK 15 RYZEN 5 7520U",
-    "specs": "500 GB M.2 SSD | 8GB DDR5 S-DIMM | 15.6\" FHD| WIFI 6 | TECLADO NUMERICO",
-    "price": 520,
-    "priceCashea": "",
-    "category": "laptops",
-    "img": "/images/ASUS-RYZEN7.png",
-    "brandLogo": "/images/LogoAsus.png"
-  },
-  {
     "id": 2,
     "name": "LAPTOP COMPAQ Q-BOOK INTEL CORE i5-1235U",
     "specs": "250 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
@@ -426,7 +416,7 @@
     "price": 320,
     "priceCashea": "",
     "category": "equipos",
-    "img": "/images/HP-MINI.webp",
+    "img": "/images/HP-SFF.webp",
     "brandLogo": "/images/LogoHP.png"
   },
   {
@@ -901,5 +891,55 @@
     "category": "laptops",
     "img": "/images/LENOVO156.webp",
     "brandLogo": "/images/LogoLenovo.png"
+  },
+   {
+    "id": 102,
+    "name": "ROUTER TP LINK WIFI MESH DECO X55 AX3000 PACK - 1",
+    "specs": "111",
+    "price": 100,
+    "priceCashea": "",
+    "category": "router",
+    "img": "/images/AX3000-1.jpg",
+    "brandLogo": "/images/"
+  },
+  {
+    "id": 103,
+    "name": "ROUTER TP LINK WIFI MESH DECO X55 AX3000 PACK - 3",
+    "specs": "2222",
+    "price": 235,
+    "priceCashea": "",
+    "category": "router",
+    "img": "/images/AX3000-3.jpg",
+    "brandLogo": "/images/"
+  },
+   {
+    "id": 104,
+    "name": "DECO WIFI 7 BE5000 MESH PACK 3 PARA TODA LA CASA",
+    "specs": "111",
+    "price": 275,
+    "priceCashea": "",
+    "category": "router",
+    "img": "/images/BE5000-3.jpg",
+    "brandLogo": "/images/"
+  },
+  {
+    "id": 105,
+    "name": "DECO WIFI 7 BE5000 MESH PACK 2 PARA TODA LA CASA",
+    "specs": "2222",
+    "price": 200,
+    "priceCashea": "",
+    "category": "router",
+    "img": "/images/BE5000-2.jpg",
+    "brandLogo": "/images/"
+  },
+   {
+    "id": 106,
+    "name": "DECO WIFI 7 BE5000 MESH PACK 1 PARA TODA LA CASA",
+    "specs": "111",
+    "price": 135,
+    "priceCashea": "",
+    "category": "router",
+    "img": "/images/BE5000-1.jpg",
+    "brandLogo": "/images/"
   }
 ]
