@@ -34,16 +34,13 @@ function ProductCardCashea({
       </div>
       <h3 className={styles.title}>{name}</h3>
 
-      {/* Specs y Precio */}
+      {/* Specs y Precio juntos */}
       <div className={styles.specsContainer}>
         <span className={styles.specs}>{specs}</span>
-        <div className={styles.priceRow}>
-          <span>
-            {" "}
-            -<strong>${precioTotalCashea.toFixed(2)}</strong>
-          </span>
-        </div>
+        <span> - </span>
+        <span className={styles.price}>${precioTotalCashea.toFixed(2)}</span>
       </div>
+
       <div className={styles.imageWrapper}>
         <img src={img} alt={name} className={styles.productImage} />
       </div>
