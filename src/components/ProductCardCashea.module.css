@@ -5,10 +5,11 @@
   flex-direction: column;
   height: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  overflow: hidden;
-  padding: 20px 20px 0 20px;
+  overflow: hidden; /* Esto es vital: corta cualquier contenido que intente salirse */
+  padding: 20px 20px 0 20px; /* Quitamos el padding inferior aquí */
 }
 
+/* Reducción de fuentes para móvil */
 .title {
   font-size: 1.25rem;
   font-weight: 800; /* Negrita */
@@ -26,9 +27,17 @@
 }
 
 .productImage {
-  width: 100%;
-  max-width: 400px; /* Aumentado de 220px a 280px */
-  margin: auto auto 5px auto;
+  max-height: 300px; /* Reduce la altura de la imagen en móvil */
+  object-fit: contain;
+}
+
+.logoPlaceholder {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.logoImage {
+  height: 100%;
   object-fit: contain;
 }
 
@@ -86,10 +95,7 @@
 }
 
 .specsContainer {
-  font-size: 1rem;
-  color: #000000 !important;
-  margin-bottom: 20px;
-  text-align: left;
+  font-size: 0.85rem;
 }
 
 .specs {
@@ -98,27 +104,31 @@
 }
 
 .price {
-  font-weight: 800;
-  color: #0f172a;
+  font-size: 1.25rem;
+  font-weight: 800 !important; /* Negrita */
+  color: #000000 !important;
 }
 
+/* Sección amarilla y contenedor principal */
 .casheaContainer {
   display: flex;
-  align-items: stretch; /* Para que todos tengan la misma altura */
+  align-items: stretch; /* Importante para que ambos lados tengan misma altura */
   border: 1px solid #cbd5e1;
   border-radius: 8px;
   margin: 15px 0;
-  overflow: hidden;
+  overflow: hidden; /* Esto hace que el borde redondeado se vea bien */
 }
 
+/* El bloque amarillo */
 .casheaYellowBox {
-  background-color: #fdfa3d;
+  background-color: #fdfa3d; /* Amarillo Cashea */
   padding: 10px;
   display: flex;
+  flex-direction: column; /* Apila logo y texto */
   align-items: center;
-  gap: 8px;
-  font-weight: 800;
-  font-size: 1.3rem;
+  justify-content: center;
+  gap: 4px;
+  min-width: 80px; /* Asegura un ancho mínimo para el logo */
 }
 
 .casheaLogo {
@@ -140,7 +150,7 @@
 }
 
 .casheaTitle {
-  font-size: 0.7rem;
+  font-size: 0.55rem;
   font-weight: 600;
   color: #000;
   text-align: center;
@@ -148,7 +158,7 @@
 }
 
 .casheaAmount {
-  font-size: 1.5rem;
+  font-size: 0.95rem;
   font-weight: 800;
   color: #000;
 }
@@ -159,8 +169,12 @@
   background-color: #cbd5e1;
 }
 
+/* Texto dentro del bloque amarillo */
 .casheaText {
-  color: #000;
+  color: #000000; /* Forzamos a negro */
+  font-weight: 800;
+  font-size: 0.7rem;
+  text-transform: uppercase;
 }
 
 /* Estilo del botón de WhatsApp (Centrado y con icono corregido) */
@@ -201,9 +215,19 @@
 }
 
 /* Imagen más grande */
-.image {
-  width: 100%;
-  max-width: 400px; /* Aumentado de 220px a 280px */
-  margin: auto auto 5px auto;
-  object-fit: contain;
+
+
+/* Ajuste para PC (Escritorio) */
+@media (min-width: 768px) {
+  .card {
+    max-width: 100%; /* Deja que ocupe el espacio del grid */
+  }
+  
+  .casheaTitle {
+    font-size: 0.55rem;
+  }
+  
+  .casheaAmount {
+    font-size: 0.95rem;
+  }
 }
