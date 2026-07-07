@@ -26,12 +26,12 @@ function ProductCardCashea({
 
   return (
     <div className={styles.card}>
-      {/* Logo */}
-      <div className={styles.logoPlaceholder}>
-        {brandLogo && (
+      {/* EL LOGO DEBE IR AQUÍ, AL PRINCIPIO */}
+      {brandLogo && (
+        <div className={styles.logoPlaceholder}>
           <img src={brandLogo} alt="Logo" className={styles.logoImage} />
-        )}
-      </div>
+        </div>
+      )}
       <h3 className={styles.title}>{name}</h3>
 
       {/* Specs y Precio juntos */}

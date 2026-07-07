@@ -892,7 +892,7 @@
     "img": "/images/LENOVO156.webp",
     "brandLogo": "/images/LogoLenovo.png"
   },
-   {
+  {
     "id": 102,
     "name": "ROUTER TP LINK WIFI MESH DECO X55 AX3000 PACK - 1",
     "specs": "111",
@@ -912,7 +912,7 @@
     "img": "/images/AX3000-3.jpg",
     "brandLogo": "/images/"
   },
-   {
+  {
     "id": 104,
     "name": "DECO WIFI 7 BE5000 MESH PACK 3 PARA TODA LA CASA",
     "specs": "111",
@@ -932,7 +932,7 @@
     "img": "/images/BE5000-2.jpg",
     "brandLogo": "/images/"
   },
-   {
+  {
     "id": 106,
     "name": "DECO WIFI 7 BE5000 MESH PACK 1 PARA TODA LA CASA",
     "specs": "111",
