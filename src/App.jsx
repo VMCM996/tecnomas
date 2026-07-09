@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "./firebase/config";
 
+
 // Importaciones para React Toastify
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -79,7 +80,7 @@ function App() {
 
     // NUEVA CONDICIÓN: Solo productos que tengan inStock en true
     // (Si inStock no existe en el objeto, esta lógica los excluirá por seguridad)
-    const isAvailable = prod.inStock === true;
+    const isAvailable = prod.inStock !== false;
 
     return matchesCategory && matchesSearch && isAvailable;
   });

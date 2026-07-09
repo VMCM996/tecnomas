@@ -5,7 +5,7 @@
     "specs": "250 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
     "price": 530,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/COMPA.png",
     "brandLogo": "/images/LogoCompaq.png"
@@ -16,7 +16,7 @@
     "specs": "250 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
     "price": 480,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/I3-1235U.png",
     "brandLogo": "/images/LogoCompaq.png"
@@ -27,7 +27,7 @@
     "specs": "250 GB M.2 SSD | 8GB DDR4 | 14\" FHD TACTIL | WIFI 5 | BLUETOOTH 5.0 ",
     "price": 250,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/I5-5400.png",
     "brandLogo": "/images/LogoDell.png"
@@ -38,7 +38,7 @@
     "specs": "250 GB M.2 SSD | 16GB DDR4 | 14\" FHD | WIFI 5 | BLUETOOTH 5.0",
     "price": 300,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/I5-5400.png",
     "brandLogo": "/images/LogoDell.png"
@@ -49,7 +49,7 @@
     "specs": "250 GB M.2 SSD | 8GB DDR4 | 14\" FHD TACTIL  WIFI 5 | BLUETOOTH 5.0 | BOLSO ORIGINAL HP 15.6\"",
     "price": 280,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos laptops",
     "img": "/images/COMBOI7.png",
     "brandLogo": "/images/LogoDell.png"
@@ -60,7 +60,7 @@
     "specs": "250 GB M.2 SSD | 16GB DDR4 | 14\" FHD WIFI 5 | BLUETOOTH 5.0 | BOLSO ORIGINAL HP 15.6\"",
     "price": 330,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos laptops",
     "img": "/images/COMBOI7.png",
     "brandLogo": "/images/LogoDell.png"
@@ -71,7 +71,7 @@
     "specs": "4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE SLIM",
     "price": 140,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-PENTIUM.png",
     "brandLogo": "/images/LogoDell.png"
@@ -82,7 +82,7 @@
     "specs": "4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM",
     "price": 140,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I3-2120.png",
     "brandLogo": "/images/LogoHP.png"
@@ -93,7 +93,7 @@
     "specs": "4GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM",
     "price": 155,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I3-3220.png",
     "brandLogo": "/images/LogoHP.png"
@@ -104,7 +104,7 @@
     "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE ULTRA-SLIM",
     "price": 170,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I3-4130.png",
     "brandLogo": "/images/LogoHP.png"
@@ -115,7 +115,7 @@
     "specs": "4GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
     "price": 185,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I3-6100T.png",
     "brandLogo": "/images/LogoHP.png"
@@ -126,7 +126,7 @@
     "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
     "price": 195,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I3-6100.png",
     "brandLogo": "/images/LogoHP.png"
@@ -137,7 +137,7 @@
     "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
     "price": 215,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I3-7100.png",
     "brandLogo": "/images/LogoLenovo.png"
@@ -148,7 +148,7 @@
     "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE SLIM",
     "price": 225,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I3-8100-SFF.png",
     "brandLogo": "/images/LogoDell.png"
@@ -159,7 +159,7 @@
     "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
     "price": 255,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I3-9100.png",
     "brandLogo": "/images/LogoDell.png"
@@ -170,7 +170,7 @@
     "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
     "price": 170,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I5-4590T.png",
     "brandLogo": "/images/LogoDell.png"
@@ -181,7 +181,7 @@
     "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE SLIMS",
     "price": 205,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I5-4590.png",
     "brandLogo": "/images/LogoDell.png"
@@ -192,7 +192,7 @@
     "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
     "price": 185,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I5-4570-4590.png",
     "brandLogo": "/images/LogoHP.png"
@@ -203,7 +203,7 @@
     "specs": "8GB DDR3 | 240GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
     "price": 200,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I5-4570-4590.png",
     "brandLogo": "/images/LogoHP.png"
@@ -214,7 +214,7 @@
     "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
     "price": 255,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-RYZEN-2400.png",
     "brandLogo": "/images/LogoHP.png"
@@ -225,7 +225,7 @@
     "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
     "price": 275,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-RYZEN-3400.png",
     "brandLogo": "/images/LogoHP.png"
@@ -236,7 +236,7 @@
     "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
     "price": 325,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I3-6100T.png",
     "brandLogo": "/images/LogoHP.png"
@@ -247,7 +247,7 @@
     "specs": "8GB DDR4 | 240GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE SLIM",
     "price": 400,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I5-10500.png",
     "brandLogo": "/images/LogoHP.png"
@@ -258,7 +258,7 @@
     "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
     "price": 200,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "combos pc",
     "img": "/images/COMBO-I7-4790.png",
     "brandLogo": "/images/LogoHP.png"
@@ -269,7 +269,7 @@
     "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) | CASE M-TOWER",
     "price": 65,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-CORE.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -280,7 +280,7 @@
     "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
     "price": 75,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-SFF.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -291,7 +291,7 @@
     "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM",
     "price": 75,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-USFF.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -302,7 +302,7 @@
     "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM",
     "price": 90,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-USFF.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -313,7 +313,7 @@
     "specs": "GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM",
     "price": 105,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-US.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -324,7 +324,7 @@
     "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE M-TOWER",
     "price": 95,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MT.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -335,7 +335,7 @@
     "specs": "4GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
     "price": 120,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-MINI.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -346,7 +346,7 @@
     "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE M-TOWER",
     "price": 130,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MT.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -357,7 +357,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | DISPLAYPORT (2)| CASE SLIM",
     "price": 160,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-SFFN.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -368,7 +368,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | DISPLAYPORT (2)| CASE MINI PC",
     "price": 190,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-MINI.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -379,7 +379,7 @@
     "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE MINI PC",
     "price": 105,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-MINI.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -390,7 +390,7 @@
     "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
     "price": 135,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-SFF.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -401,7 +401,7 @@
     "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE M-TOWER",
     "price": 120,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MT.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -412,7 +412,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
     "price": 190,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MINI.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -423,7 +423,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
     "price": 210,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MINI.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -434,7 +434,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
     "price": 210,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MINI.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -445,7 +445,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | HDMI (1) DISPLAYPORT (2)| CASE MINI PC",
     "price": 260,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MINI.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -456,7 +456,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | DISPLAYPORT (2)| CASE SLIM",
     "price": 320,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-SFF.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -467,7 +467,7 @@
     "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE M-TOWER",
     "price": 145,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MT.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -478,7 +478,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE TOWER",
     "price": 190,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-PRE.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -489,7 +489,7 @@
     "specs": "16GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
     "price": 245,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-SFFN1.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -500,7 +500,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
     "price": 225,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-SFFN1.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -511,7 +511,7 @@
     "specs": "8GB DDR4 | 240GB SSD | PANTALLA 23.8'| RED GIGABIT | COMBO MOUSE Y TECLADO",
     "price": 360,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "equipos",
     "img": "/images/AIO.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -522,7 +522,7 @@
     "specs": "FHD 1920X1080 TIPO C",
     "price": 90,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "monitores",
     "img": "/images/MONITOR1.webp"
   },
@@ -532,7 +532,7 @@
     "specs": "1600X900 60HZ VGA-HDMI NUEVO",
     "price": 55,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "monitores",
     "img": "/images/AUCE20.webp"
   },
@@ -542,7 +542,7 @@
     "specs": "1920X1080 VGA-HDMI NUEVO",
     "price": 75,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "monitores",
     "img": "/images/SPIDER21.webp"
   },
@@ -552,7 +552,7 @@
     "specs": "100HZ FHD 19020X1080",
     "price": 120,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "monitores",
     "img": "/images/COMPAQ22.webp"
   },
@@ -562,7 +562,7 @@
     "specs": "100HZ IPS FHD 19020X1080",
     "price": 145,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "monitores",
     "img": "/images/COMPAQ24.webp"
   },
@@ -572,7 +572,7 @@
     "specs": "49 PULGADAS LCD ",
     "price": 1075,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "monitores",
     "img": "/images/49INC.webp"
   },
@@ -582,7 +582,7 @@
     "specs": "20+4+2 SATA NUEVA",
     "price": 22,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "fuentes",
     "img": "/images/600W.webp"
   },
@@ -592,7 +592,7 @@
     "specs": "20+4 +4IDE 1FDD+2SATA+6P (PCI)+P8",
     "price": 45,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "fuentes",
     "img": "/images/700W.webp"
   },
@@ -602,7 +602,7 @@
     "specs": "20+4 +4IDE 1FDD+2SATA+6P (PCI)+P8",
     "price": 57,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "fuentes",
     "img": "/images/1000W.webp"
   },
@@ -612,7 +612,7 @@
     "specs": "8 TOMAS SALIDAS AVR 4 120V",
     "price": 50,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "ups",
     "img": "/images/CDP.webp"
   },
@@ -622,7 +622,7 @@
     "specs": "PROTECCION 120VCA 4 RESPALDO 2 AVR",
     "price": 45,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "ups",
     "img": "/images/HIKVISION.webp"
   },
@@ -632,7 +632,7 @@
     "specs": "600W 120V AVR 6 TOMAS",
     "price": 225,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "ups",
     "img": "/images/APC1000.webp"
   },
@@ -642,7 +642,7 @@
     "specs": "8 TOMAS 120V",
     "price": 295,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "ups",
     "img": "/images/FX-1500.webp"
   },
@@ -652,7 +652,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 10,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/COMBO1.webp"
   },
@@ -662,7 +662,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 35,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/COMBO-DELL1.webp"
   },
@@ -672,7 +672,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 30,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/COMBO-LOGI.webp"
   },
@@ -682,7 +682,7 @@
     "specs": "INALAMBRICO - 5M DE ALCANCE",
     "price": 50,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/COMBO-DELL2.webp"
   },
@@ -692,7 +692,7 @@
     "specs": "INALAMBRICO - 5M DE ALCANCE",
     "price": 25,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/MARVO1.webp"
   },
@@ -702,7 +702,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 25,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/COMBOROSA.webp"
   },
@@ -712,7 +712,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 50,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/COMBODRAGON.webp"
   },
@@ -722,7 +722,7 @@
     "specs": "INALAMBRICO - 5M DE ALCANCE",
     "price": 15,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "mouse",
     "img": "/images/M196.webp"
   },
@@ -732,7 +732,7 @@
     "specs": "INALAMBRICO - 5M DE ALCANCE",
     "price": 20,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "mouse",
     "img": "/images/M180.webp"
   },
@@ -742,7 +742,7 @@
     "specs": "INALAMBRICO - 5M DE ALCANCE",
     "price": 13,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "mouse",
     "img": "/images/KRIP.webp"
   },
@@ -752,7 +752,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 25,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "mouse",
     "img": "/images/DRAGON.webp"
   },
@@ -762,7 +762,7 @@
     "specs": "INALAMBRICO - 5M DE ALCANCE",
     "price": 55,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "mouse",
     "img": "/images/G502.webp"
   },
@@ -772,7 +772,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 35,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/MECANICO1.webp"
   },
@@ -782,7 +782,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 35,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/MECANICO2.webp"
   },
@@ -792,7 +792,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 35,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "teclados",
     "img": "/images/MECANICO2.webp"
   },
@@ -802,7 +802,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 20,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "audifonos",
     "img": "/images/PRIMUS.webp"
   },
@@ -812,7 +812,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 30,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "audifonos",
     "img": "/images/LOGI-NEGRO.webp"
   },
@@ -822,7 +822,7 @@
     "specs": "ALAMBRICO - 1.5M DE CABLE",
     "price": 30,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "audifonos",
     "img": "/images/LOGI-ROSADO.webp"
   },
@@ -832,7 +832,7 @@
     "specs": "INALAMBRICO - 5M DE ALCANCE",
     "price": 115,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "audifonos",
     "img": "/images/CORSAIR.webp"
   },
@@ -842,7 +842,7 @@
     "specs": "TONER - WIFI",
     "price": 175,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "impresoras",
     "img": "/images/6030.webp"
   },
@@ -852,7 +852,7 @@
     "specs": "TONER - WIFI",
     "price": 235,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "impresoras",
     "img": "/images/3003.webp"
   },
@@ -862,7 +862,7 @@
     "specs": "TINTA CONTINUA - WIFI",
     "price": 220,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "impresoras",
     "img": "/images/L1250.webp"
   },
@@ -872,7 +872,7 @@
     "specs": "",
     "price": 3,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "mouse",
     "img": "/images/PAD1.webp"
   },
@@ -882,7 +882,7 @@
     "specs": "",
     "price": 3,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "mouse",
     "img": "/images/PAD2.webp"
   },
@@ -892,7 +892,7 @@
     "specs": "256 GB M.2 SSD | 4GB DDR3 | 14\" FHD| WIFI | VGA-HDMI-BLUETOOTH",
     "price": 110,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVOI3.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -903,7 +903,7 @@
     "specs": "256 GB M.2 SSD | 4GB DDR3 | 14\" FHD| WIFI | VGA-HDMI-BLUETOOTH",
     "price": 130,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVOI3.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -914,7 +914,7 @@
     "specs": "256 GB M.2 SSD | 4GB DDR3 | 15.6\" FHD| WIFI | VGA-HDMI-BLUETOOTH | TECLADO NUMERICO",
     "price": 140,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVOI3-156.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -925,7 +925,7 @@
     "specs": "256 GB M.2 SSD | 4GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH | TECLADO NUMERICO",
     "price": 160,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVOI3-156.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -936,7 +936,7 @@
     "specs": "256 GB M.2 SSD | 4GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH | TECLADO NUMERICO",
     "price": 170,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVOI3-156.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -947,7 +947,7 @@
     "specs": "256 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH | TECLADO NUMERICO",
     "price": 180,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVOI3-156.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -958,7 +958,7 @@
     "specs": "256 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH | TECLADO NUMERICO",
     "price": 260,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVOI3-156.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -969,7 +969,7 @@
     "specs": "256 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH | TECLADO NUMERICO",
     "price": 320,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO156.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -980,7 +980,7 @@
     "specs": "256 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH | TECLADO NUMERICO",
     "price": 360,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO156.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -991,7 +991,7 @@
     "specs": "ALTA VELOCIDAD WIFI 6 DOBLE BANDA | 3 PUERTO GIGABIT | COBERTURA APROX 418 m2",
     "price": 100,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "router",
     "img": "/images/AX3000-1.jpg",
     "brandLogo": "/images/"
@@ -1002,7 +1002,7 @@
     "specs": "ALTA VELOCIDAD WIFI 6 DOBLE BANDA | 3 PUERTO GIGABIT | COBERTURA APROX 418 m2",
     "price": 235,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "router",
     "img": "/images/AX3000-3.jpg",
     "brandLogo": "/images/"
@@ -1013,7 +1013,7 @@
     "specs": "ALTA VELOCIDAD WIFI 7 DOBLE BANDA | PUERTOS GIGABIT | COBERTURA APROX 600 m2",
     "price": 275,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "router",
     "img": "/images/BE5000-3.jpg",
     "brandLogo": "/images/"
@@ -1024,7 +1024,7 @@
     "specs": "ALTA VELOCIDAD WIFI 7 DOBLE BANDA | PUERTOS GIGABIT | COBERTURA APROX 300 m2",
     "price": 200,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "router",
     "img": "/images/BE5000-2.jpg",
     "brandLogo": "/images/"
@@ -1035,7 +1035,7 @@
     "specs": "ALTA VELOCIDAD WIFI 7 DOBLE BANDA | PUERTOS GIGABIT | COBERTURA APROX 250 m2",
     "price": 135,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "router",
     "img": "/images/BE5000-1.jpg",
     "brandLogo": "/images/"
@@ -1046,7 +1046,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 24,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1057,7 +1057,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 30,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1068,7 +1068,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 50,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1079,7 +1079,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 85,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1090,7 +1090,7 @@
     "specs": "VISION NOCTURNA 12m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 30,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1101,7 +1101,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 70,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1112,7 +1112,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 70,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1123,7 +1123,7 @@
     "specs": "VISION NOCTURNA 30m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO, ALERTAS LUZ Y SONIDO",
     "price": 55,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1134,7 +1134,7 @@
     "specs": "BATERIA LARGA DURACION (180 DIAS) | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 50,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1145,7 +1145,7 @@
     "specs": "BATERIA LARGA DURACION (180 DIAS) | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 80,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1156,7 +1156,7 @@
     "specs": "BATERIA LARGA DURACION (180 DIAS) | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 70,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1167,7 +1167,7 @@
     "specs": "BATERIA LARGA DURACION (180 DIAS) | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 75,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1178,7 +1178,7 @@
     "specs": "111",
     "price": 60,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1189,7 +1189,7 @@
     "specs": "VISION NOCTURA 30M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO IA Y ALERTAS",
     "price": 80,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1200,7 +1200,7 @@
     "specs": "VISION NOCTURA A COLOR | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO IA Y ALERTAS",
     "price": 225,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1211,7 +1211,7 @@
     "specs": "111",
     "price": 11,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1222,7 +1222,7 @@
     "specs": "111",
     "price": 11,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1233,7 +1233,7 @@
     "specs": "111",
     "price": 22,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1244,7 +1244,7 @@
     "specs": "111",
     "price": 25,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1255,7 +1255,7 @@
     "specs": "111",
     "price": 25,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1266,7 +1266,7 @@
     "specs": "111",
     "price": 32,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1277,7 +1277,7 @@
     "specs": "111",
     "price": 14,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1288,7 +1288,7 @@
     "specs": "111",
     "price": 19,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1299,7 +1299,7 @@
     "specs": "111",
     "price": 24,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1310,7 +1310,7 @@
     "specs": "111",
     "price": 24,
     "priceCashea": "",
-    "inStock": "true",
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
