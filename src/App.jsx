@@ -22,8 +22,8 @@ function App() {
   const [isCasheaMode, setIsCasheaMode] = useState(false);
 
   // 💱 Tasas de cambio diarias editables
-  const TASA_BOLIVARES = 820;
-  const TASA_CASHEA = 685;
+  const TASA_BOLIVARES = 850;
+  const TASA_CASHEA = 700;
 
   // 🔄 Efecto para cargar los productos y disparar la notificación verde
   useEffect(() => {
@@ -67,12 +67,21 @@ function App() {
 
   const filteredProducts = listaEquipos.filter((prod) => {
     const term = searchTerm.toLowerCase();
+
+    // Condición de categoría
     const matchesCategory =
       selectedCategory === "todos" || prod.category === selectedCategory;
+
+    // Condición de búsqueda
     const matchesSearch =
       prod.name.toLowerCase().includes(term) ||
       prod.specs.toLowerCase().includes(term);
-    return matchesCategory && matchesSearch;
+
+    // NUEVA CONDICIÓN: Solo productos que tengan inStock en true
+    // (Si inStock no existe en el objeto, esta lógica los excluirá por seguridad)
+    const isAvailable = prod.inStock === true;
+
+    return matchesCategory && matchesSearch && isAvailable;
   });
 
   if (loading) {
