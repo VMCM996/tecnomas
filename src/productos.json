@@ -3,7 +3,7 @@
     "id": 1,
     "name": "LAPTOP COMPAQ Q-BOOK INTEL CORE i5-1235U",
     "specs": "250 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
-    "price": 530,
+    "price": 555,
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
@@ -14,7 +14,7 @@
     "id": 2,
     "name": "LAPTOP COMPAQ Q-BOOK INTEL CORE i3-1215U",
     "specs": "250 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
-    "price": 480,
+    "price": 400,
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
@@ -310,7 +310,7 @@
   {
     "id": 29,
     "name": "HP ELITE DESK 800 G1 i3-4130",
-    "specs": "GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM",
+    "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE ULTRA SLIM",
     "price": 105,
     "priceCashea": "",
     "inStock": true,
@@ -379,7 +379,7 @@
     "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE MINI PC",
     "price": 105,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "equipos",
     "img": "/images/DELL-MINI.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -467,7 +467,7 @@
     "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE M-TOWER",
     "price": 145,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "equipos",
     "img": "/images/HP-MT.webp",
     "brandLogo": "/images/LogoHP.png"
@@ -489,7 +489,7 @@
     "specs": "16GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
     "price": 245,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "equipos",
     "img": "/images/DELL-SFFN1.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -500,7 +500,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE SLIM",
     "price": 225,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "equipos",
     "img": "/images/DELL-SFFN1.webp",
     "brandLogo": "/images/LogoDell.png"
@@ -560,7 +560,7 @@
     "id": 52,
     "name": "MONITOR COMPAQ 24 PULGADAS",
     "specs": "100HZ IPS FHD 19020X1080",
-    "price": 145,
+    "price": 125,
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
@@ -958,7 +958,7 @@
     "specs": "256 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI | HDMI-BLUETOOTH | TECLADO NUMERICO",
     "price": 260,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "laptops",
     "img": "/images/LENOVOI3-156.webp",
     "brandLogo": "/images/LogoLenovo.png"
@@ -1046,7 +1046,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 24,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1057,7 +1057,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 30,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1068,7 +1068,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 50,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1079,7 +1079,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 85,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1090,7 +1090,7 @@
     "specs": "VISION NOCTURNA 12m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 30,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1101,7 +1101,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 70,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1112,7 +1112,7 @@
     "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 70,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1123,7 +1123,7 @@
     "specs": "VISION NOCTURNA 30m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO, ALERTAS LUZ Y SONIDO",
     "price": 55,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1134,7 +1134,7 @@
     "specs": "BATERIA LARGA DURACION (180 DIAS) | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 50,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1145,7 +1145,7 @@
     "specs": "BATERIA LARGA DURACION (180 DIAS) | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 80,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1156,7 +1156,7 @@
     "specs": "BATERIA LARGA DURACION (180 DIAS) | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 70,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1167,7 +1167,7 @@
     "specs": "BATERIA LARGA DURACION (180 DIAS) | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 75,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1178,7 +1178,7 @@
     "specs": "111",
     "price": 60,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1189,7 +1189,7 @@
     "specs": "VISION NOCTURA 30M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO IA Y ALERTAS",
     "price": 80,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1200,7 +1200,7 @@
     "specs": "VISION NOCTURA A COLOR | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO IA Y ALERTAS",
     "price": 225,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1211,7 +1211,7 @@
     "specs": "111",
     "price": 11,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1222,7 +1222,7 @@
     "specs": "111",
     "price": 11,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1233,7 +1233,7 @@
     "specs": "111",
     "price": 22,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1244,7 +1244,7 @@
     "specs": "111",
     "price": 25,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1255,7 +1255,7 @@
     "specs": "111",
     "price": 25,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1266,7 +1266,7 @@
     "specs": "111",
     "price": 32,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1277,7 +1277,7 @@
     "specs": "111",
     "price": 14,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1288,7 +1288,7 @@
     "specs": "111",
     "price": 19,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1299,7 +1299,7 @@
     "specs": "111",
     "price": 24,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1310,8 +1310,52 @@
     "specs": "111",
     "price": 24,
     "priceCashea": "",
-    "inStock": false,
+    "inStock": true,
     "category": "CCTV",
+    "img": "/images/",
+    "brandLogo": "/images/"
+  },
+  {
+    "id": 124,
+    "name": "LAPTOP COMPAQ Q-BOOK RYZEN 7 5825U",
+    "specs": "512 GB M.2 SSD | 16GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
+    "price": 625,
+    "priceCashea": "",
+    "inStock": true,
+    "category": "laptops",
+    "img": "/images/",
+    "brandLogo": "/images/"
+  },
+  {
+    "id": 125,
+    "name": "LAPTOP COMPAQ Q-BOOK RYZEN 5 7430U",
+    "specs": "256 GB M.2 SSD | 16GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
+    "price": 585,
+    "priceCashea": "",
+    "inStock": true,
+    "category": "laptops",
+    "img": "/images/",
+    "brandLogo": "/images/"
+  },
+  {
+    "id": 126,
+    "name": "HP ELITE BOOK 840 G3 I5-6300U",
+    "specs": "256 GB M.2 SSD | 4GB DDR4 | 14\" FHD| WIFI 5| BLUETOOTH",
+    "price": 150,
+    "priceCashea": "",
+    "inStock": true,
+    "category": "laptops",
+    "img": "/images/",
+    "brandLogo": "/images/"
+  },
+  {
+    "id": 127,
+    "name": "HP ELITE BOOK 840 G3 I5-6300U",
+    "specs": "256 GB M.2 SSD | 8GB DDR4 | 14\" FHD| WIFI 5| BLUETOOTH",
+    "price": 160,
+    "priceCashea": "",
+    "inStock": true,
+    "category": "laptops",
     "img": "/images/",
     "brandLogo": "/images/"
   }
