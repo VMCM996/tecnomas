@@ -29,7 +29,7 @@ function NavBar() {
             src={logoImg}
             alt="TecnoMas Logo"
             style={{
-              height: "80px",
+              height: "60px",
               width: "auto",
               objectFit: "contain",
             }}
