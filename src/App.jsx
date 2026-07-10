@@ -287,6 +287,8 @@ function App() {
             "teclados",
             "impresoras",
             "ups",
+            "monitores",
+            "camaras WIFI",
           ].map((cat) => {
             const isActive = selectedCategory === cat;
             return (
