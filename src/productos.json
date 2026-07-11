@@ -7,8 +7,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/COMPA.png",
-    "brandLogo": "/images/LogoCompaq.png"
+    "img": "/images/COMPAQ-I5.png",
+    "brandLogo": "/images/COMPAQ.png"
   },
   {
     "id": 2,
@@ -18,8 +18,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/I3-1235U.png",
-    "brandLogo": "/images/LogoCompaq.png"
+    "img": "/images/COMPAQ-I3.png",
+    "brandLogo": "/images/COMPAQ.png"
   },
   {
     "id": 3,
@@ -29,8 +29,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/I5-5400.png",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/5400T.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 4,
@@ -40,8 +40,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/I5-5400.png",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/5400.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 5,
@@ -51,8 +51,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos laptops",
-    "img": "/images/COMBOI7.png",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/COMBO-5400T.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 6,
@@ -62,8 +62,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos laptops",
-    "img": "/images/COMBOI7.png",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/COMBO-5400.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 7,
@@ -73,8 +73,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-PENTIUM.png",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/EST-DELL.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 8,
@@ -84,8 +84,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I3-2120.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-USFF.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 9,
@@ -95,8 +95,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I3-3220.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-USFF.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 10,
@@ -106,8 +106,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I3-4130.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-USFF2.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 11,
@@ -117,8 +117,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I3-6100T.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-MINI.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 12,
@@ -128,8 +128,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I3-6100.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-USFF3.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 13,
@@ -137,7 +137,7 @@
     "specs": "8GB DDR4 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
     "price": 215,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "combos pc",
     "img": "/images/COMBO-I3-7100.png",
     "brandLogo": "/images/LogoLenovo.png"
@@ -150,8 +150,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I3-8100-SFF.png",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/EST-DELL-MINI.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 15,
@@ -161,8 +161,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I3-9100.png",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/EST-DELL-MINI.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 16,
@@ -170,10 +170,10 @@
     "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE MINI PC",
     "price": 170,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "combos pc",
-    "img": "/images/COMBO-I5-4590T.png",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/EST-DELL-MINI.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 17,
@@ -183,8 +183,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I5-4590.png",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/EST-DELL.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 18,
@@ -194,8 +194,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I5-4570-4590.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-USFF3.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 19,
@@ -205,8 +205,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I5-4570-4590.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-USFF3.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 20,
@@ -216,8 +216,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-RYZEN-2400.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-MINI.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 21,
@@ -227,8 +227,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-RYZEN-3400.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-MINI.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 22,
@@ -238,8 +238,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I3-6100T.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-MINI.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 23,
@@ -249,8 +249,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/COMBO-I5-10500.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-N.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 24,
@@ -258,10 +258,10 @@
     "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
     "price": 200,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "combos pc",
-    "img": "/images/COMBO-I7-4790.png",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/EST-HP-USFF3.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 25,
@@ -271,8 +271,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/DELL-CORE.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/CD2.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 26,
@@ -282,8 +282,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/DELL-SFF.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/DELL-V.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 27,
@@ -293,8 +293,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-USFF.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-USFFV.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 28,
@@ -304,8 +304,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-USFF.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-USFFV.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 29,
@@ -315,8 +315,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-US.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-USFF.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 30,
@@ -326,8 +326,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-MT.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-MT.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 31,
@@ -337,8 +337,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/DELL-MINI.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-MINI.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 32,
@@ -348,8 +348,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-MT.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-MT.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 33,
@@ -359,8 +359,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/DELL-SFFN.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/DELL-N.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 34,
@@ -370,8 +370,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/DELL-MINI.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/DELL-N.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 35,
@@ -381,8 +381,8 @@
     "priceCashea": "",
     "inStock": false,
     "category": "equipos",
-    "img": "/images/DELL-MINI.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/DELL-MINI.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 36,
@@ -392,8 +392,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/DELL-SFF.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/DELL-V.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 37,
@@ -403,8 +403,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-MT.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-MT.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 38,
@@ -414,8 +414,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-MINI.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-MINI.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 39,
@@ -425,8 +425,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-MINI.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-MINI.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 40,
@@ -436,8 +436,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-MINI.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-MINI.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 41,
@@ -447,8 +447,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-MINI.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-MINI.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 42,
@@ -458,8 +458,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/HP-SFF.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-N.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 43,
@@ -469,8 +469,8 @@
     "priceCashea": "",
     "inStock": false,
     "category": "equipos",
-    "img": "/images/HP-MT.webp",
-    "brandLogo": "/images/LogoHP.png"
+    "img": "/images/HP-MT.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 44,
@@ -480,8 +480,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/DELL-PRE.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/PRECISION.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 45,
@@ -491,8 +491,8 @@
     "priceCashea": "",
     "inStock": false,
     "category": "equipos",
-    "img": "/images/DELL-SFFN1.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/DELL-N.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 46,
@@ -502,8 +502,8 @@
     "priceCashea": "",
     "inStock": false,
     "category": "equipos",
-    "img": "/images/DELL-SFFN1.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/DELL-N.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 47,
@@ -513,8 +513,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "equipos",
-    "img": "/images/AIO.webp",
-    "brandLogo": "/images/LogoDell.png"
+    "img": "/images/AIO.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 48,
@@ -524,7 +524,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/MONITOR1.webp"
+    "img": "/images/YODOITM.png",
+    "brandLogo": "/images/YODOIT.png"
   },
   {
     "id": 49,
@@ -534,7 +535,7 @@
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/AUCE20.webp"
+    "img": "/images/AUCE.png"
   },
   {
     "id": 50,
@@ -544,7 +545,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/SPIDER21.webp"
+    "img": "/images/SPIDER21.png",
+    "brandLogo": "/images/SPIDERTEC.png"
   },
   {
     "id": 51,
@@ -554,7 +556,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/COMPAQ22.webp"
+    "img": "/images/22COMPAQ.png",
+    "brandLogo": "/images/COMPAQ.png"
   },
   {
     "id": 52,
@@ -564,7 +567,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/COMPAQ24.webp"
+    "img": "/images/24COMPAQ.png",
+    "brandLogo": "/images/COMPAQ.png"
   },
   {
     "id": 53,
@@ -574,7 +578,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/49INC.webp"
+    "img": "/images/49WIDE.png",
+    "brandLogo": "/images/INNOCN.png"
   },
   {
     "id": 54,
@@ -584,7 +589,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "fuentes",
-    "img": "/images/600W.webp"
+    "img": "/images/600W.png",
+    "brandLogo": "/images/AGILER.png"
   },
   {
     "id": 55,
@@ -594,7 +600,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "fuentes",
-    "img": "/images/700W.webp"
+    "img": "/images/700W.png",
+    "brandLogo": "/images/AGILER.png"
   },
   {
     "id": 56,
@@ -604,7 +611,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "fuentes",
-    "img": "/images/1000W.webp"
+    "img": "/images/1000W.png",
+    "brandLogo": "/images/AGILER.png"
   },
   {
     "id": 57,
@@ -614,7 +622,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "ups",
-    "img": "/images/CDP.webp"
+    "img": "/images/CDP.png",
+    "brandLogo": "/images/CDPL.png"
   },
   {
     "id": 58,
@@ -624,7 +633,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "ups",
-    "img": "/images/HIKVISION.webp"
+    "img": "/images/600VA.png",
+    "brandLogo": "/images/HIKVISION.png"
   },
   {
     "id": 59,
@@ -634,7 +644,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "ups",
-    "img": "/images/APC1000.webp"
+    "img": "/images/APC1000.png",
+    "brandLogo": "/images/APC.png"
   },
   {
     "id": 60,
@@ -644,7 +655,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "ups",
-    "img": "/images/FX-1500.webp"
+    "img": "/images/FX1500.png",
+    "brandLogo": "/images/FORZA.png"
   },
   {
     "id": 61,
@@ -654,7 +666,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/COMBO1.webp"
+    "img": "/images/COMBO-IMEX.png",
+    "brandLogo": "/images/IMEXX.png"
   },
   {
     "id": 62,
@@ -664,7 +677,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/COMBO-DELL1.webp"
+    "img": "/images/COMBO-DELL.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 63,
@@ -674,7 +688,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/COMBO-LOGI.webp"
+    "img": "/images/T-LOGI.png",
+    "brandLogo": "/images/LOGI.png"
   },
   {
     "id": 64,
@@ -684,7 +699,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/COMBO-DELL2.webp"
+    "img": "/images/DELL-INA.png",
+    "brandLogo": "/images/DELL.png"
   },
   {
     "id": 65,
@@ -694,7 +710,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/MARVO1.webp"
+    "img": "/images/T-MARVO.png",
+    "brandLogo": "/images/MARVO.png"
   },
   {
     "id": 66,
@@ -704,7 +721,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/COMBOROSA.webp"
+    "img": "/images/COMBO-ROSA.png",
+    "brandLogo": "/images/XTECH.png"
   },
   {
     "id": 67,
@@ -714,7 +732,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/COMBODRAGON.webp"
+    "img": "/images/COMBO-DRAGON.png",
+    "brandLogo": "/images/REDRAGON.png"
   },
   {
     "id": 68,
@@ -724,7 +743,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "mouse",
-    "img": "/images/M196.webp"
+    "img": "/images/M196.png",
+    "brandLogo": "/images/LOGI.png"
   },
   {
     "id": 69,
@@ -734,7 +754,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "mouse",
-    "img": "/images/M180.webp"
+    "img": "/images/M185.png",
+    "brandLogo": "/images/LOGI.png"
   },
   {
     "id": 70,
@@ -744,7 +765,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "mouse",
-    "img": "/images/KRIP.webp"
+    "img": "/images/KRIPP.png",
+    "brandLogo": "/images/"
   },
   {
     "id": 71,
@@ -754,7 +776,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "mouse",
-    "img": "/images/DRAGON.webp"
+    "img": "/images/DRAGON.png",
+    "brandLogo": "/images/REDRAGON.png"
   },
   {
     "id": 72,
@@ -762,7 +785,7 @@
     "specs": "INALAMBRICO - 5M DE ALCANCE",
     "price": 55,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "mouse",
     "img": "/images/G502.webp"
   },
@@ -774,7 +797,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/MECANICO1.webp"
+    "img": "/images/MEC-1.png",
+    "brandLogo": "/images/MAGEGEE.png"
   },
   {
     "id": 74,
@@ -784,7 +808,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/MECANICO2.webp"
+    "img": "/images/MEC-2.png",
+    "brandLogo": "/images/MAGEGEE.png"
   },
   {
     "id": 75,
@@ -794,7 +819,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/MECANICO2.webp"
+    "img": "/images/MEC-2.png",
+    "brandLogo": "/images/MAGEGEE.png"
   },
   {
     "id": 76,
@@ -804,7 +830,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "audifonos",
-    "img": "/images/PRIMUS.webp"
+    "img": "/images/AUD-PRIM.png",
+    "brandLogo": "/images/PRIMUS.png"
   },
   {
     "id": 77,
@@ -814,7 +841,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "audifonos",
-    "img": "/images/LOGI-NEGRO.webp"
+    "img": "/images/H390-N.png",
+    "brandLogo": "/images/LOGI.png"
   },
   {
     "id": 78,
@@ -824,7 +852,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "audifonos",
-    "img": "/images/LOGI-ROSADO.webp"
+    "img": "/images/H390-R.png",
+    "brandLogo": "/images/LOGI.png"
   },
   {
     "id": 79,
@@ -834,7 +863,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "audifonos",
-    "img": "/images/CORSAIR.webp"
+    "img": "/images/AUD-CORSAIR.png",
+    "brandLogo": "/images/CORSAIR.png"
   },
   {
     "id": 80,
@@ -844,7 +874,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "impresoras",
-    "img": "/images/6030.webp"
+    "img": "/images/6030.png",
+    "brandLogo": "/images/CANON.png"
   },
   {
     "id": 81,
@@ -854,7 +885,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "impresoras",
-    "img": "/images/3003.webp"
+    "img": "/images/3003.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 82,
@@ -864,7 +896,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "impresoras",
-    "img": "/images/L1250.webp"
+    "img": "/images/1250.png",
+    "brandLogo": "/images/EPSON.png"
   },
   {
     "id": 83,
@@ -874,7 +907,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "mouse",
-    "img": "/images/PAD1.webp"
+    "img": "/images/PAD-1.png",
+    "brandLogo": "/images/XTECH.png"
   },
   {
     "id": 84,
@@ -884,7 +918,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "mouse",
-    "img": "/images/PAD2.webp"
+    "img": "/images/PAD-2.png",
+    "brandLogo": "/images/RAZER.png"
   },
   {
     "id": 85,
@@ -894,8 +929,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/LENOVOI3.webp",
-    "brandLogo": "/images/LogoLenovo.png"
+    "img": "/images/LENOVO-14.png",
+    "brandLogo": "/images/LENOVO.png"
   },
   {
     "id": 86,
@@ -905,8 +940,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/LENOVOI3.webp",
-    "brandLogo": "/images/LogoLenovo.png"
+    "img": "/images/LENOVO-14.png",
+    "brandLogo": "/images/LENOVO.png"
   },
   {
     "id": 87,
@@ -916,8 +951,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp",
-    "brandLogo": "/images/LogoLenovo.png"
+    "img": "/images/LENOVO-156.png",
+    "brandLogo": "/images/LENOVO.png"
   },
   {
     "id": 88,
@@ -927,8 +962,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp",
-    "brandLogo": "/images/LogoLenovo.png"
+    "img": "/images/LENOVO-156.png",
+    "brandLogo": "/images/LENOVO.png"
   },
   {
     "id": 89,
@@ -938,8 +973,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp",
-    "brandLogo": "/images/LogoLenovo.png"
+    "img": "/images/LENOVO-156.png",
+    "brandLogo": "/images/LENOVO.png"
   },
   {
     "id": 90,
@@ -949,8 +984,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp",
-    "brandLogo": "/images/LogoLenovo.png"
+    "img": "/images/LENOVO-156.png",
+    "brandLogo": "/images/LENOVO.png"
   },
   {
     "id": 91,
@@ -960,8 +995,8 @@
     "priceCashea": "",
     "inStock": false,
     "category": "laptops",
-    "img": "/images/LENOVOI3-156.webp",
-    "brandLogo": "/images/LogoLenovo.png"
+    "img": "/images/LENOVO-156.png",
+    "brandLogo": "/images/LENOVO.png"
   },
   {
     "id": 92,
@@ -971,8 +1006,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/LENOVO156.webp",
-    "brandLogo": "/images/LogoLenovo.png"
+    "img": "/images/LENOVO-10MA.png",
+    "brandLogo": "/images/LENOVO.png"
   },
   {
     "id": 93,
@@ -982,8 +1017,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/LENOVO156.webp",
-    "brandLogo": "/images/LogoLenovo.png"
+    "img": "/images/LENOVO-10MA.png",
+    "brandLogo": "/images/LENOVO.png"
   },
   {
     "id": 94,
@@ -993,8 +1028,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "router",
-    "img": "/images/AX3000-1.jpg",
-    "brandLogo": "/images/"
+    "img": "/images/55X.png",
+    "brandLogo": "/images/DECO.png"
   },
   {
     "id": 95,
@@ -1004,8 +1039,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "router",
-    "img": "/images/AX3000-3.jpg",
-    "brandLogo": "/images/"
+    "img": "/images/55X3.png",
+    "brandLogo": "/images/DECO.png"
   },
   {
     "id": 96,
@@ -1015,8 +1050,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "router",
-    "img": "/images/BE5000-3.jpg",
-    "brandLogo": "/images/"
+    "img": "/images/BEP3.png",
+    "brandLogo": "/images/DECO.png"
   },
   {
     "id": 97,
@@ -1026,8 +1061,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "router",
-    "img": "/images/BE5000-2.jpg",
-    "brandLogo": "/images/"
+    "img": "/images/BEP2.png",
+    "brandLogo": "/images/DECO.png"
   },
   {
     "id": 98,
@@ -1037,8 +1072,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "router",
-    "img": "/images/BE5000-1.jpg",
-    "brandLogo": "/images/"
+    "img": "/images/BE5000.png",
+    "brandLogo": "/images/DECO.png"
   },
   {
     "id": 99,
@@ -1048,8 +1083,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C100-110.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 100,
@@ -1059,8 +1094,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C100-110.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 101,
@@ -1070,8 +1105,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C110P2.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 102,
@@ -1081,8 +1116,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C110P4.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 103,
@@ -1092,8 +1127,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C200.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 104,
@@ -1103,8 +1138,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C210.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 105,
@@ -1114,8 +1149,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C211.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 106,
@@ -1125,8 +1160,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C320WS.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 107,
@@ -1136,8 +1171,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C400.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 108,
@@ -1147,8 +1182,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C400K.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 109,
@@ -1158,8 +1193,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C402K.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 110,
@@ -1169,8 +1204,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C402KN.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 111,
@@ -1180,8 +1215,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C510W.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 112,
@@ -1191,8 +1226,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C520WS.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 113,
@@ -1202,8 +1237,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C660.png",
+    "brandLogo": "/images/TAPO.png"
   },
   {
     "id": 114,
@@ -1211,7 +1246,7 @@
     "specs": "111",
     "price": 11,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1222,7 +1257,7 @@
     "specs": "111",
     "price": 11,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1233,7 +1268,7 @@
     "specs": "111",
     "price": 22,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1244,7 +1279,7 @@
     "specs": "111",
     "price": 25,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1255,7 +1290,7 @@
     "specs": "111",
     "price": 25,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1266,7 +1301,7 @@
     "specs": "111",
     "price": 32,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1277,7 +1312,7 @@
     "specs": "111",
     "price": 14,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1288,7 +1323,7 @@
     "specs": "111",
     "price": 19,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1299,7 +1334,7 @@
     "specs": "111",
     "price": 24,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/",
     "brandLogo": "/images/"
@@ -1312,8 +1347,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "CCTV",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/C-EZVIZ.png",
+    "brandLogo": "/images/EZVIZ.png"
   },
   {
     "id": 124,
@@ -1323,8 +1358,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/COMPAQ-RYZEN.png",
+    "brandLogo": "/images/COMPAQ.png"
   },
   {
     "id": 125,
@@ -1334,8 +1369,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/COMPAQ-RYZEN.png",
+    "brandLogo": "/images/COMPAQ.png"
   },
   {
     "id": 126,
@@ -1345,8 +1380,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/HP-804G3.png",
+    "brandLogo": "/images/HP.png"
   },
   {
     "id": 127,
@@ -1356,7 +1391,7 @@
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
-    "img": "/images/",
-    "brandLogo": "/images/"
+    "img": "/images/HP-804G3.png",
+    "brandLogo": "/images/HP.png"
   }
 ]
