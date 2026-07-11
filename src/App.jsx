@@ -288,7 +288,7 @@ function App() {
             "impresoras",
             "ups",
             "monitores",
-            "camaras WIFI",
+            "CCTV",
           ].map((cat) => {
             const isActive = selectedCategory === cat;
             return (
