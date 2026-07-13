@@ -11,33 +11,28 @@ function ProductCardCashea({
   brandLogo,
   onAddToCart,
 }) {
-  // 1. Cálculos financieros base
+  // Cálculos financieros
   const precioEnDivisas = Number(price) || 0;
   const precioConAumento = precioEnDivisas * 1.08;
   const precioConAumentoBs = precioConAumento * Number(tasaDolar);
-
-  // 2. Precio total Cashea: Redondeado hacia arriba (Math.ceil)
   const precioTotalCashea = Math.ceil(precioConAumentoBs / Number(tasaCashea));
-
-  // 3. Inicial y Cuotas: Cálculo exacto sin redondeos adicionales
   const inicialDeCashea = precioTotalCashea * 0.2;
   const totalCuotas = precioTotalCashea - inicialDeCashea;
   const cuotasQuincenales = totalCuotas / 3;
 
   return (
     <div className={styles.card}>
-      {/* EL LOGO DEBE IR AQUÍ, AL PRINCIPIO */}
+      {/* Logo posicionado en la esquina superior izquierda */}
       {brandLogo && (
         <div className={styles.logoPlaceholder}>
-          <img src={brandLogo} alt="Logo" className={styles.logoImage} />
+          <img src={brandLogo} alt={`${name} logo`} className={styles.logoImage} />
         </div>
       )}
+
       <h3 className={styles.title}>{name}</h3>
 
-      {/* Specs y Precio juntos */}
       <div className={styles.specsContainer}>
-        <span className={styles.specs}>{specs}</span>
-        <span> - </span>
+        <span className={styles.specs}>{specs}</span> -
         <span className={styles.price}>${precioTotalCashea.toFixed(2)}</span>
       </div>
 
@@ -45,7 +40,6 @@ function ProductCardCashea({
         <img src={img} alt={name} className={styles.productImage} />
       </div>
 
-      {/* Banner Cashea */}
       <div className={styles.casheaContainer}>
         <div className={styles.casheaYellowBox}>
           <img src={logoCashea} alt="Cashea" className={styles.casheaLogo} />
@@ -55,32 +49,19 @@ function ProductCardCashea({
         <div className={styles.casheaInfo}>
           <div className={styles.casheaBox}>
             <span className={styles.casheaTitle}>Desde el 20% de inicial*</span>
-            <span className={styles.casheaAmount}>
-              ${inicialDeCashea.toFixed(2)}
-            </span>
+            <span className={styles.casheaAmount}>${inicialDeCashea.toFixed(2)}</span>
           </div>
-
           <div className={styles.verticalDivider}></div>
-
           <div className={styles.casheaBox}>
-            <span className={styles.casheaTitle}>
-              + 3 cuotas sin interés de*
-            </span>
-            <span className={styles.casheaAmount}>
-              ${cuotasQuincenales.toFixed(2)}
-            </span>
+            <span className={styles.casheaTitle}>+ 3 cuotas sin interés de*</span>
+            <span className={styles.casheaAmount}>${cuotasQuincenales.toFixed(2)}</span>
           </div>
         </div>
       </div>
 
-      {/* Botón de WhatsApp */}
       <div className={styles.whatsappButtonWrapper}>
         <button onClick={onAddToCart} className={styles.whatsappButton}>
-          <img
-            src="/images/LogoWs.png"
-            alt="WhatsApp"
-            className={styles.whatsappIcon}
-          />
+          <img src="/images/LogoWs.png" alt="WhatsApp" className={styles.whatsappIcon} />
           Consultar por WhatsApp
         </button>
       </div>

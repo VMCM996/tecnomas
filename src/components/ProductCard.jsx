@@ -3,12 +3,12 @@ import styles from "./ProductCard.module.css";
 function ProductCard({ name, specs, price, img, brandLogo, onAddToCart }) {
   return (
     <div className={styles.card}>
-      {/* Logo */}
-      <div className={styles.logoPlaceholder}>
-        {brandLogo && (
-          <img src={brandLogo} alt="Logo" className={styles.logoImage} />
-        )}
-      </div>
+      {/* Logo posicionado en la esquina superior izquierda */}
+      {brandLogo && (
+        <div className={styles.logoPlaceholder}>
+          <img src={brandLogo} alt={`${name} logo`} className={styles.logoImage} />
+        </div>
+      )}
 
       {/* Título */}
       <h2 className={styles.title}>{name}</h2>
@@ -22,19 +22,14 @@ function ProductCard({ name, specs, price, img, brandLogo, onAddToCart }) {
       {/* Imagen */}
       <img src={img} alt={name} className={styles.image} />
 
-      {/* Botón de WhatsApp (CORREGIDO: Centrado y con ícono) */}
+      {/* Botón */}
       <div className={styles.whatsappButtonWrapper}>
         <button onClick={onAddToCart} className={styles.whatsappButton}>
-          <img
-            src="/images/LogoWs.png"
-            alt="WhatsApp"
-            className={styles.whatsappIcon}
-          />
+          <img src="/images/LogoWs.png" alt="WhatsApp" className={styles.whatsappIcon} />
           Consultar por WhatsApp
         </button>
       </div>
 
-      {/* Footer */}
       <footer className={styles.footer}>
         * Precios válido solo para cancelar en divisas.
       </footer>
