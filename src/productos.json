@@ -8,7 +8,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/COMPAQ-I5.png",
-    "brandLogo": "/images/COMPAQ.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/COMPAQ-I3.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/5400T.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/5400.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "inStock": true,
     "category": "combos laptops",
     "img": "/images/COMBO-5400T.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "inStock": true,
     "category": "combos laptops",
     "img": "/images/COMBO-5400.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 7,
@@ -73,8 +73,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/EST-DELL.png",
-    "brandLogo": "/images/DELL.png"
+    "img": "/images/EST-LOGODELL.png",
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-USFF.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-USFF.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-USFF2.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-MINI.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-USFF3.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 13,
@@ -151,7 +151,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-DELL-MINI.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-DELL-MINI.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
     "inStock": false,
     "category": "combos pc",
     "img": "/images/EST-DELL-MINI.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 17,
@@ -183,8 +183,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/EST-DELL.png",
-    "brandLogo": "/images/DELL.png"
+    "img": "/images/EST-LOGODELL.png",
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 18,
@@ -195,7 +195,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-USFF3.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-USFF3.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 20,
@@ -217,7 +217,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-MINI.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 21,
@@ -228,7 +228,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-MINI.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 22,
@@ -239,7 +239,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-MINI.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 23,
@@ -250,7 +250,7 @@
     "inStock": true,
     "category": "combos pc",
     "img": "/images/EST-HP-N.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 24,
@@ -261,7 +261,7 @@
     "inStock": false,
     "category": "combos pc",
     "img": "/images/EST-HP-USFF3.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 25,
@@ -272,7 +272,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/CD2.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 26,
@@ -283,7 +283,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-V.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 27,
@@ -294,7 +294,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-USFFV.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 28,
@@ -305,7 +305,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-USFFV.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 29,
@@ -316,7 +316,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-USFF.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 30,
@@ -327,7 +327,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MT.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 31,
@@ -338,7 +338,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MINI.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 32,
@@ -349,7 +349,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MT.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 33,
@@ -360,7 +360,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-N.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 34,
@@ -371,7 +371,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-N.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 35,
@@ -382,7 +382,7 @@
     "inStock": false,
     "category": "equipos",
     "img": "/images/DELL-MINI.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 36,
@@ -393,7 +393,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/DELL-V.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 37,
@@ -404,7 +404,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MT.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 38,
@@ -415,7 +415,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MINI.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 39,
@@ -426,7 +426,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MINI.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 40,
@@ -437,7 +437,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MINI.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 41,
@@ -448,7 +448,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-MINI.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 42,
@@ -459,7 +459,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/HP-N.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 43,
@@ -470,7 +470,7 @@
     "inStock": false,
     "category": "equipos",
     "img": "/images/HP-MT.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 44,
@@ -481,7 +481,7 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/PRECISION.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 45,
@@ -492,7 +492,7 @@
     "inStock": false,
     "category": "equipos",
     "img": "/images/DELL-N.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 46,
@@ -503,7 +503,7 @@
     "inStock": false,
     "category": "equipos",
     "img": "/images/DELL-N.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 47,
@@ -514,12 +514,12 @@
     "inStock": true,
     "category": "equipos",
     "img": "/images/AIO.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 48,
     "name": "MONITOR PARA LAPTOP 15.6 PULGADAS IPS FHD 1920X1080 TIPO C",
-    "specs": "FHD 1920X1080 TIPO C",
+    "specs": "15.6' IPS | SOPORTA sRGB | ULTRA DELGADO | MINI-HDMI | ALTAVOZS INCORPORADOS",
     "price": 90,
     "priceCashea": "",
     "inStock": true,
@@ -529,8 +529,8 @@
   },
   {
     "id": 49,
-    "name": "MONITOR AUCE LED 20 PULGADAS",
-    "specs": "1600X900 60HZ VGA-HDMI NUEVO",
+    "name": "MONITOR AUCE LED 20 PULGADAS 1600X900",
+    "specs": "60HZ | 1 PUERTO VGA | 1 PUERTO HDMI | WIDESCREEN ",
     "price": 55,
     "priceCashea": "",
     "inStock": true,
@@ -539,8 +539,8 @@
   },
   {
     "id": 50,
-    "name": "MONITOR SPIDERTEC FULL HD 21.5 PULGADAS",
-    "specs": "1920X1080 VGA-HDMI NUEVO",
+    "name": "MONITOR SPIDERTEC FULL HD 21.5 PULGADAS 1920X1080",
+    "specs": "60HZ | 1 PUERTO VGA | 1 PUERTO HDMI | WIDESCREEN ",
     "price": 75,
     "priceCashea": "",
     "inStock": true,
@@ -550,30 +550,30 @@
   },
   {
     "id": 51,
-    "name": "MONITOR COMPAQ 22 PULGADA",
-    "specs": "100HZ FHD 19020X1080",
+    "name": "MONITOR COMPAQ 22 PULGADAS 1920X1080",
+    "specs": "100HZ | 1 PUERTO VGA | 1 PUERTO HDMI | AMD FREESYNC | PANEL VA",
     "price": 120,
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/22COMPAQ.png",
-    "brandLogo": "/images/COMPAQ.png"
+    "img": "/images/22LOGOCOMPAQ.png",
+    "brandLogo": "/images/LOGOCOMPAQ.png"
   },
   {
     "id": 52,
-    "name": "MONITOR COMPAQ 24 PULGADAS",
-    "specs": "100HZ IPS FHD 19020X1080",
+    "name": "MONITOR COMPAQ 24 PULGADAS 1920X1080",
+    "specs": "100HZ | 1 PUERTO VGA | 1 PUERTO HDMI | AMD FREESYNC | PANEL IPS",
     "price": 125,
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/24COMPAQ.png",
-    "brandLogo": "/images/COMPAQ.png"
+    "img": "/images/24LOGOCOMPAQ.png",
+    "brandLogo": "/images/LOGOCOMPAQ.png"
   },
   {
     "id": 53,
-    "name": "MONITOR CURVO ULTRAWIDE INNOCN",
-    "specs": "49 PULGADAS LCD ",
+    "name": "MONITOR CURVO 49 PULGADAS ULTRAWIDE INNOCN 3480X1080",
+    "specs": "144HZ | DISPLAYPORT | HDMI | USB-C | PANEL IPS | USB-A | USB-B",
     "price": 1075,
     "priceCashea": "",
     "inStock": true,
@@ -677,8 +677,8 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/COMBO-DELL.png",
-    "brandLogo": "/images/DELL.png"
+    "img": "/images/COMBO-LOGODELL.png",
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 63,
@@ -700,7 +700,7 @@
     "inStock": true,
     "category": "teclados",
     "img": "/images/DELL-INA.png",
-    "brandLogo": "/images/DELL.png"
+    "brandLogo": "/images/LOGODELL.png"
   },
   {
     "id": 65,
@@ -886,7 +886,7 @@
     "inStock": true,
     "category": "impresoras",
     "img": "/images/3003.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 82,
@@ -1078,7 +1078,7 @@
   {
     "id": 99,
     "name": "CAMARA WIFI TP LINK 1080P HD INDOOR LENTE 3.15MM - TAPO C100",
-    "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
+    "specs": "VISION NOCTURNA 9M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 24,
     "priceCashea": "",
     "inStock": true,
@@ -1089,7 +1089,7 @@
   {
     "id": 100,
     "name": "CAMARA WIFI TP LINK 2K 3MP INDOOR LENTE 3.15MM - TAPO C110",
-    "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
+    "specs": "VISION NOCTURNA 9M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 30,
     "priceCashea": "",
     "inStock": true,
@@ -1100,7 +1100,7 @@
   {
     "id": 101,
     "name": "CAMARA WIFI TP LINK 2K 3MP INDOOR PACK 2 LENTE 3.15MM - TAPO C110",
-    "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
+    "specs": "VISION NOCTURNA 9M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 50,
     "priceCashea": "",
     "inStock": true,
@@ -1111,7 +1111,7 @@
   {
     "id": 102,
     "name": "CAMARA WIFI TP LINK 1080P 2K 3MP INDOOR PACK 4 LENTE 3.15MM - TAPO C110",
-    "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
+    "specs": "VISION NOCTURNA 9M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 85,
     "priceCashea": "",
     "inStock": true,
@@ -1122,7 +1122,7 @@
   {
     "id": 103,
     "name": "CAMARA WIFI TP LINK 1080P OMNI INDOOR VISION NOCTURNA ALEXA - TAPO C200",
-    "specs": "VISION NOCTURNA 12m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
+    "specs": "VISION NOCTURNA 12M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 30,
     "priceCashea": "",
     "inStock": true,
@@ -1133,7 +1133,7 @@
   {
     "id": 104,
     "name": "CAMARA WIFI TP LINK 2K 3MP PACK 2 INDOOR LENTE 3.85MM - TAPO C210",
-    "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
+    "specs": "VISION NOCTURNA 9M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 70,
     "priceCashea": "",
     "inStock": true,
@@ -1144,7 +1144,7 @@
   {
     "id": 105,
     "name": "CAMARA WIFI TP LINK 2K 3MP NEGRA PACK 2 INDOOR 3.83MM 360° - TAPO C211",
-    "specs": "VISION NOCTURNA 9m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
+    "specs": "VISION NOCTURNA 9M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO Y ALERTAS",
     "price": 70,
     "priceCashea": "",
     "inStock": true,
@@ -1155,7 +1155,7 @@
   {
     "id": 106,
     "name": "CAMARA WIFI TPLINK  2K QHD OUTDOOR FULL COLOR NOCTURNA - TAPO C320WS",
-    "specs": "VISION NOCTURNA 30m | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO, ALERTAS LUZ Y SONIDO",
+    "specs": "VISION NOCTURNA 30M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO, ALERTAS LUZ Y SONIDO",
     "price": 55,
     "priceCashea": "",
     "inStock": true,
@@ -1210,7 +1210,7 @@
   {
     "id": 111,
     "name": "CAMARA WIFI TP LINK 2K OUTDOOR 360° VISION NOCTURNA - TAPO C510W",
-    "specs": "111",
+    "specs": "VISION NOCTURA 30M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO IA Y ALERTAS",
     "price": 60,
     "priceCashea": "",
     "inStock": true,
@@ -1342,7 +1342,7 @@
   {
     "id": 123,
     "name": "CAMARA EZVIZ INALAMBRICA 2MP IP WIFI 12M AUDIO BIDIRECCIONAL",
-    "specs": "111",
+    "specs":  "VISION NOCTURNA 9M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 24,
     "priceCashea": "",
     "inStock": true,
@@ -1359,7 +1359,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/COMPAQ-RYZEN.png",
-    "brandLogo": "/images/COMPAQ.png"
+    "brandLogo": "/images/LOGOCOMPAQ.png"
   },
   {
     "id": 125,
@@ -1370,7 +1370,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/COMPAQ-RYZEN.png",
-    "brandLogo": "/images/COMPAQ.png"
+    "brandLogo": "/images/LOGOCOMPAQ.png"
   },
   {
     "id": 126,
@@ -1381,7 +1381,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/HP-804G3.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
   },
   {
     "id": 127,
@@ -1392,6 +1392,17 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/HP-804G3.png",
-    "brandLogo": "/images/HP.png"
+    "brandLogo": "/images/LOGOHP.png"
+  },
+  {
+    "id": 128,
+    "name": "MONITOR COMPAQ 27 PULGADAS 1920X1080",
+    "specs": "100HZ | 1 PUERTO VGA | 1 PUERTO HDMI | AMD FREESYNC | PANEL IPS",
+    "price": 125,
+    "priceCashea": "",
+    "inStock": true,
+    "category": "monitores",
+    "img": "/images/27LOGOCOMPAQ.png",
+    "brandLogo": "/images/LOGOCOMPAQ.png"
   }
 ]
