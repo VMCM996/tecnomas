@@ -73,7 +73,7 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/EST-LOGODELL.png",
+    "img": "/images/EST-DELL.png",
     "brandLogo": "/images/LOGODELL.png"
   },
   {
@@ -183,7 +183,7 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos pc",
-    "img": "/images/EST-LOGODELL.png",
+    "img": "/images/EST-DELL.png",
     "brandLogo": "/images/LOGODELL.png"
   },
   {
@@ -556,7 +556,7 @@
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/22LOGOCOMPAQ.png",
+    "img": "/images/22COMPAQ.png",
     "brandLogo": "/images/LOGOCOMPAQ.png"
   },
   {
@@ -567,7 +567,7 @@
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/24LOGOCOMPAQ.png",
+    "img": "/images/24COMPAQ.png",
     "brandLogo": "/images/LOGOCOMPAQ.png"
   },
   {
@@ -677,7 +677,7 @@
     "priceCashea": "",
     "inStock": true,
     "category": "teclados",
-    "img": "/images/COMBO-LOGODELL.png",
+    "img": "/images/COMBO-DELL.png",
     "brandLogo": "/images/LOGODELL.png"
   },
   {
@@ -1402,7 +1402,7 @@
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
-    "img": "/images/27LOGOCOMPAQ.png",
+    "img": "/images/27COMPAQ.png",
     "brandLogo": "/images/LOGOCOMPAQ.png"
   }
 ]
