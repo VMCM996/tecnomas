@@ -1389,7 +1389,7 @@
     "specs": "256 GB M.2 SSD | 8GB DDR4 | 14\" FHD| WIFI 5| BLUETOOTH",
     "price": 160,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "laptops",
     "img": "/images/HP-804G3.png",
     "brandLogo": "/images/LOGOHP.png"
