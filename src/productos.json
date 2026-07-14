@@ -140,7 +140,7 @@
     "inStock": false,
     "category": "combos pc",
     "img": "/images/COMBO-I3-7100.png",
-    "brandLogo": "/images/LogoLenovo.png"
+    "brandLogo": "/images/LOGOLOGOLENOVO.png"
   },
   {
     "id": 14,
@@ -930,7 +930,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO-14.png",
-    "brandLogo": "/images/LENOVO.png"
+    "brandLogo": "/images/LOGOLENOVO.png"
   },
   {
     "id": 86,
@@ -941,7 +941,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO-14.png",
-    "brandLogo": "/images/LENOVO.png"
+    "brandLogo": "/images/LOGOLENOVO.png"
   },
   {
     "id": 87,
@@ -952,7 +952,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO-156.png",
-    "brandLogo": "/images/LENOVO.png"
+    "brandLogo": "/images/LOGOLENOVO.png"
   },
   {
     "id": 88,
@@ -963,7 +963,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO-156.png",
-    "brandLogo": "/images/LENOVO.png"
+    "brandLogo": "/images/LOGOLENOVO.png"
   },
   {
     "id": 89,
@@ -974,7 +974,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO-156.png",
-    "brandLogo": "/images/LENOVO.png"
+    "brandLogo": "/images/LOGOLENOVO.png"
   },
   {
     "id": 90,
@@ -985,7 +985,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO-156.png",
-    "brandLogo": "/images/LENOVO.png"
+    "brandLogo": "/images/LOGOLENOVO.png"
   },
   {
     "id": 91,
@@ -996,7 +996,7 @@
     "inStock": false,
     "category": "laptops",
     "img": "/images/LENOVO-156.png",
-    "brandLogo": "/images/LENOVO.png"
+    "brandLogo": "/images/LOGOLENOVO.png"
   },
   {
     "id": 92,
@@ -1007,7 +1007,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO-10MA.png",
-    "brandLogo": "/images/LENOVO.png"
+    "brandLogo": "/images/LOGOLENOVO.png"
   },
   {
     "id": 93,
@@ -1018,7 +1018,7 @@
     "inStock": true,
     "category": "laptops",
     "img": "/images/LENOVO-10MA.png",
-    "brandLogo": "/images/LENOVO.png"
+    "brandLogo": "/images/LOGOLENOVO.png"
   },
   {
     "id": 94,
@@ -1158,7 +1158,7 @@
     "specs": "VISION NOCTURNA 30M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO, ALERTAS LUZ Y SONIDO",
     "price": 55,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "CCTV",
     "img": "/images/C320WS.png",
     "brandLogo": "/images/TAPO.png"
