@@ -13,7 +13,7 @@ function ProductCardCashea({
 }) {
   // Cálculos financieros
   const precioEnDivisas = Number(price) || 0;
-  const precioConAumento = precioEnDivisas * 1.08;
+  const precioConAumento = precioEnDivisas / 0.92;
   const precioConAumentoBs = precioConAumento * Number(tasaDolar);
   const precioTotalCashea = Math.ceil(precioConAumentoBs / Number(tasaCashea));
   const inicialDeCashea = precioTotalCashea * 0.2;
