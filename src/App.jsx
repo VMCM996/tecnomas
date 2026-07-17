@@ -2,16 +2,13 @@ import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "./firebase/config";
 
-
-// Importaciones para React Toastify
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-
-// Componentes y estilos
-import NavBar from "./components/NavBar";
+// Componentes nuevos
+import NavBar from "./components/NavBar"; // Tu nuevo Navbar con buscador
+import ToggleView from "./components/ToggleView"; // Tu nuevo Toggle elegante
 import ProductCard from "./components/ProductCard";
 import ProductCardCashea from "./components/ProductCardCashea";
 import styles from "./components/ProductCard.module.css";
+import CategoryBar from "./components/CategoryBar";
 
 function App() {
   const [listaEquipos, setListaEquipos] = useState([]);
@@ -28,12 +25,6 @@ function App() {
 
   // 🔄 Efecto para cargar los productos y disparar la notificación verde
   useEffect(() => {
-    toast.success("💳 Todos los precios reflejados son para pago en divisas", {
-      position: "top-center",
-      autoClose: 1000,
-      theme: "dark",
-    });
-
     const obtenerProductos = async () => {
       try {
         const querySnapshot = await getDocs(collection(db, "productos"));
@@ -118,11 +109,8 @@ function App() {
         color: "white",
       }}
     >
-      {/* Contenedor de notificaciones */}
-      <ToastContainer style={{ zIndex: 999999 }} />
-
       <div style={{ position: "sticky", top: 0, zIndex: 1000 }}>
-        <NavBar />
+        <NavBar onSearch={setSearchTerm} />
       </div>
 
       <main style={{ maxWidth: "1200px", margin: "0 auto", padding: "2rem" }}>
@@ -148,180 +136,29 @@ function App() {
             justifyContent: "center",
             marginBottom: "2rem",
           }}
-        >
-          <input
-            type="text"
-            placeholder="Buscar por procesador, RAM, nombre..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            style={{
-              width: "100%",
-              maxWidth: "500px",
-              padding: "14px 24px",
-              borderRadius: "30px",
-              border: "1px solid rgba(255, 255, 255, 0.15)",
-              backgroundColor: "rgba(31, 31, 31, 0.8)",
-              backdropFilter: "blur(8px)",
-              color: "white",
-              fontSize: "16px",
-              outline: "none",
-              transition: "all 0.3s ease",
-              fontFamily: "'Poppins', sans-serif",
-              boxShadow: "0 4px 20px rgba(0, 0, 0, 0.2)",
-            }}
-            onFocus={(e) => {
-              e.target.style.borderColor = "#2563eb";
-              e.target.style.boxShadow = "0 4px 20px rgba(37, 99, 235, 0.2)";
-            }}
-            onBlur={(e) => {
-              e.target.style.borderColor = "rgba(255, 255, 255, 0.15)";
-              e.target.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.2)";
-            }}
-          />
-        </div>
+        ></div>
 
-        {/* 🎚️ Toggler / Interruptor de Precios */}
+        {/* 2. ToggleView Integrado: Pasamos el estado */}
         <div
           style={{
             display: "flex",
             justifyContent: "center",
-            alignItems: "center",
-            gap: "15px",
             marginBottom: "2rem",
-            fontFamily: "'Poppins', sans-serif",
           }}
         >
-          <span
-            style={{
-              fontSize: "0.9rem",
-              color: !isCasheaMode ? "#ffffff" : "#888888",
-              fontWeight: "600",
-              cursor: "pointer",
-            }}
-            onClick={() => setIsCasheaMode(false)}
-          >
-            Precio en Divisas
-          </span>
-
-          <label
-            style={{
-              position: "relative",
-              display: "inline-block",
-              width: "60px",
-              height: "34px",
-              cursor: "pointer",
-            }}
-          >
-            <input
-              type="checkbox"
-              checked={isCasheaMode}
-              onChange={(e) => setIsCasheaMode(e.target.checked)}
-              style={{ opacity: 0, width: 0, height: 0 }}
-            />
-            <span
-              style={{
-                position: "absolute",
-                cursor: "pointer",
-                top: 0,
-                left: 0,
-                right: 0,
-                bottom: 0,
-                backgroundColor: isCasheaMode ? "#FDFA3D" : "#2563eb",
-                border: isCasheaMode
-                  ? "1px solid #e2e8f0"
-                  : "1px solid #1d4ed8",
-                transition: "0.4s",
-                borderRadius: "34px",
-              }}
-            >
-              <span
-                style={{
-                  position: "absolute",
-                  content: "''",
-                  height: "26px",
-                  width: "26px",
-                  left: "4px",
-                  bottom: "3px",
-                  backgroundColor: isCasheaMode ? "#111" : "white",
-                  boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
-                  transition: "0.4s",
-                  borderRadius: "50%",
-                  transform: isCasheaMode
-                    ? "translateX(26px)"
-                    : "translateX(0)",
-                }}
-              ></span>
-            </span>
-          </label>
-
-          <span
-            style={{
-              fontSize: "0.9rem",
-              color: isCasheaMode ? "#ffffff" : "#888888",
-              fontWeight: "700",
-              cursor: "pointer",
-            }}
-            onClick={() => setIsCasheaMode(true)}
-          >
-            Con Cashea
-          </span>
+          <ToggleView isCashea={isCasheaMode} setIsCashea={setIsCasheaMode} />
         </div>
-
-        {/* Botones de Categorías */}
         <div
           style={{
             display: "flex",
-            justifyContent: "center",
-            gap: "12px",
-            marginBottom: "3rem",
-            flexWrap: "wrap",
+            justifyContent: "flex-end",
+            marginBottom: "2rem",
           }}
         >
-          {[
-            "todos",
-            "equipos",
-            "laptops",
-            "combos pc",
-            "combos laptops",
-            "mouse",
-            "teclados",
-            "impresoras",
-            "ups",
-            "monitores",
-            "CCTV",
-          ].map((cat) => {
-            const isActive = selectedCategory === cat;
-            return (
-              <button
-                key={cat}
-                onClick={() => setSelectedCategory(cat)}
-                style={{
-                  backgroundColor: isActive
-                    ? "#2563eb"
-                    : "rgba(255, 255, 255, 0.06)",
-                  color: isActive ? "white" : "#cccccc",
-                  border: isActive
-                    ? "1px solid #60a5fa"
-                    : "1px solid rgba(255, 255, 255, 0.1)",
-                  padding: "10px 24px",
-                  fontSize: "13px",
-                  fontWeight: "600",
-                  borderRadius: "20px",
-                  cursor: "pointer",
-                  textTransform: "uppercase",
-                  fontFamily: "'Poppins', sans-serif",
-                  letterSpacing: "0.5px",
-                  backdropFilter: "blur(4px)",
-                  transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
-                  boxShadow: isActive
-                    ? "0 4px 15px rgba(37, 99, 235, 0.3)"
-                    : "0 4px 10px rgba(0,0,0,0.1)",
-                }}
-              >
-                {cat}
-              </button>
-            );
-          })}
+          <CategoryBar 
+  selectedCategory={selectedCategory} 
+  onSelectCategory={setSelectedCategory} 
+/>
         </div>
 
         {/* 💳 Renderizado Inteligente de Tarjetas */}

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  background: transparent;
+  border: 2px solid #5da9b9;
+  border-radius: 50px;
+  padding: 4px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.segment {
+  padding: 12px 30px;
+  border: none;
+  background: transparent;
+  color: #777;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 1rem;
+}
+
+.segment.active {
+  background: #5da9b9;
+  color: white;
+}

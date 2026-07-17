@@ -6,7 +6,11 @@ function ProductCard({ name, specs, price, img, brandLogo, onAddToCart }) {
       {/* Logo posicionado en la esquina superior izquierda */}
       {brandLogo && (
         <div className={styles.logoPlaceholder}>
-          <img src={brandLogo} alt={`${name} logo`} className={styles.logoImage} />
+          <img
+            src={brandLogo}
+            alt={`${name} logo`}
+            className={styles.logoImage}
+          />
         </div>
       )}
 
@@ -25,7 +29,11 @@ function ProductCard({ name, specs, price, img, brandLogo, onAddToCart }) {
       {/* Botón */}
       <div className={styles.whatsappButtonWrapper}>
         <button onClick={onAddToCart} className={styles.whatsappButton}>
-          <img src="/images/LogoWs.png" alt="WhatsApp" className={styles.whatsappIcon} />
+          <img
+            src="/images/LogoWs.png"
+            alt="WhatsApp"
+            className={styles.whatsappIcon}
+          />
           Consultar por WhatsApp
         </button>
       </div>

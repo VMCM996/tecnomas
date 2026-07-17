@@ -478,7 +478,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE TOWER",
     "price": 190,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "equipos",
     "img": "/images/PRECISION.png",
     "brandLogo": "/images/LOGODELL.png"
@@ -1342,7 +1342,7 @@
   {
     "id": 123,
     "name": "CAMARA EZVIZ INALAMBRICA 2MP IP WIFI 12M AUDIO BIDIRECCIONAL",
-    "specs":  "VISION NOCTURNA 9M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
+    "specs": "VISION NOCTURNA 9M | AUDIO BIDIRECCIONAL | DETECCION DE MOVIMIENTO",
     "price": 24,
     "priceCashea": "",
     "inStock": true,

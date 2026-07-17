@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 0 auto 2rem auto;
+  padding: 15px;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  
+  /* ESTO ES LO MÁS IMPORTANTE */
+  position: relative;
+  z-index: 1000; 
+}
+
+.quickButtons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 50px; /* Más redondeado para un look moderno */
+  border: 1px solid rgba(93, 169, 185, 0.5);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: rgba(93, 169, 185, 0.2);
+}
+
+.button.active {
+  background: #5DA9B9;
+  border-color: #5DA9B9;
+}
+
+.menuWrapper {
+  min-width: 160px;
+}

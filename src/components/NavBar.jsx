@@ -1,44 +1,36 @@
-import logoImg from "../assets/logo.png";
+import styles from "./Navbar.module.css";
+import logo from "../assets/logo.png";
 
-function NavBar() {
+function Navbar({ onSearch }) {
+  const mensaje = "Hola Tecnomas, tengo una duda sobre un producto.";
+  const whatsappUrl = `https://wa.me/584126502901?text=${encodeURIComponent(mensaje)}`;
   return (
-    <nav
-      style={{
-        padding: "0.2rem 1.5rem",
-        backgroundColor: "rgb(255, 255, 255)",
-        color: "white",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        position: "relative",
-      }}
-    >
-      {/* 1. Bloque izquierdo vacío para equilibrar el espacio */}
-      <div style={{ flex: 1 }}></div>
+    <header className={styles.navbar}>
+      <div className={styles.logoContainer}>
+        <img src={logo} alt="Tecnomas" className={styles.logo} />
+      </div>
 
-      {/* 2. El Logo centrado perfectamente */}
-      <div
-        style={{
-          flex: 1,
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <a href="/" style={{ display: "flex", alignItems: "center" }}>
-          <img
-            src={logoImg}
-            alt="TecnoMas Logo"
-            style={{
-              height: "60px",
-              width: "auto",
-              objectFit: "contain",
-            }}
-          />
+      <div className={styles.searchContainer}>
+        <input
+          type="text"
+          placeholder="Buscar por procesador, RAM, nombre..."
+          className={styles.searchInput}
+          onChange={(e) => onSearch(e.target.value)}
+        />
+      </div>
+
+      <div className={styles.navActions}>
+        <a
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.whatsappButton}
+        >
+          Consulta a un asesor
         </a>
       </div>
-      <div style={{ flex: 1 }}></div>
-    </nav>
+    </header>
   );
 }
 
-export default NavBar;
+export default Navbar;

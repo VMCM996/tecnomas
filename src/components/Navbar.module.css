@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f3f3f3; /* Fondo oscuro sólido */
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  height: 45px; /* Tamaño compacto */
+}
+
+.searchInput {
+  background: #000; /* Fondo más profundo */
+  border: 1px solid #444;
+  color: #ffffff;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px; /* Bordes redondeados modernos */
+  width: 100%;
+  max-width: 400px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.searchInput:focus {
+  border-color: #007bff; /* Color de borde al enfocar */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Opcional: Asegúrate de que el texto del placeholder también sea visible y claro */
+.searchInput::placeholder {
+  color: #a0a0a0; /* Un gris claro para que se distinga del texto que el usuario escribirá */
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+}
+
+.whatsappButton {
+  background-color: #25d366; /* Verde icónico de WhatsApp */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s;
+  white-space: nowrap; /* Evita que el texto se parta en dos líneas */
+}
+
+.whatsappButton:hover {
+  background-color: #1ebc57;
+  transform: scale(1.05); /* Pequeño efecto al pasar el mouse */
+}
+
+/* Ajuste para móvil */
+@media (max-width: 600px) {
+  .whatsappButton {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}

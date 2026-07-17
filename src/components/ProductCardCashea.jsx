@@ -25,7 +25,11 @@ function ProductCardCashea({
       {/* Logo posicionado en la esquina superior izquierda */}
       {brandLogo && (
         <div className={styles.logoPlaceholder}>
-          <img src={brandLogo} alt={`${name} logo`} className={styles.logoImage} />
+          <img
+            src={brandLogo}
+            alt={`${name} logo`}
+            className={styles.logoImage}
+          />
         </div>
       )}
 
@@ -49,19 +53,29 @@ function ProductCardCashea({
         <div className={styles.casheaInfo}>
           <div className={styles.casheaBox}>
             <span className={styles.casheaTitle}>Desde el 20% de inicial*</span>
-            <span className={styles.casheaAmount}>${inicialDeCashea.toFixed(2)}</span>
+            <span className={styles.casheaAmount}>
+              ${inicialDeCashea.toFixed(2)}
+            </span>
           </div>
           <div className={styles.verticalDivider}></div>
           <div className={styles.casheaBox}>
-            <span className={styles.casheaTitle}>+ 3 cuotas sin interés de*</span>
-            <span className={styles.casheaAmount}>${cuotasQuincenales.toFixed(2)}</span>
+            <span className={styles.casheaTitle}>
+              + 3 cuotas sin interés de*
+            </span>
+            <span className={styles.casheaAmount}>
+              ${cuotasQuincenales.toFixed(2)}
+            </span>
           </div>
         </div>
       </div>
 
       <div className={styles.whatsappButtonWrapper}>
         <button onClick={onAddToCart} className={styles.whatsappButton}>
-          <img src="/images/LogoWs.png" alt="WhatsApp" className={styles.whatsappIcon} />
+          <img
+            src="/images/LogoWs.png"
+            alt="WhatsApp"
+            className={styles.whatsappIcon}
+          />
           Consultar por WhatsApp
         </button>
       </div>
