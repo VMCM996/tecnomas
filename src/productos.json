@@ -949,7 +949,7 @@
     "specs": "256 GB M.2 SSD | 4GB DDR3 | 15.6\" FHD| WIFI | VGA-HDMI-BLUETOOTH | TECLADO NUMERICO",
     "price": 140,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "laptops",
     "img": "/images/LENOVO-156.png",
     "brandLogo": "/images/LOGOLENOVO.png"
