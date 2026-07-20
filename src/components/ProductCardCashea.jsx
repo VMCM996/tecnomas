@@ -1,6 +1,6 @@
 import styles from "./ProductCardCashea.module.css";
 import logoCashea from "../assets/Cashea-negro.svg";
-
+import { calculateCasheaDetails } from "./casheaCalculator";
 function ProductCardCashea({
   name,
   specs,
@@ -11,14 +11,12 @@ function ProductCardCashea({
   brandLogo,
   onAddToCart,
 }) {
-  // Cálculos financieros
-  const precioEnDivisas = Number(price) || 0;
-  const precioConAumento = precioEnDivisas / 0.92;
-  const precioConAumentoBs = precioConAumento * Number(tasaDolar);
-  const precioTotalCashea = Math.ceil(precioConAumentoBs / Number(tasaCashea));
-  const inicialDeCashea = precioTotalCashea * 0.2;
-  const totalCuotas = precioTotalCashea - inicialDeCashea;
-  const cuotasQuincenales = totalCuotas / 3;
+  // Obtenemos los valores ya calculados desde la función externa
+  const {
+    precioTotalCashea,
+    inicialDeCashea,
+    cuotasQuincenales,
+  } = calculateCasheaDetails(price, tasaDolar, tasaCashea);
 
   return (
     <div className={styles.card}>
