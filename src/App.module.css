@@ -61,10 +61,12 @@
 /* 📱💻 CONFIGURACIÓN DE LA CUADRÍCULA DE PRODUCTOS */
 .gridContainer {
   display: grid;
-  /* Por defecto en PC: exactamente 3 productos por fila */
-  grid-template-columns: repeat(3, 1fr);
+  /* Actualizado para mostrar exactamente 2 productos por fila en PC */
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   width: 100%;
+  max-width: 900px; /* Opcional: limita un poco el ancho máximo para que 2 columnas se vean estéticas en pantallas muy grandes */
+  margin: 0 auto;
 }
 
 /* En teléfonos móviles: exactamente 1 producto por fila */
@@ -72,6 +74,7 @@
   .gridContainer {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    max-width: 100%;
   }
 }
 

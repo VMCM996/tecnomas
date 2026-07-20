@@ -9,6 +9,9 @@ import ProductCard from "./components/ProductCard";
 import ProductCardCashea from "./components/ProductCardCashea";
 import CategoryBar from "./components/CategoryBar";
 
+// 🧮 Lógica de cálculo externa
+import { calculateCasheaDetails } from "./components/casheaCalculator";
+
 // Estilos globales de App
 import styles from "./App.module.css";
 
@@ -47,9 +50,20 @@ function App() {
   const handlePedirPorWhatsApp = (producto) => {
     const telefono = "584126502901";
 
-    const mensaje = isCasheaMode
-      ? `¡Hola Tecnomas! 👋\n\nMe interesa el siguiente equipo con financiamiento Cashea:\n\n*${producto.name}*\n_${producto.specs}_\n\n🔹 *Inicial (20%):* $${Math.ceil(((Number(producto.price) * 1.07 * 815) / 612) * 0.2)}\n🔹 *3 Cuotas de:* $${Math.ceil(((Number(producto.price) * 1.07 * 815) / 612 - Math.ceil(((Number(producto.price) * 1.07 * 815) / 612) * 0.2)) / 3)}\n\n¿Tienen disponibilidad?`
-      : `¡Hola Tecnomas! 👋\n\nMe interesa el siguiente equipo de tu catálogo:\n\n*${producto.name}*\n_${producto.specs}_\n*Precio:* $${producto.price}\n\n¿Tienen disponibilidad?`;
+    let mensaje = "";
+
+    if (isCasheaMode) {
+      // 🟢 Usamos la misma función de cálculo para mantener consistencia en el mensaje
+      const { inicialDeCashea, cuotasQuincenales } = calculateCasheaDetails(
+        producto.price,
+        TASA_BOLIVARES,
+        TASA_CASHEA
+      );
+
+      mensaje = `¡Hola Tecnomas! 👋\n\nMe interesa el siguiente equipo con financiamiento Cashea:\n\n*${producto.name}*\n_${producto.specs}_\n\n🔹 *Inicial (20%):* $${inicialDeCashea.toFixed(2)}\n🔹 *3 Cuotas de:* $${cuotasQuincenales.toFixed(2)}\n\n¿Tienen disponibilidad?`;
+    } else {
+      mensaje = `¡Hola Tecnomas! 👋\n\nMe interesa el siguiente equipo de tu catálogo:\n\n*${producto.name}*\n_${producto.specs}_\n*Precio:* $${producto.price}\n\n¿Tienen disponibilidad?`;
+    }
 
     const mensajeEncriptado = encodeURIComponent(mensaje);
     const urlWhatsApp = `https://wa.me/${telefono}?text=${mensajeEncriptado}`;
