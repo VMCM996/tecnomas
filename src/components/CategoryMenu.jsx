@@ -8,7 +8,7 @@ const categories = [
   { name: 'laptops', icon: <FaIcons.FaLaptop /> },
   { name: 'monitores', icon: <FaIcons.FaTv /> },
   { name: 'ups', icon: <FaIcons.FaBatteryFull /> },
-  { name: 'router', icon: <FaIcons.FaRoute /> }, // Nota: Muchas veces es FaRoute en lugar de FaRouter
+  { name: 'router', icon: <FaIcons.FaRoute /> },
   { name: 'impresoras', icon: <FaIcons.FaPrint /> },
   { name: 'teclados', icon: <FaIcons.FaKeyboard /> },
   { name: 'CCTV', icon: <FaIcons.FaVideo /> },

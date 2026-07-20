@@ -1,26 +1,36 @@
 .container {
   display: flex;
-  background: transparent;
-  border: 2px solid #5da9b9;
-  border-radius: 50px;
-  padding: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px;
   width: fit-content;
-  margin: 0 auto;
+  margin: 0 auto 1.5rem auto;
 }
 
 .segment {
-  padding: 12px 30px;
-  border: none;
   background: transparent;
-  color: #777;
-  font-weight: 600;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
   cursor: pointer;
-  border-radius: 50px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 600;
   font-size: 1rem;
+  transition: all 0.3s ease;
 }
 
-.segment.active {
-  background: #5da9b9;
+/* Lado Contado (Azul) */
+.segment.activeContado {
+  background: #007BFF;
   color: white;
+  box-shadow: 0 4px 15px rgba(93, 169, 185, 0.4);
+}
+
+/* Lado Cashea (Amarillo #FDFA3D) */
+.segment.activeCashea {
+  background: #FDFA3D;
+  color: #1a1a1a; /* Texto oscuro para contraste perfecto */
+  box-shadow: 0 4px 15px rgba(253, 250, 61, 0.3);
 }

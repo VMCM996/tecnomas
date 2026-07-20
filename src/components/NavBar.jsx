@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import logo from "../assets/logo.png";
+import { FaSearch } from 'react-icons/fa';
 
 function Navbar({ onSearch }) {
   const mensaje = "Hola Tecnomas, tengo una duda sobre un producto.";
@@ -11,11 +12,12 @@ function Navbar({ onSearch }) {
       </div>
 
       <div className={styles.searchContainer}>
-        <input
-          type="text"
-          placeholder="Buscar por procesador, RAM, nombre..."
-          className={styles.searchInput}
+        <FaSearch className={styles.searchIcon} />
+        <input 
+          type="text" 
+          placeholder="Buscar equipos, laptops..." 
           onChange={(e) => onSearch(e.target.value)}
+          className={styles.searchInput}
         />
       </div>
 
@@ -26,7 +28,7 @@ function Navbar({ onSearch }) {
           rel="noopener noreferrer"
           className={styles.whatsappButton}
         >
-          Consulta a un asesor
+          Consulta al asesor
         </a>
       </div>
     </header>

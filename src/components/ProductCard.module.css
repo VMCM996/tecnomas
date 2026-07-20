@@ -106,9 +106,9 @@
   background-color: #25d366;
   color: white;
   padding: 8px 16px; /* Padding reducido para hacerlo más compacto */
-  border-radius: 50px;
+  border-radius: 10px;
   font-weight: 700;
-  font-size: 0.8rem; /* Tamaño de letra más pequeño */
+  font-size: 1rem; /* Tamaño de letra más pequeño */
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;

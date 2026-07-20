@@ -50,7 +50,7 @@
     "price": 280,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos laptops",
+    "category": "combos",
     "img": "/images/COMBO-5400T.png",
     "brandLogo": "/images/LOGODELL.png"
   },
@@ -61,7 +61,7 @@
     "price": 330,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos laptops",
+    "category": "combos",
     "img": "/images/COMBO-5400.png",
     "brandLogo": "/images/LOGODELL.png"
   },
@@ -72,7 +72,7 @@
     "price": 140,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-DELL.png",
     "brandLogo": "/images/LOGODELL.png"
   },
@@ -83,7 +83,7 @@
     "price": 140,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-USFF.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -94,7 +94,7 @@
     "price": 155,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-USFF.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -105,7 +105,7 @@
     "price": 170,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-USFF2.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -116,7 +116,7 @@
     "price": 185,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-MINI.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -127,7 +127,7 @@
     "price": 195,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-USFF3.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -138,7 +138,7 @@
     "price": 215,
     "priceCashea": "",
     "inStock": false,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/COMBO-I3-7100.png",
     "brandLogo": "/images/LOGOLOGOLENOVO.png"
   },
@@ -149,7 +149,7 @@
     "price": 225,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-DELL-MINI.png",
     "brandLogo": "/images/LOGODELL.png"
   },
@@ -160,7 +160,7 @@
     "price": 255,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-DELL-MINI.png",
     "brandLogo": "/images/LOGODELL.png"
   },
@@ -171,7 +171,7 @@
     "price": 170,
     "priceCashea": "",
     "inStock": false,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-DELL-MINI.png",
     "brandLogo": "/images/LOGODELL.png"
   },
@@ -182,7 +182,7 @@
     "price": 205,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-DELL.png",
     "brandLogo": "/images/LOGODELL.png"
   },
@@ -193,7 +193,7 @@
     "price": 185,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-USFF3.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -204,7 +204,7 @@
     "price": 200,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-USFF3.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -215,7 +215,7 @@
     "price": 255,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-MINI.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -226,7 +226,7 @@
     "price": 275,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-MINI.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -237,7 +237,7 @@
     "price": 325,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-MINI.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -248,7 +248,7 @@
     "price": 400,
     "priceCashea": "",
     "inStock": true,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-N.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -259,7 +259,7 @@
     "price": 200,
     "priceCashea": "",
     "inStock": false,
-    "category": "combos pc",
+    "category": "combos",
     "img": "/images/EST-HP-USFF3.png",
     "brandLogo": "/images/LOGOHP.png"
   },
@@ -927,7 +927,7 @@
     "specs": "256 GB M.2 SSD | 4GB DDR3 | 14\" FHD| WIFI | VGA-HDMI-BLUETOOTH",
     "price": 110,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "laptops",
     "img": "/images/LENOVO-14.png",
     "brandLogo": "/images/LOGOLENOVO.png"
