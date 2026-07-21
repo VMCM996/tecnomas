@@ -4,13 +4,8 @@ import styles from './CategoryMenu.module.css';
 
 const categories = [
   { name: 'todos', icon: <FaIcons.FaList /> },
-  { name: 'equipos', icon: <FaIcons.FaDesktop /> },
-  { name: 'laptops', icon: <FaIcons.FaLaptop /> },
-  { name: 'monitores', icon: <FaIcons.FaTv /> },
   { name: 'teclados', icon: <FaIcons.FaKeyboard /> },
   { name: 'mouse', icon: <FaIcons.FaMouse /> },
-  { name: 'ups', icon: <FaIcons.FaBatteryFull /> },
-  { name: 'router', icon: <FaIcons.FaRoute /> },
   { name: 'impresoras', icon: <FaIcons.FaPrint /> },
   { name: 'CCTV', icon: <FaIcons.FaVideo /> },
   { name: 'fuentes', icon: <FaIcons.FaBatteryFull /> },
