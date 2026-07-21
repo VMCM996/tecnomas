@@ -7,11 +7,15 @@ const categories = [
   { name: 'equipos', icon: <FaIcons.FaDesktop /> },
   { name: 'laptops', icon: <FaIcons.FaLaptop /> },
   { name: 'monitores', icon: <FaIcons.FaTv /> },
+  { name: 'teclados', icon: <FaIcons.FaKeyboard /> },
+  { name: 'mouse', icon: <FaIcons.FaMouse /> },
   { name: 'ups', icon: <FaIcons.FaBatteryFull /> },
   { name: 'router', icon: <FaIcons.FaRoute /> },
   { name: 'impresoras', icon: <FaIcons.FaPrint /> },
-  { name: 'teclados', icon: <FaIcons.FaKeyboard /> },
   { name: 'CCTV', icon: <FaIcons.FaVideo /> },
+  { name: 'fuentes', icon: <FaIcons.FaBatteryFull /> },
+  { name: 'alexa', icon: <FaIcons.FaRoute /> },
+  { name: 'audifonos', icon: <FaIcons.FaHeadset /> },
 ];
 
 function CategoryMenu({ onSelectCategory }) { // Ya no necesitamos selectedCategory aquí
