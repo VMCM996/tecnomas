@@ -26,7 +26,7 @@ function App() {
 
   // Tasas de cambio diarias editables
   const TASA_BOLIVARES = 880;
-  const TASA_CASHEA = 736;
+  const TASA_CASHEA = 737;
 
   useEffect(() => {
     const obtenerProductos = async () => {

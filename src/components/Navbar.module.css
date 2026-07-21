@@ -1,6 +1,6 @@
 .navbar {
   display: grid;
-  /* Creamos 3 columnas: la primera y la última ocupan el mismo espacio flexible, y el centro aloja el buscador */
+  /* Creamos 3 columnas en PC */
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   padding: 1rem 2rem;
@@ -93,8 +93,37 @@
   transform: scale(1.05); /* Pequeño efecto al pasar el mouse */
 }
 
-/* Ajuste para móvil */
-@media (max-width: 600px) {
+/* ==========================================
+   📱 AJUSTE RESPONSIVO PARA TELÉFONOS
+   ========================================== */
+@media (max-width: 768px) {
+  .navbar {
+    /* Rompemos el grid de 3 columnas y pasamos a un diseño apilado flexible */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    gap: 10px;
+  }
+
+  /* El buscador baja a su propia línea y toma el 100% de la pantalla */
+  .searchContainer {
+    order: 3; /* Forzamos a que sea el elemento que baje al centro de la fila de abajo */
+    max-width: 100%;
+    width: 100%;
+    justify-self: stretch;
+    padding: 8px 15px; /* Padding interno más cómodo para móvil */
+  }
+
+  /* Aseguramos que el logo y el botón queden alineados arriba uno a cada lado */
+  .navbar > *:first-child {
+    order: 1;
+  }
+
+  .navActions {
+    order: 2;
+  }
+
   .whatsappButton {
     padding: 6px 12px;
     font-size: 0.8rem;
