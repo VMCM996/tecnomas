@@ -1,6 +1,7 @@
 import styles from "./ProductCardCashea.module.css";
 import logoCashea from "../assets/Cashea-negro.svg";
 import { calculateCasheaDetails } from "./casheaCalculator";
+
 function ProductCardCashea({
   name,
   specs,
@@ -36,6 +37,11 @@ function ProductCardCashea({
       <div className={styles.specsContainer}>
         <span className={styles.specs}>{specs}</span> -
         <span className={styles.price}>${precioTotalCashea.toFixed(2)}</span>
+      </div>
+
+      {/* 📍 Texto de aprobación reubicado antes de la imagen */}
+      <div className={styles.casheaApprovalText}>
+        * Aprobación sujeta a evaluación por Cashea
       </div>
 
       <div className={styles.imageWrapper}>
@@ -77,10 +83,6 @@ function ProductCardCashea({
           Consultar por WhatsApp
         </button>
       </div>
-
-      <footer className={styles.footer}>
-        * Aprobación sujeta a evaluación por Cashea.
-      </footer>
     </div>
   );
 }

@@ -150,7 +150,7 @@
     "priceCashea": "",
     "inStock": true,
     "category": "combos",
-    "img": "/images/EST-DELL-MINI.png",
+    "img": "/images/EST-DELL-N.png",
     "brandLogo": "/images/LOGODELL.png"
   },
   {
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "name": "COMBO HP i5-4570/4590 + MONITOR 20\"",
+    "name": "COMBO HP i5-4570 + MONITOR 20\"",
     "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
     "price": 185,
     "priceCashea": "",
@@ -199,11 +199,11 @@
   },
   {
     "id": 19,
-    "name": "COMBO HP i5-4570/4590 + MONITOR 20\"",
+    "name": "COMBO HP i5-4570 + MONITOR 20\"",
     "specs": "8GB DDR3 | 240GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
     "price": 200,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "combos",
     "img": "/images/EST-HP-USFF3.png",
     "brandLogo": "/images/LOGOHP.png"
@@ -324,7 +324,7 @@
     "specs": "4GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE M-TOWER",
     "price": 95,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "equipos",
     "img": "/images/HP-MT.png",
     "brandLogo": "/images/LOGOHP.png"
@@ -368,7 +368,7 @@
     "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | DISPLAYPORT (2)| CASE MINI PC",
     "price": 190,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "equipos",
     "img": "/images/DELL-N.png",
     "brandLogo": "/images/LOGODELL.png"
@@ -397,7 +397,7 @@
   },
   {
     "id": 37,
-    "name": "HP ELITE DESK 800 G1 i5-4570/4590",
+    "name": "HP ELITE DESK 800 G1 i5-4570",
     "specs": "8GB DDR3 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (1)| CASE M-TOWER",
     "price": 120,
     "priceCashea": "",
@@ -1657,5 +1657,27 @@
     "category": "laptops",
     "img": "/images/NITRO-V16.png",
     "brandLogo": "/images/LOGOACER.png"
+  },
+  {
+    "id": 152,
+    "name": "HP PRO DESK 600 G3 i5-7500",
+    "specs": "8GB DDR4 | 120GB SSD | RED GIGABIT | VGA (1) DISPLAYPORT (2)| CASE M-TOWER",
+    "price": 185,
+    "priceCashea": "",
+    "inStock": true,
+    "category": "equipos",
+    "img": "/images/HP-MT.png",
+    "brandLogo": "/images/LOGOHP.png"
+  },
+  {
+    "id": 153,
+    "name": "COMBO HP i5-7500 + MONITOR 20\"",
+    "specs": "8GB DDR3 | 120GB SSD | MONITOR NUEVO AUCE 20\"| TECLADO Y MOUSE NUEVOS | CASE M-TOWER",
+    "price": 200,
+    "priceCashea": "",
+    "inStock": false,
+    "category": "combos",
+    "img": "/images/EST-HP-USFF3.png",
+    "brandLogo": "/images/LOGOHP.png"
   }
 ]
