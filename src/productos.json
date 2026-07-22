@@ -5,7 +5,7 @@
     "specs": "250 GB M.2 SSD | 8GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
     "price": 555,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "laptops",
     "img": "/images/COMPAQ-I5.png",
     "brandLogo": "/images/LOGODELL.png"
@@ -563,7 +563,7 @@
     "id": 52,
     "name": "MONITOR COMPAQ 24 PULGADAS 1920X1080",
     "specs": "100HZ | 1 PUERTO VGA | 1 PUERTO HDMI | AMD FREESYNC | PANEL IPS",
-    "price": 125,
+    "price": 130,
     "priceCashea": "",
     "inStock": true,
     "category": "monitores",
@@ -935,8 +935,8 @@
   {
     "id": 86,
     "name": "LENOVO E450 I3-5005U",
-    "specs": "256 GB M.2 SSD | 4GB DDR3 | 14\" FHD| WIFI | VGA-HDMI-BLUETOOTH",
-    "price": 130,
+    "specs": "256 GB M.2 SSD | 8GB DDR3 | 14\" FHD| WIFI | VGA-HDMI-BLUETOOTH",
+    "price": 140,
     "priceCashea": "",
     "inStock": true,
     "category": "laptops",
@@ -1057,7 +1057,7 @@
     "id": 97,
     "name": "DECO WIFI 7 BE5000 MESH PACK 2 PARA TODA LA CASA",
     "specs": "ALTA VELOCIDAD WIFI 7 DOBLE BANDA | PUERTOS GIGABIT | COBERTURA APROX 300 m2",
-    "price": 200,
+    "price": 195,
     "priceCashea": "",
     "inStock": true,
     "category": "router",
@@ -1068,7 +1068,7 @@
     "id": 98,
     "name": "DECO WIFI 7 BE5000 MESH PACK 1 PARA TODA LA CASA",
     "specs": "ALTA VELOCIDAD WIFI 7 DOBLE BANDA | PUERTOS GIGABIT | COBERTURA APROX 250 m2",
-    "price": 135,
+    "price": 130,
     "priceCashea": "",
     "inStock": true,
     "category": "router",
@@ -1356,7 +1356,7 @@
     "specs": "512 GB M.2 SSD | 16GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
     "price": 625,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "laptops",
     "img": "/images/COMPAQ-RYZEN.png",
     "brandLogo": "/images/LOGOCOMPAQ.png"
@@ -1367,7 +1367,7 @@
     "specs": "256 GB M.2 SSD | 16GB DDR4 | 15.6\" FHD| WIFI 5| TECLADO NUMERICO",
     "price": 585,
     "priceCashea": "",
-    "inStock": true,
+    "inStock": false,
     "category": "laptops",
     "img": "/images/COMPAQ-RYZEN.png",
     "brandLogo": "/images/LOGOCOMPAQ.png"
@@ -1561,19 +1561,8 @@
   },
   {
     "id": 143,
-    "name": "AMAZON ECHO DOT KIDS ALEXA BUO",
-    "specs": "GALAXIA CON DISENO ESPACIAL | CONTROL PARENTAL",
-    "price": 50,
-    "priceCashea": "",
-    "inStock": true,
-    "category": "alexa",
-    "img": "/images/ALEXA-BUO.png",
-    "brandLogo": "/images/LOGOAMAZON.png"
-  },
-  {
-    "id": 144,
     "name": "AMAZON ECHO DOT ALEXA NEGRO",
-    "specs": "DISENO COMPACTO EN COLOR NEGRO | SONIDO NITIDO Y ACCESO A ALEXA.",
+    "specs": "DISENO COMPACTO EN COLOR NEGRO | SONIDO NITIDO Y ACCESO A ALEXA",
     "price": 50,
     "priceCashea": "",
     "inStock": true,
@@ -1582,9 +1571,9 @@
     "brandLogo": "/images/LOGOAMAZON.png"
   },
   {
-    "id": 145,
+    "id": 144,
     "name": "AMAZON ECHO DOT ALEXA AZUL",
-    "specs": "DISENO COMPACTO EN COLOR AZUL | SONIDO NITIDO Y ACCESO A ALEXA.",
+    "specs": "DISENO COMPACTO EN COLOR AZUL | SONIDO NITIDO Y ACCESO A ALEXA",
     "price": 50,
     "priceCashea": "",
     "inStock": true,
@@ -1593,7 +1582,7 @@
     "brandLogo": "/images/LOGOAMAZON.png"
   },
   {
-    "id": 146,
+    "id": 145,
     "name": "AMAZON ECHO SPOT TACTIL NEGRO",
     "specs": "PANTALLA TACTIL| SONIDO VIBRANTE | RELOJ PERSONALIZABLE CON ALEXA",
     "price": 65,
@@ -1604,7 +1593,7 @@
     "brandLogo": "/images/LOGOAMAZON.png"
   },
   {
-    "id": 147,
+    "id": 146,
     "name": "AMAZON ECHO SPOT TACTIL AZUL",
     "specs": "PANTALLA TACTIL | SONIDO VIBRANTE | RELOJ PERSONALIZABLE CON ALEXA",
     "price": 65,
@@ -1615,7 +1604,7 @@
     "brandLogo": "/images/LOGOAMAZON.png"
   },
   {
-    "id": 148,
+    "id": 147,
     "name": "AMAZON ECHO SHOW 5 KIDS ALEXA GALAXIA",
     "specs": "PANTALLA INTELIGENTE CON DISENO GALAXIA | CONTROL PARENTAL",
     "price": 80,
@@ -1626,7 +1615,7 @@
     "brandLogo": "/images/LOGOAMAZON.png"
   },
   {
-    "id": 149,
+    "id": 148,
     "name": "AMAZON ECHO SHOW 5 ALEXA BLANCO",
     "specs": "PANTALLA INTELIGENTE EN COLOR BLANCO | CAMARA INTEGRADA Y ACCESO A ALEXA",
     "price": 80,
@@ -1637,14 +1626,36 @@
     "brandLogo": "/images/LOGOAMAZON.png"
   },
   {
-    "id": 150,
+    "id": 149,
     "name": "AMAZON ECHO SHOW 11 ALEXA",
-    "specs": "PPANTALLA TACTIL FULL HD DE 11 PULGADAS | AUDIO ESPACIAL | CAMARA DE 13 MP | CONTROLADOR DE HOGAR DIGITAL CON ALEXA.",
+    "specs": "PANTALLA TACTIL FULL HD DE 11 PULGADAS | AUDIO ESPACIAL | CAMARA DE 13 MP | CONTROLADOR DE HOGAR DIGITAL CON ALEXA",
     "price": 220,
     "priceCashea": "",
     "inStock": true,
     "category": "alexa",
     "img": "/images/SHOW-ECHO-11.png",
     "brandLogo": "/images/LOGOAMAZON.png"
+  },
+  {
+    "id": 150,
+    "name": "LAPTOP ACER NITRO V15 I7-13620H GAMER",
+    "specs": "16GB RAM | 512GB SSD M.2 | 15.6\" 165HZ | RTX5060 8GB",
+    "price": 1225,
+    "priceCashea": "",
+    "inStock": true,
+    "category": "laptops",
+    "img": "/images/NITRO-V15.png",
+    "brandLogo": "/images/LOGOACER.png"
+  },
+  {
+    "id": 151,
+    "name": "LAPTOP ACER NITRO V16 ULTRA I7-240H GAMER",
+    "specs": "16GB RAM | 1TB SSD M.2 | 15.6\" 165HZ | RTX5050 8GB",
+    "price": 1340,
+    "priceCashea": "",
+    "inStock": true,
+    "category": "laptops",
+    "img": "/images/NITRO-V16.png",
+    "brandLogo": "/images/LOGOACER.png"
   }
 ]
