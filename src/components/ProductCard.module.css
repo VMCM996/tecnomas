@@ -125,3 +125,12 @@
   display: block;
   filter: brightness(0) invert(1);
 }
+
+.casheaApprovalText {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #000000; /* 👈 Cambiado a negro puro */
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: left;
+}
