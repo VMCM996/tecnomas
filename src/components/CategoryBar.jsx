@@ -2,7 +2,14 @@ import CategoryMenu from "./CategoryMenu";
 import styles from "./CategoryBar.module.css";
 
 function CategoryBar({ selectedCategory, onSelectCategory }) {
-  const quickCategories = ["equipos", "laptops", "monitores", "combos", "router", "ups"];
+  const quickCategories = [
+    "equipos",
+    "laptops",
+    "monitores",
+    "combos",
+    "router",
+    "ups",
+  ];
 
   return (
     <div className={styles.container}>

@@ -57,7 +57,7 @@ function App() {
       const { inicialDeCashea, cuotasQuincenales } = calculateCasheaDetails(
         producto.price,
         TASA_BOLIVARES,
-        TASA_CASHEA
+        TASA_CASHEA,
       );
 
       mensaje = `¡Hola Tecnomas! 👋\n\nMe interesa el siguiente equipo con financiamiento Cashea:\n\n*${producto.name}*\n_${producto.specs}_\n\n🔹 *Inicial (20%):* $${inicialDeCashea.toFixed(2)}\n🔹 *3 Cuotas de:* $${cuotasQuincenales.toFixed(2)}\n\n¿Tienen disponibilidad?`;
@@ -104,9 +104,9 @@ function App() {
         </div>
 
         <div className={styles.categoryWrapper}>
-          <CategoryBar 
-            selectedCategory={selectedCategory} 
-            onSelectCategory={setSelectedCategory} 
+          <CategoryBar
+            selectedCategory={selectedCategory}
+            onSelectCategory={setSelectedCategory}
           />
         </div>
 
@@ -139,11 +139,13 @@ function App() {
                   tasaDolar={TASA_BOLIVARES}
                   onAddToCart={() => handlePedirPorWhatsApp(prod)}
                 />
-              )
+              ),
             )
           ) : (
             <div className={styles.emptyContainer}>
-              <h3 className={styles.emptyTitle}>No encontramos lo que buscas</h3>
+              <h3 className={styles.emptyTitle}>
+                No encontramos lo que buscas
+              </h3>
               <button
                 onClick={() => {
                   setSearchTerm("");

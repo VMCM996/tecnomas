@@ -23,14 +23,14 @@
 
 /* Lado Contado (Azul) */
 .segment.activeContado {
-  background: #007BFF;
+  background: #007bff;
   color: white;
   box-shadow: 0 4px 15px rgba(93, 169, 185, 0.4);
 }
 
 /* Lado Cashea (Amarillo #FDFA3D) */
 .segment.activeCashea {
-  background: #FDFA3D;
+  background: #fdfa3d;
   color: #1a1a1a; /* Texto oscuro para contraste perfecto */
   box-shadow: 0 4px 15px rgba(253, 250, 61, 0.3);
 }

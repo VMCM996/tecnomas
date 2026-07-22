@@ -13,11 +13,8 @@ function ProductCardCashea({
   onAddToCart,
 }) {
   // Obtenemos los valores ya calculados desde la función externa
-  const {
-    precioTotalCashea,
-    inicialDeCashea,
-    cuotasQuincenales,
-  } = calculateCasheaDetails(price, tasaDolar, tasaCashea);
+  const { precioTotalCashea, inicialDeCashea, cuotasQuincenales } =
+    calculateCasheaDetails(price, tasaDolar, tasaCashea);
 
   return (
     <div className={styles.card}>
@@ -38,12 +35,6 @@ function ProductCardCashea({
         <span className={styles.specs}>{specs}</span> -
         <span className={styles.price}>${precioTotalCashea.toFixed(2)}</span>
       </div>
-
-      {/* 📍 Texto de aprobación reubicado antes de la imagen */}
-      <div className={styles.casheaApprovalText}>
-        * Aprobación sujeta a evaluación por Cashea
-      </div>
-
       <div className={styles.imageWrapper}>
         <img src={img} alt={name} className={styles.productImage} />
       </div>
@@ -72,7 +63,10 @@ function ProductCardCashea({
           </div>
         </div>
       </div>
-
+      {/* 📍 Texto de aprobación reubicado antes de la imagen */}
+      <div className={styles.casheaApprovalText}>
+        * Aprobación sujeta a evaluación por Cashea
+      </div>
       <div className={styles.whatsappButtonWrapper}>
         <button onClick={onAddToCart} className={styles.whatsappButton}>
           <img

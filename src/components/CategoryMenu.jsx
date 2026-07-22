@@ -1,19 +1,20 @@
-import { useState } from 'react';
-import * as FaIcons from 'react-icons/fa';
-import styles from './CategoryMenu.module.css';
+import { useState } from "react";
+import * as FaIcons from "react-icons/fa";
+import styles from "./CategoryMenu.module.css";
 
 const categories = [
-  { name: 'todos', icon: <FaIcons.FaList /> },
-  { name: 'teclados', icon: <FaIcons.FaKeyboard /> },
-  { name: 'mouse', icon: <FaIcons.FaMouse /> },
-  { name: 'impresoras', icon: <FaIcons.FaPrint /> },
-  { name: 'CCTV', icon: <FaIcons.FaVideo /> },
-  { name: 'fuentes', icon: <FaIcons.FaBatteryFull /> },
-  { name: 'alexa', icon: <FaIcons.FaRoute /> },
-  { name: 'audifonos', icon: <FaIcons.FaHeadset /> },
+  { name: "todos", icon: <FaIcons.FaList /> },
+  { name: "teclados", icon: <FaIcons.FaKeyboard /> },
+  { name: "mouse", icon: <FaIcons.FaMouse /> },
+  { name: "impresoras", icon: <FaIcons.FaPrint /> },
+  { name: "CCTV", icon: <FaIcons.FaVideo /> },
+  { name: "fuentes", icon: <FaIcons.FaBatteryFull /> },
+  { name: "alexa", icon: <FaIcons.FaRoute /> },
+  { name: "audifonos", icon: <FaIcons.FaHeadset /> },
 ];
 
-function CategoryMenu({ onSelectCategory }) { // Ya no necesitamos selectedCategory aquí
+function CategoryMenu({ onSelectCategory }) {
+  // Ya no necesitamos selectedCategory aquí
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -26,8 +27,8 @@ function CategoryMenu({ onSelectCategory }) { // Ya no necesitamos selectedCateg
       {isOpen && (
         <div className={styles.menu}>
           {categories.map((cat) => (
-            <button 
-              key={cat.name} 
+            <button
+              key={cat.name}
               className={styles.item}
               onClick={() => {
                 onSelectCategory(cat.name); // Esto sí debe actualizar el filtro en App.jsx

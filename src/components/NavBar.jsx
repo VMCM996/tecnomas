@@ -1,6 +1,6 @@
 import styles from "./Navbar.module.css";
 import logo from "../assets/logo.png";
-import { FaSearch } from 'react-icons/fa';
+import { FaSearch } from "react-icons/fa";
 
 function Navbar({ onSearch }) {
   const mensaje = "Hola Tecnomas, tengo una duda sobre un producto.";
@@ -13,9 +13,9 @@ function Navbar({ onSearch }) {
 
       <div className={styles.searchContainer}>
         <FaSearch className={styles.searchIcon} />
-        <input 
-          type="text" 
-          placeholder="Buscar equipos, laptops..." 
+        <input
+          type="text"
+          placeholder="Buscar equipos, laptops..."
           onChange={(e) => onSearch(e.target.value)}
           className={styles.searchInput}
         />

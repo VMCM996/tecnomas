@@ -1,12 +1,12 @@
 .appContainer {
-  background-image: url('/background.png');
+  background-image: url("/background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100vh;
   width: 100%;
-  backgroundColor: #141414;
+  backgroundcolor: #141414;
   color: white;
 }
 
@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
 }
 
@@ -37,7 +37,7 @@
 .mainTitle {
   text-align: center;
   margin-bottom: 2rem;
-  font-family: 'Syne', sans-serif;
+  font-family: "Syne", sans-serif;
   font-weight: 800;
   font-size: 2.5rem;
   background: linear-gradient(to right, #ffffff, #b5b5b5);
@@ -109,7 +109,7 @@
 }
 
 .emptyTitle {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
