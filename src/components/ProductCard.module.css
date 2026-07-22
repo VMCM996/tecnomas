@@ -129,7 +129,7 @@
 .casheaApprovalText {
   font-size: 0.7rem;
   font-weight: 700;
-  color: #000000; /* 👈 Cambiado a negro puro */
+  color: #000000 !important; /* Forzamos el color negro */
   text-transform: uppercase;
   margin-bottom: 10px;
   text-align: left;
