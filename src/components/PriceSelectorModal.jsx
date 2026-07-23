@@ -18,7 +18,7 @@ function PriceSelectorModal({ onSelectMode }) {
           >
             <span className={styles.optionMainText}>Precio de Contado</span>
             <span className={styles.optionSubText}>
-              Pago en divisas / bolívares
+              Pago en divisas
             </span>
           </button>
 
