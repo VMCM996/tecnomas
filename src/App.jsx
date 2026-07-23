@@ -26,7 +26,7 @@ function App() {
   const [isCasheaMode, setIsCasheaMode] = useState(false);
 
   // Estado para el Modal Selector Inicial de Precios
-  const [showPriceSelector, setShowPriceSelector] = useState(false);
+  const [showPriceSelector, setShowPriceSelector] = useState(true);
 
   // Tasas de cambio diarias editables
   const TASA_BOLIVARES = 880;
