@@ -33,15 +33,6 @@ function App() {
   const TASA_CASHEA = 737;
 
   useEffect(() => {
-    // Revisar si el usuario ya eligió un modo previamente en localStorage
-    const savedMode = localStorage.getItem("tecnomas_price_mode");
-    if (savedMode) {
-      setIsCasheaMode(savedMode === "cashea");
-    } else {
-      // Si nunca ha entrado, mostramos el modal selector inicial
-      setShowPriceSelector(true);
-    }
-
     const obtenerProductos = async () => {
       try {
         const querySnapshot = await getDocs(collection(db, "productos"));
@@ -71,8 +62,8 @@ function App() {
   const handleSelectInitialMode = (mode) => {
     const casheaActive = mode === "cashea";
     setIsCasheaMode(casheaActive);
-    localStorage.setItem("tecnomas_price_mode", mode);
-    setShowPriceSelector(false); // Ocultamos el modal al elegir
+    // Ya no guardamos en localStorage para que pueda volver a salir al recargar
+    setShowPriceSelector(false); // Ocultamos el modal al hacer clic en una opción
   };
 
   const handlePedirPorWhatsApp = (producto) => {
