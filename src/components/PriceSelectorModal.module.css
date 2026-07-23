@@ -1,0 +1,85 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modalContent {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modalTitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.modalSubtitle {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.optionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.optionButton:hover {
+  border-color: #000;
+  background-color: #fff;
+  transform: translateY(-2px);
+}
+
+.optionMainText {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.optionSubText {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+.casheaButton {
+  border-color: #ffcc00; /* O el color distintivo de Cashea */
+  background-color: #fffdf0;
+}
+
+.casheaModalLogo {
+  height: 24px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}

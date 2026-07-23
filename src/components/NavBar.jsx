@@ -8,7 +8,9 @@ function Navbar({ onSearch }) {
   return (
     <header className={styles.navbar}>
       <div className={styles.logoContainer}>
-        <img src={logo} alt="Tecnomas" className={styles.logo} />
+        <a href="/" className={styles.logoLink}>
+          <img src={logo} alt="Tecnomas" className={styles.logo} />
+        </a>
       </div>
 
       <div className={styles.searchContainer}>
